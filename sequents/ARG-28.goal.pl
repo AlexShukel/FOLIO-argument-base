@@ -1,0 +1,2 @@
+pretty.
+(cost(gRE,205) /\ cheaper(205,300)), X@(((applicantOf(X,gre) /\ prove(X,economicHardship)) -> provideTo(ets,financialAid,X))), X@(((livingIn(X,singleParentFamily) \/ availableTo(fewResources,X)) -> prove(X,economicHardship))), livingIn(tom,singleParentFamily), (outOfWork(tomsDad) /\ availableTo(fewResources,tom)), applicantOf(tom,gre) --> ~X#(Y#((applicant(X,gRE) /\ providesFinancialAidTo(Y,X)))).

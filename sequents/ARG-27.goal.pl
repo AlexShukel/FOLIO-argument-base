@@ -1,0 +1,2 @@
+pretty.
+(cove(barutinCove) /\ (namedAfter(barutinCove,barutinSettlement) /\ locatedIn(barutinSettlement,bulgaria))), locatedIn(barutinCove,snowIsland), (locatedIn(snowIsland,southShetlandIslands) /\ (locatedIn(greenwichIsland,southShetlandIslands) /\ locatedIn(deceptionIsland,southShetlandIslands))), locatedIn(southShetlandIslands,antarctica), X@(Y@(Z@(((locatedIn(X,Y) /\ locatedIn(Y,Z)) -> locatedIn(X,Z))))) --> ~locatedIn(barutinCove,antarctica).

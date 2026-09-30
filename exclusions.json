@@ -1,0 +1,752 @@
+[
+  {
+    "example_id": 1014,
+    "story_id": 380,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 56"
+  },
+  {
+    "example_id": 1015,
+    "story_id": 380,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 56"
+  },
+  {
+    "example_id": 1016,
+    "story_id": 380,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 56"
+  },
+  {
+    "example_id": 1208,
+    "story_id": 426,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "example_id": 1209,
+    "story_id": 426,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "example_id": 1210,
+    "story_id": 426,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "example_id": 57,
+    "story_id": 20,
+    "label": "True",
+    "reason": "trailing token ')' at 77 in '∀x ((Game(x) ∧ ∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(x, y))) → Top10(x)))'"
+  },
+  {
+    "example_id": 58,
+    "story_id": 20,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 77 in '∀x ((Game(x) ∧ ∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(x, y))) → Top10(x)))'"
+  },
+  {
+    "example_id": 59,
+    "story_id": 20,
+    "label": "False",
+    "reason": "trailing token ')' at 77 in '∀x ((Game(x) ∧ ∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(x, y))) → Top10(x)))'"
+  },
+  {
+    "example_id": 1361,
+    "story_id": 471,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 45"
+  },
+  {
+    "example_id": 1362,
+    "story_id": 471,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 45"
+  },
+  {
+    "example_id": 1363,
+    "story_id": 471,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 45"
+  },
+  {
+    "example_id": 1364,
+    "story_id": 471,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 45"
+  },
+  {
+    "example_id": 1365,
+    "story_id": 471,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 45"
+  },
+  {
+    "example_id": 530,
+    "story_id": 184,
+    "label": "True",
+    "reason": "unsupported connective '↔' (iff) at 44"
+  },
+  {
+    "example_id": 531,
+    "story_id": 184,
+    "label": "False",
+    "reason": "unsupported connective '↔' (iff) at 44"
+  },
+  {
+    "example_id": 532,
+    "story_id": 184,
+    "label": "Uncertain",
+    "reason": "unsupported connective '↔' (iff) at 44"
+  },
+  {
+    "example_id": 1301,
+    "story_id": 452,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 22"
+  },
+  {
+    "example_id": 1302,
+    "story_id": 452,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 22"
+  },
+  {
+    "example_id": 1303,
+    "story_id": 452,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 22"
+  },
+  {
+    "example_id": 893,
+    "story_id": 340,
+    "label": "Uncertain",
+    "reason": "unexpected end of formula in '∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x))'"
+  },
+  {
+    "example_id": 894,
+    "story_id": 340,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x))'"
+  },
+  {
+    "example_id": 895,
+    "story_id": 340,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x))'"
+  },
+  {
+    "example_id": 621,
+    "story_id": 219,
+    "label": "True",
+    "reason": "free variable 'y' in '∀x (Orchestra(x) → (∃y Conductor(y) ∧ Lead(y, x)))'"
+  },
+  {
+    "example_id": 622,
+    "story_id": 219,
+    "label": "True",
+    "reason": "free variable 'y' in '∀x (Orchestra(x) → (∃y Conductor(y) ∧ Lead(y, x)))'"
+  },
+  {
+    "example_id": 623,
+    "story_id": 219,
+    "label": "False",
+    "reason": "free variable 'y' in '∀x (Orchestra(x) → (∃y Conductor(y) ∧ Lead(y, x)))'"
+  },
+  {
+    "example_id": 927,
+    "story_id": 350,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 53"
+  },
+  {
+    "example_id": 928,
+    "story_id": 350,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 53"
+  },
+  {
+    "example_id": 929,
+    "story_id": 350,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 53"
+  },
+  {
+    "example_id": 1029,
+    "story_id": 385,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 78"
+  },
+  {
+    "example_id": 1030,
+    "story_id": 385,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 78"
+  },
+  {
+    "example_id": 1031,
+    "story_id": 385,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 78"
+  },
+  {
+    "example_id": 456,
+    "story_id": 159,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 73"
+  },
+  {
+    "example_id": 457,
+    "story_id": 159,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 73"
+  },
+  {
+    "example_id": 904,
+    "story_id": 343,
+    "label": "Uncertain",
+    "reason": "free variable 'y1984' in 'PrintedText(y1984)'"
+  },
+  {
+    "example_id": 905,
+    "story_id": 343,
+    "label": "False",
+    "reason": "free variable 'y1984' in 'StreamingService(y1984)'"
+  },
+  {
+    "example_id": 906,
+    "story_id": 343,
+    "label": "True",
+    "reason": "free variable 'y1984' in '¬StreamingService(y1984)'"
+  },
+  {
+    "example_id": 4,
+    "story_id": 2,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 33"
+  },
+  {
+    "example_id": 5,
+    "story_id": 2,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 33"
+  },
+  {
+    "example_id": 6,
+    "story_id": 2,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 33"
+  },
+  {
+    "example_id": 548,
+    "story_id": 192,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 62"
+  },
+  {
+    "example_id": 549,
+    "story_id": 192,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 62"
+  },
+  {
+    "example_id": 663,
+    "story_id": 234,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 70"
+  },
+  {
+    "example_id": 664,
+    "story_id": 234,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 70"
+  },
+  {
+    "example_id": 665,
+    "story_id": 234,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 70"
+  },
+  {
+    "example_id": 819,
+    "story_id": 322,
+    "label": "Uncertain",
+    "reason": "inconsistent predicate arity {'BoughtToEarnProfitFrom': [2, 3]}"
+  },
+  {
+    "example_id": 820,
+    "story_id": 322,
+    "label": "False",
+    "reason": "inconsistent predicate arity {'BoughtToEarnProfitFrom': [2, 3]}"
+  },
+  {
+    "example_id": 821,
+    "story_id": 322,
+    "label": "True",
+    "reason": "inconsistent predicate arity {'BoughtToEarnProfitFrom': [2, 3]}"
+  },
+  {
+    "example_id": 979,
+    "story_id": 368,
+    "label": "Uncertain",
+    "reason": "unexpected end of formula in '(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition))'"
+  },
+  {
+    "example_id": 980,
+    "story_id": 368,
+    "label": "True",
+    "reason": "unexpected end of formula in '(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition))'"
+  },
+  {
+    "example_id": 981,
+    "story_id": 368,
+    "label": "False",
+    "reason": "unexpected end of formula in '(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition))'"
+  },
+  {
+    "example_id": 754,
+    "story_id": 306,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 57"
+  },
+  {
+    "example_id": 755,
+    "story_id": 306,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 57"
+  },
+  {
+    "example_id": 756,
+    "story_id": 306,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 57"
+  },
+  {
+    "example_id": 688,
+    "story_id": 245,
+    "label": "True",
+    "reason": "unsupported connective '⟷' (iff) at 32"
+  },
+  {
+    "example_id": 546,
+    "story_id": 191,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 65"
+  },
+  {
+    "example_id": 547,
+    "story_id": 191,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 65"
+  },
+  {
+    "example_id": 476,
+    "story_id": 166,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 90"
+  },
+  {
+    "example_id": 477,
+    "story_id": 166,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 90"
+  },
+  {
+    "example_id": 478,
+    "story_id": 166,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 90"
+  },
+  {
+    "example_id": 935,
+    "story_id": 352,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 79"
+  },
+  {
+    "example_id": 1366,
+    "story_id": 472,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 32"
+  },
+  {
+    "example_id": 1367,
+    "story_id": 472,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 32"
+  },
+  {
+    "example_id": 1368,
+    "story_id": 472,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 32"
+  },
+  {
+    "example_id": 1011,
+    "story_id": 379,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 30"
+  },
+  {
+    "example_id": 1012,
+    "story_id": 379,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 30"
+  },
+  {
+    "example_id": 1013,
+    "story_id": 379,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 30"
+  },
+  {
+    "example_id": 561,
+    "story_id": 197,
+    "label": "True",
+    "reason": "free variable 'x' in 'Cost(gRE, x) ∧ Cheaper(x, 300)'"
+  },
+  {
+    "example_id": 958,
+    "story_id": 361,
+    "label": "Uncertain",
+    "reason": "unexpected end of formula in '∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness))'"
+  },
+  {
+    "example_id": 959,
+    "story_id": 361,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness))'"
+  },
+  {
+    "example_id": 960,
+    "story_id": 361,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness))'"
+  },
+  {
+    "example_id": 706,
+    "story_id": 262,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 78"
+  },
+  {
+    "example_id": 370,
+    "story_id": 124,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 73"
+  },
+  {
+    "example_id": 371,
+    "story_id": 124,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 73"
+  },
+  {
+    "example_id": 372,
+    "story_id": 124,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 73"
+  },
+  {
+    "example_id": 527,
+    "story_id": 183,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 40"
+  },
+  {
+    "example_id": 528,
+    "story_id": 183,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 40"
+  },
+  {
+    "example_id": 529,
+    "story_id": 183,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 40"
+  },
+  {
+    "example_id": 786,
+    "story_id": 315,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 80"
+  },
+  {
+    "example_id": 787,
+    "story_id": 315,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 80"
+  },
+  {
+    "example_id": 788,
+    "story_id": 315,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 80"
+  },
+  {
+    "example_id": 1348,
+    "story_id": 467,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 29"
+  },
+  {
+    "example_id": 1349,
+    "story_id": 467,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 29"
+  },
+  {
+    "example_id": 1350,
+    "story_id": 467,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 29"
+  },
+  {
+    "example_id": 846,
+    "story_id": 330,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "example_id": 847,
+    "story_id": 330,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "example_id": 848,
+    "story_id": 330,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "example_id": 849,
+    "story_id": 330,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "example_id": 74,
+    "story_id": 26,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 35"
+  },
+  {
+    "example_id": 75,
+    "story_id": 26,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 35"
+  },
+  {
+    "example_id": 76,
+    "story_id": 26,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 35"
+  },
+  {
+    "example_id": 1327,
+    "story_id": 460,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 60"
+  },
+  {
+    "example_id": 1328,
+    "story_id": 460,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 60"
+  },
+  {
+    "example_id": 1329,
+    "story_id": 460,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 60"
+  },
+  {
+    "example_id": 133,
+    "story_id": 46,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 35"
+  },
+  {
+    "example_id": 134,
+    "story_id": 46,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 35"
+  },
+  {
+    "example_id": 1413,
+    "story_id": 483,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 54"
+  },
+  {
+    "example_id": 1414,
+    "story_id": 483,
+    "label": "False",
+    "reason": "manual: FOL conclusion omits the negation present in the natural-language conclusion ('It is not true that ...'); Seqprover proves the un-negated FOL, so the FOL does not match the label"
+  },
+  {
+    "example_id": 964,
+    "story_id": 363,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 75"
+  },
+  {
+    "example_id": 965,
+    "story_id": 363,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 75"
+  },
+  {
+    "example_id": 966,
+    "story_id": 363,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 75"
+  },
+  {
+    "example_id": 702,
+    "story_id": 258,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 56"
+  },
+  {
+    "example_id": 1244,
+    "story_id": 435,
+    "label": "False",
+    "reason": "free variable 'y' in '∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))'"
+  },
+  {
+    "example_id": 1245,
+    "story_id": 435,
+    "label": "True",
+    "reason": "free variable 'y' in '∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))'"
+  },
+  {
+    "example_id": 1246,
+    "story_id": 435,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 28"
+  },
+  {
+    "example_id": 1247,
+    "story_id": 435,
+    "label": "Uncertain",
+    "reason": "free variable 'y' in '∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))'"
+  },
+  {
+    "example_id": 736,
+    "story_id": 292,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 50"
+  },
+  {
+    "example_id": 803,
+    "story_id": 318,
+    "label": "False",
+    "reason": "inconsistent predicate arity {'GivenOutOn': [2, 3]}"
+  },
+  {
+    "example_id": 804,
+    "story_id": 318,
+    "label": "True",
+    "reason": "inconsistent predicate arity {'GivenOutOn': [2, 3]}"
+  },
+  {
+    "example_id": 941,
+    "story_id": 355,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 50"
+  },
+  {
+    "example_id": 942,
+    "story_id": 355,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 50"
+  },
+  {
+    "example_id": 943,
+    "story_id": 355,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 50"
+  },
+  {
+    "example_id": 703,
+    "story_id": 259,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 25"
+  },
+  {
+    "example_id": 442,
+    "story_id": 152,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 21"
+  },
+  {
+    "example_id": 443,
+    "story_id": 152,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 21"
+  },
+  {
+    "example_id": 1270,
+    "story_id": 441,
+    "label": "False",
+    "reason": "trailing token ')' at 71 in '¬(Grumpy(tom) ∧ MeanTo(tom, animal)) → ¬Grumpy(tom) ∧ ¬AnimalLover(tom))'"
+  },
+  {
+    "example_id": 189,
+    "story_id": 64,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x))'"
+  },
+  {
+    "example_id": 190,
+    "story_id": 64,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x))'"
+  },
+  {
+    "example_id": 191,
+    "story_id": 64,
+    "label": "Uncertain",
+    "reason": "unexpected end of formula in '∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x))'"
+  },
+  {
+    "example_id": 724,
+    "story_id": 280,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 24"
+  },
+  {
+    "example_id": 411,
+    "story_id": 140,
+    "label": "False",
+    "reason": "trailing token ')' at 91 in '∃x ∃y (OnLeaderBoardOf(x, duMaurierClassic) ∧ SixWayTie(x)) ∧ In(y, sixWayTie) ∧ Belgium(y))'"
+  },
+  {
+    "example_id": 412,
+    "story_id": 140,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 91 in '∃x ∃y (OnLeaderBoardOf(x, duMaurierClassic) ∧ SixWayTie(x)) ∧ In(y, sixWayTie) ∧ Belgium(y))'"
+  },
+  {
+    "example_id": 1324,
+    "story_id": 459,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "example_id": 1325,
+    "story_id": 459,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "example_id": 1326,
+    "story_id": 459,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 14"
+  }
+]

@@ -1,0 +1,2 @@
+pretty.
+(publishingHouse(newVesselPress) /\ specializesInTranslatingIntoEnglish(newVesselPress,foreignLiterature)), X@(((book(X) /\ publishedBy(X,newVesselPress)) -> in(X,english))), (book(neapolitanChronicles) /\ publishedBy(neapolitanChronicles,newVesselPress)), translatedFrom(neapolitanChronicles,italian), (book(palaceOfFlies) /\ publishedBy(palaceOfFlies,newVesselPress)) --> ~publishedBy(harryPotter,newVesselPress).

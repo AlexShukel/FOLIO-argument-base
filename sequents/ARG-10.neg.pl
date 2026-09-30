@@ -1,0 +1,2 @@
+pretty.
+capitalOf(beijing,peoplesRepublicOfChina), X#((capitalOf(beijing,X) -> worldsMostPopulousNation(X))), locatedIn(beijing,northernChina), (hosted(beijing,'2008SummerOlympics') /\ hosted(beijing,'2008SummerParalympicGames')), (hosted(beijing,summerOlympics) /\ (hosted(beijing,winterOlympics) /\ (hosted(beijing,summerParalympicGames) /\ hosted(beijing,winterParalympicGames)))), X#((university(X) /\ (inBeijing(X) /\ consistentlyRankAmongTheBestIn(X,theWorld)))) --> ~(hosted(beijing,summerOlympics) /\ hosted(beijing,winterOlympics)).

@@ -1,0 +1,2 @@
+pretty.
+X@((deadlyDiseases(X) -> comeWith(X,lowSurvivalRate))), X@((severeCancer(X) -> deadlyDiseases(X))), X@((bileDuctCancer(X) -> severeCancer(X))), X@((cholangiocarcinoma(X) -> bileDuctCancer(X))), X@((mildFlu(X) -> ~comeWith(X,lowSurvivalRate))), ~(bileDuctCancer(colorectalCancer) /\ comeWith(colorectalCancer,lowSurvivalRate)) --> (cholangiocarcinoma(colorectalCancer) /\ (mildFlu(colorectalCancer) \/ bileDuctCancer(colorectalCancer))).
