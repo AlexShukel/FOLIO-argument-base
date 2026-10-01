@@ -1,31 +1,45 @@
 {
-  "source": "folio_v2_validation.jsonl",
+  "source": "folio_v2_validation.jsonl + folio_v2_train.jsonl",
   "stats": {
-    "source_rows": 203,
-    "convertible_rows": 78,
-    "excluded_rows": 125,
+    "sources": [
+      "folio_v2_validation.jsonl",
+      "folio_v2_train.jsonl"
+    ],
+    "labels": [
+      "True",
+      "False"
+    ],
+    "source_rows": 1204,
+    "convertible_rows": 304,
+    "excluded_rows": 900,
     "exclusion_reasons": {
-      "unsupported": 91,
-      "trailing": 6,
-      "unexpected": 12,
-      "free": 10,
-      "inconsistent": 5,
-      "manual": 1
+      "unsupported": 583,
+      "label": 180,
+      "trailing": 30,
+      "unexpected": 56,
+      "free": 31,
+      "inconsistent": 6,
+      "manual": 1,
+      "expected": 13
     },
     "selected": 60,
     "selected_by_label": {
-      "True": 20,
-      "False": 20,
-      "Uncertain": 20
+      "True": 30,
+      "False": 30
     },
-    "selected_with_min_premises": 50,
-    "selected_stories": 24,
+    "selected_by_split": {
+      "validation": 33,
+      "train": 27
+    },
+    "selected_with_min_premises": 60,
+    "selected_stories": 35,
     "min_premises": 5,
     "max_per_story": 3
   },
   "arguments": [
     {
       "id": "ARG-01",
+      "folio_split": "validation",
       "folio_example_id": 0,
       "folio_story_id": 0,
       "label": "True",
@@ -68,6 +82,7 @@
     },
     {
       "id": "ARG-02",
+      "folio_split": "validation",
       "folio_example_id": 243,
       "folio_story_id": 80,
       "label": "True",
@@ -107,6 +122,7 @@
     },
     {
       "id": "ARG-03",
+      "folio_split": "validation",
       "folio_example_id": 253,
       "folio_story_id": 83,
       "label": "True",
@@ -146,6 +162,7 @@
     },
     {
       "id": "ARG-04",
+      "folio_split": "validation",
       "folio_example_id": 388,
       "folio_story_id": 131,
       "label": "True",
@@ -185,6 +202,7 @@
     },
     {
       "id": "ARG-05",
+      "folio_split": "validation",
       "folio_example_id": 440,
       "folio_story_id": 151,
       "label": "True",
@@ -224,6 +242,7 @@
     },
     {
       "id": "ARG-06",
+      "folio_split": "validation",
       "folio_example_id": 560,
       "folio_story_id": 197,
       "label": "True",
@@ -266,6 +285,7 @@
     },
     {
       "id": "ARG-07",
+      "folio_split": "validation",
       "folio_example_id": 563,
       "folio_story_id": 198,
       "label": "True",
@@ -308,6 +328,7 @@
     },
     {
       "id": "ARG-08",
+      "folio_split": "validation",
       "folio_example_id": 578,
       "folio_story_id": 203,
       "label": "True",
@@ -347,6 +368,7 @@
     },
     {
       "id": "ARG-09",
+      "folio_split": "validation",
       "folio_example_id": 610,
       "folio_story_id": 213,
       "label": "True",
@@ -389,6 +411,7 @@
     },
     {
       "id": "ARG-10",
+      "folio_split": "validation",
       "folio_example_id": 657,
       "folio_story_id": 232,
       "label": "True",
@@ -431,6 +454,7 @@
     },
     {
       "id": "ARG-11",
+      "folio_split": "validation",
       "folio_example_id": 806,
       "folio_story_id": 319,
       "label": "True",
@@ -470,6 +494,7 @@
     },
     {
       "id": "ARG-12",
+      "folio_split": "validation",
       "folio_example_id": 808,
       "folio_story_id": 319,
       "label": "True",
@@ -509,6 +534,7 @@
     },
     {
       "id": "ARG-13",
+      "folio_split": "validation",
       "folio_example_id": 1033,
       "folio_story_id": 386,
       "label": "True",
@@ -551,6 +577,7 @@
     },
     {
       "id": "ARG-14",
+      "folio_split": "validation",
       "folio_example_id": 1269,
       "folio_story_id": 441,
       "label": "True",
@@ -590,6 +617,7 @@
     },
     {
       "id": "ARG-15",
+      "folio_split": "validation",
       "folio_example_id": 1273,
       "folio_story_id": 442,
       "label": "True",
@@ -629,6 +657,7 @@
     },
     {
       "id": "ARG-16",
+      "folio_split": "validation",
       "folio_example_id": 1314,
       "folio_story_id": 456,
       "label": "True",
@@ -668,6 +697,7 @@
     },
     {
       "id": "ARG-17",
+      "folio_split": "validation",
       "folio_example_id": 1412,
       "folio_story_id": 483,
       "label": "True",
@@ -710,31 +740,50 @@
     },
     {
       "id": "ARG-18",
-      "folio_example_id": 149,
-      "folio_story_id": 51,
+      "folio_split": "train",
+      "folio_example_id": 17,
+      "folio_story_id": 7,
       "label": "True",
-      "n_premises": 3,
+      "n_premises": 9,
       "premises": [
-        "The summer Olympic games is a sporting event.",
-        "The last summer Olympic games was in Tokyo.",
-        "The United States won the most medals in Tokyo."
+        "Six, seven and eight are real numbers.",
+        "If a real number equals another real number added by one, the first number is larger.",
+        "If the number x is larger than the number y, then y is not larger than x.",
+        "Seven equals six plus one.",
+        "Eight equals seven plus one.",
+        "Two is positive.",
+        "If a number is positive, then the double of it is also positive.",
+        "Eight is the double of four.",
+        "Four is the double of two."
       ],
       "premises_fol": [
-        "SportingEvent(olympics)",
-        "LastSummerOlympics(tokyo)",
-        "MostMedals(unitedStates, tokyo)"
+        "RealNum(num6) ∧ RealNum(num7) ∧ RealNum(num8)",
+        "∀x ∀y ((RealNum(x) ∧ RealNum(y) ∧ IsSuccessorOf(x, y)) → Larger(x, y))",
+        "∀x ∀y (Larger(x, y) → ¬Larger(y, x))",
+        "∃y(IsSuccessorOf(y, num6) ∧ Equals(num7, y))",
+        "∃y(IsSuccessorOf(y, num7) ∧ Equals(num8, y))",
+        "Positive(num2)",
+        "∀x ∀y ((Positive(x) ∧ IsDouble(y, x)) → Positive(y))",
+        "IsDouble(num8, num4)",
+        "IsDouble(num4, num2)"
       ],
-      "conclusion": "The United States won the most medals in the last summer Olympic games.",
-      "conclusion_fol": "∃x (LastSummerOlympics(x) ∧ MostMedals(unitedStates, x))",
+      "conclusion": "Eight is larger than seven.",
+      "conclusion_fol": "Larger(eight, seven)",
       "seqprover": {
         "premises": [
-          "sportingEvent(olympics)",
-          "lastSummerOlympics(tokyo)",
-          "mostMedals(unitedStates,tokyo)"
+          "(realNum(num6) /\\ (realNum(num7) /\\ realNum(num8)))",
+          "X@(Y@(((realNum(X) /\\ (realNum(Y) /\\ isSuccessorOf(X,Y))) -> larger(X,Y))))",
+          "X@(Y@((larger(X,Y) -> ~larger(Y,X))))",
+          "Y#((isSuccessorOf(Y,num6) /\\ equals(num7,Y)))",
+          "Y#((isSuccessorOf(Y,num7) /\\ equals(num8,Y)))",
+          "positive(num2)",
+          "X@(Y@(((positive(X) /\\ isDouble(Y,X)) -> positive(Y))))",
+          "isDouble(num8,num4)",
+          "isDouble(num4,num2)"
         ],
-        "conclusion": "X#((lastSummerOlympics(X) /\\ mostMedals(unitedStates,X)))",
-        "goal": "sportingEvent(olympics), lastSummerOlympics(tokyo), mostMedals(unitedStates,tokyo) --> X#((lastSummerOlympics(X) /\\ mostMedals(unitedStates,X)))",
-        "negated_goal": "sportingEvent(olympics), lastSummerOlympics(tokyo), mostMedals(unitedStates,tokyo) --> ~X#((lastSummerOlympics(X) /\\ mostMedals(unitedStates,X)))",
+        "conclusion": "larger(eight,seven)",
+        "goal": "(realNum(num6) /\\ (realNum(num7) /\\ realNum(num8))), X@(Y@(((realNum(X) /\\ (realNum(Y) /\\ isSuccessorOf(X,Y))) -> larger(X,Y)))), X@(Y@((larger(X,Y) -> ~larger(Y,X)))), Y#((isSuccessorOf(Y,num6) /\\ equals(num7,Y))), Y#((isSuccessorOf(Y,num7) /\\ equals(num8,Y))), positive(num2), X@(Y@(((positive(X) /\\ isDouble(Y,X)) -> positive(Y)))), isDouble(num8,num4), isDouble(num4,num2) --> larger(eight,seven)",
+        "negated_goal": "(realNum(num6) /\\ (realNum(num7) /\\ realNum(num8))), X@(Y@(((realNum(X) /\\ (realNum(Y) /\\ isSuccessorOf(X,Y))) -> larger(X,Y)))), X@(Y@((larger(X,Y) -> ~larger(Y,X)))), Y#((isSuccessorOf(Y,num6) /\\ equals(num7,Y))), Y#((isSuccessorOf(Y,num7) /\\ equals(num8,Y))), positive(num2), X@(Y@(((positive(X) /\\ isDouble(Y,X)) -> positive(Y)))), isDouble(num8,num4), isDouble(num4,num2) --> ~larger(eight,seven)",
         "expected": {
           "goal": true,
           "negated_goal": false
@@ -743,34 +792,50 @@
     },
     {
       "id": "ARG-19",
-      "folio_example_id": 171,
-      "folio_story_id": 58,
+      "folio_split": "train",
+      "folio_example_id": 18,
+      "folio_story_id": 7,
       "label": "True",
-      "n_premises": 4,
+      "n_premises": 9,
       "premises": [
-        "Books contain tons of knowledge.",
-        "When a person reads a book, that person gains knowledge.",
-        "If a person gains knowledge, they become smarter.",
-        "Harry read the book “Walden” by Henry Thoreau."
+        "Six, seven and eight are real numbers.",
+        "If a real number equals another real number added by one, the first number is larger.",
+        "If the number x is larger than the number y, then y is not larger than x.",
+        "Seven equals six plus one.",
+        "Eight equals seven plus one.",
+        "Two is positive.",
+        "If a number is positive, then the double of it is also positive.",
+        "Eight is the double of four.",
+        "Four is the double of two."
       ],
       "premises_fol": [
-        "∀x (Book(x) → Contains(x, knowledge))",
-        "∀x ∀y (ReadBook(x, y) → Gains(x, knowledge))",
-        "∀x (Gains(x, knowledge) → Smarter(x))",
-        "ReadBook(harry, walden) ∧ Book(walden)"
+        "RealNum(num6) ∧ RealNum(num7) ∧ RealNum(num8)",
+        "∀x ∀y ((RealNum(x) ∧ RealNum(y) ∧ IsSuccessorOf(x, y)) → Larger(x, y))",
+        "∀x ∀y (Larger(x, y) → ¬Larger(y, x))",
+        "∃y(IsSuccessorOf(y, num6) ∧ Equals(num7, y))",
+        "∃y(IsSuccessorOf(y, num7) ∧ Equals(num8, y))",
+        "Positive(num2)",
+        "∀x ∀y ((Positive(x) ∧ IsDouble(y, x)) → Positive(y))",
+        "IsDouble(num8, num4)",
+        "IsDouble(num4, num2)"
       ],
-      "conclusion": "Walden contains knowledge.",
-      "conclusion_fol": "Gains(harry, knowledge)",
+      "conclusion": "Eight is positive.",
+      "conclusion_fol": "Positive(eight)",
       "seqprover": {
         "premises": [
-          "X@((book(X) -> contains(X,knowledge)))",
-          "X@(Y@((readBook(X,Y) -> gains(X,knowledge))))",
-          "X@((gains(X,knowledge) -> smarter(X)))",
-          "(readBook(harry,walden) /\\ book(walden))"
+          "(realNum(num6) /\\ (realNum(num7) /\\ realNum(num8)))",
+          "X@(Y@(((realNum(X) /\\ (realNum(Y) /\\ isSuccessorOf(X,Y))) -> larger(X,Y))))",
+          "X@(Y@((larger(X,Y) -> ~larger(Y,X))))",
+          "Y#((isSuccessorOf(Y,num6) /\\ equals(num7,Y)))",
+          "Y#((isSuccessorOf(Y,num7) /\\ equals(num8,Y)))",
+          "positive(num2)",
+          "X@(Y@(((positive(X) /\\ isDouble(Y,X)) -> positive(Y))))",
+          "isDouble(num8,num4)",
+          "isDouble(num4,num2)"
         ],
-        "conclusion": "gains(harry,knowledge)",
-        "goal": "X@((book(X) -> contains(X,knowledge))), X@(Y@((readBook(X,Y) -> gains(X,knowledge)))), X@((gains(X,knowledge) -> smarter(X))), (readBook(harry,walden) /\\ book(walden)) --> gains(harry,knowledge)",
-        "negated_goal": "X@((book(X) -> contains(X,knowledge))), X@(Y@((readBook(X,Y) -> gains(X,knowledge)))), X@((gains(X,knowledge) -> smarter(X))), (readBook(harry,walden) /\\ book(walden)) --> ~gains(harry,knowledge)",
+        "conclusion": "positive(eight)",
+        "goal": "(realNum(num6) /\\ (realNum(num7) /\\ realNum(num8))), X@(Y@(((realNum(X) /\\ (realNum(Y) /\\ isSuccessorOf(X,Y))) -> larger(X,Y)))), X@(Y@((larger(X,Y) -> ~larger(Y,X)))), Y#((isSuccessorOf(Y,num6) /\\ equals(num7,Y))), Y#((isSuccessorOf(Y,num7) /\\ equals(num8,Y))), positive(num2), X@(Y@(((positive(X) /\\ isDouble(Y,X)) -> positive(Y)))), isDouble(num8,num4), isDouble(num4,num2) --> positive(eight)",
+        "negated_goal": "(realNum(num6) /\\ (realNum(num7) /\\ realNum(num8))), X@(Y@(((realNum(X) /\\ (realNum(Y) /\\ isSuccessorOf(X,Y))) -> larger(X,Y)))), X@(Y@((larger(X,Y) -> ~larger(Y,X)))), Y#((isSuccessorOf(Y,num6) /\\ equals(num7,Y))), Y#((isSuccessorOf(Y,num7) /\\ equals(num8,Y))), positive(num2), X@(Y@(((positive(X) /\\ isDouble(Y,X)) -> positive(Y)))), isDouble(num8,num4), isDouble(num4,num2) --> ~positive(eight)",
         "expected": {
           "goal": true,
           "negated_goal": false
@@ -779,34 +844,41 @@
     },
     {
       "id": "ARG-20",
-      "folio_example_id": 172,
-      "folio_story_id": 58,
+      "folio_split": "train",
+      "folio_example_id": 35,
+      "folio_story_id": 13,
       "label": "True",
-      "n_premises": 4,
+      "n_premises": 6,
       "premises": [
-        "Books contain tons of knowledge.",
-        "When a person reads a book, that person gains knowledge.",
-        "If a person gains knowledge, they become smarter.",
-        "Harry read the book “Walden” by Henry Thoreau."
+        "System 7 is a UK-based electronic dance music band.",
+        "Steve Hillage and Miquette Giraudy formed System 7.",
+        "Steve Hillage and Miquette Giraudy are former members of the band Gong.",
+        "Electric dance music bands are bands.",
+        "System 7 has released several club singles.",
+        "Club singles are not singles."
       ],
       "premises_fol": [
-        "∀x (Book(x) → Contains(x, knowledge))",
-        "∀x ∀y (ReadBook(x, y) → Gains(x, knowledge))",
-        "∀x (Gains(x, knowledge) → Smarter(x))",
-        "ReadBook(harry, walden) ∧ Book(walden)"
+        "BasedIn(system7, uk) ∧ ElectronicDanceMusicBand(system7)",
+        "Form(stevehillage, system7) ∧ Form(miquettegiraudy, system7)",
+        "FormerMemberOf(stevehillage, gong) ∧ FormerMemberOf(miquettegiraudy, gong)",
+        "∀x (ElectronicDanceMusicBand(x) → Band(x))",
+        "∃x (ClubSingle(x) ∧ Release(system7, x))",
+        "∀x (ClubSingle(x) → ¬Single(x))"
       ],
-      "conclusion": "Harry is smarter than before.",
-      "conclusion_fol": "Smarter(harry)",
+      "conclusion": "System 7 was formed by former members of Gong.",
+      "conclusion_fol": "∃x (Form(x, system7) ∧ FormerMemberOf(x, gong))",
       "seqprover": {
         "premises": [
-          "X@((book(X) -> contains(X,knowledge)))",
-          "X@(Y@((readBook(X,Y) -> gains(X,knowledge))))",
-          "X@((gains(X,knowledge) -> smarter(X)))",
-          "(readBook(harry,walden) /\\ book(walden))"
+          "(basedIn(system7,uk) /\\ electronicDanceMusicBand(system7))",
+          "(form(stevehillage,system7) /\\ form(miquettegiraudy,system7))",
+          "(formerMemberOf(stevehillage,gong) /\\ formerMemberOf(miquettegiraudy,gong))",
+          "X@((electronicDanceMusicBand(X) -> band(X)))",
+          "X#((clubSingle(X) /\\ release(system7,X)))",
+          "X@((clubSingle(X) -> ~single(X)))"
         ],
-        "conclusion": "smarter(harry)",
-        "goal": "X@((book(X) -> contains(X,knowledge))), X@(Y@((readBook(X,Y) -> gains(X,knowledge)))), X@((gains(X,knowledge) -> smarter(X))), (readBook(harry,walden) /\\ book(walden)) --> smarter(harry)",
-        "negated_goal": "X@((book(X) -> contains(X,knowledge))), X@(Y@((readBook(X,Y) -> gains(X,knowledge)))), X@((gains(X,knowledge) -> smarter(X))), (readBook(harry,walden) /\\ book(walden)) --> ~smarter(harry)",
+        "conclusion": "X#((form(X,system7) /\\ formerMemberOf(X,gong)))",
+        "goal": "(basedIn(system7,uk) /\\ electronicDanceMusicBand(system7)), (form(stevehillage,system7) /\\ form(miquettegiraudy,system7)), (formerMemberOf(stevehillage,gong) /\\ formerMemberOf(miquettegiraudy,gong)), X@((electronicDanceMusicBand(X) -> band(X))), X#((clubSingle(X) /\\ release(system7,X))), X@((clubSingle(X) -> ~single(X))) --> X#((form(X,system7) /\\ formerMemberOf(X,gong)))",
+        "negated_goal": "(basedIn(system7,uk) /\\ electronicDanceMusicBand(system7)), (form(stevehillage,system7) /\\ form(miquettegiraudy,system7)), (formerMemberOf(stevehillage,gong) /\\ formerMemberOf(miquettegiraudy,gong)), X@((electronicDanceMusicBand(X) -> band(X))), X#((clubSingle(X) /\\ release(system7,X))), X@((clubSingle(X) -> ~single(X))) --> ~X#((form(X,system7) /\\ formerMemberOf(X,gong)))",
         "expected": {
           "goal": true,
           "negated_goal": false
@@ -815,6 +887,416 @@
     },
     {
       "id": "ARG-21",
+      "folio_split": "train",
+      "folio_example_id": 38,
+      "folio_story_id": 14,
+      "label": "True",
+      "n_premises": 5,
+      "premises": [
+        "The USS Salem is a heavy cruiser built for the United States Navy.",
+        "The last heavy cruiser to enter service was the USS Salem.",
+        "The USS Salem is a museum ship.",
+        "Museum ships are open to the public.",
+        "The USS Salem served in the Atlantic and Mediterranean."
+      ],
+      "premises_fol": [
+        "HeavyCruiser(usssalem) ∧ BuiltFor(usssalem, unitedstatesnavy)",
+        "LastHeavyCruiserToEnterService(usssalem)",
+        "MuseumShip(usssalem)",
+        "∀x (MuseumShip(x) → OpenToPublic(x))",
+        "ServedIn(usssalem, atlantic) ∧ ServedIn(usssalem, mediterranean)"
+      ],
+      "conclusion": "The USS Salem is open to the public.",
+      "conclusion_fol": "OpenToPublic(usssalem)",
+      "seqprover": {
+        "premises": [
+          "(heavyCruiser(usssalem) /\\ builtFor(usssalem,unitedstatesnavy))",
+          "lastHeavyCruiserToEnterService(usssalem)",
+          "museumShip(usssalem)",
+          "X@((museumShip(X) -> openToPublic(X)))",
+          "(servedIn(usssalem,atlantic) /\\ servedIn(usssalem,mediterranean))"
+        ],
+        "conclusion": "openToPublic(usssalem)",
+        "goal": "(heavyCruiser(usssalem) /\\ builtFor(usssalem,unitedstatesnavy)), lastHeavyCruiserToEnterService(usssalem), museumShip(usssalem), X@((museumShip(X) -> openToPublic(X))), (servedIn(usssalem,atlantic) /\\ servedIn(usssalem,mediterranean)) --> openToPublic(usssalem)",
+        "negated_goal": "(heavyCruiser(usssalem) /\\ builtFor(usssalem,unitedstatesnavy)), lastHeavyCruiserToEnterService(usssalem), museumShip(usssalem), X@((museumShip(X) -> openToPublic(X))), (servedIn(usssalem,atlantic) /\\ servedIn(usssalem,mediterranean)) --> ~openToPublic(usssalem)",
+        "expected": {
+          "goal": true,
+          "negated_goal": false
+        }
+      }
+    },
+    {
+      "id": "ARG-22",
+      "folio_split": "train",
+      "folio_example_id": 39,
+      "folio_story_id": 14,
+      "label": "True",
+      "n_premises": 5,
+      "premises": [
+        "The USS Salem is a heavy cruiser built for the United States Navy.",
+        "The last heavy cruiser to enter service was the USS Salem.",
+        "The USS Salem is a museum ship.",
+        "Museum ships are open to the public.",
+        "The USS Salem served in the Atlantic and Mediterranean."
+      ],
+      "premises_fol": [
+        "HeavyCruiser(usssalem) ∧ BuiltFor(usssalem, unitedstatesnavy)",
+        "LastHeavyCruiserToEnterService(usssalem)",
+        "MuseumShip(usssalem)",
+        "∀x (MuseumShip(x) → OpenToPublic(x))",
+        "ServedIn(usssalem, atlantic) ∧ ServedIn(usssalem, mediterranean)"
+      ],
+      "conclusion": "There is a museum ship open to the public that served in the Mediterranean.",
+      "conclusion_fol": "∃x (MuseumShip(x) ∧ OpenToPublic(x) ∧ ServedIn(x, mediterranean))",
+      "seqprover": {
+        "premises": [
+          "(heavyCruiser(usssalem) /\\ builtFor(usssalem,unitedstatesnavy))",
+          "lastHeavyCruiserToEnterService(usssalem)",
+          "museumShip(usssalem)",
+          "X@((museumShip(X) -> openToPublic(X)))",
+          "(servedIn(usssalem,atlantic) /\\ servedIn(usssalem,mediterranean))"
+        ],
+        "conclusion": "X#((museumShip(X) /\\ (openToPublic(X) /\\ servedIn(X,mediterranean))))",
+        "goal": "(heavyCruiser(usssalem) /\\ builtFor(usssalem,unitedstatesnavy)), lastHeavyCruiserToEnterService(usssalem), museumShip(usssalem), X@((museumShip(X) -> openToPublic(X))), (servedIn(usssalem,atlantic) /\\ servedIn(usssalem,mediterranean)) --> X#((museumShip(X) /\\ (openToPublic(X) /\\ servedIn(X,mediterranean))))",
+        "negated_goal": "(heavyCruiser(usssalem) /\\ builtFor(usssalem,unitedstatesnavy)), lastHeavyCruiserToEnterService(usssalem), museumShip(usssalem), X@((museumShip(X) -> openToPublic(X))), (servedIn(usssalem,atlantic) /\\ servedIn(usssalem,mediterranean)) --> ~X#((museumShip(X) /\\ (openToPublic(X) /\\ servedIn(X,mediterranean))))",
+        "expected": {
+          "goal": true,
+          "negated_goal": false
+        }
+      }
+    },
+    {
+      "id": "ARG-23",
+      "folio_split": "train",
+      "folio_example_id": 61,
+      "folio_story_id": 21,
+      "label": "True",
+      "n_premises": 6,
+      "premises": [
+        "The Golden State Warriors are a team from San Francisco.",
+        "The Golden State Warriors won the NBA finals.",
+        "All teams attending the NBA finals have won many games.",
+        "Boston Celtics are a team that lost the NBA finals.",
+        "If a team wins the NBA finals, then they will have more income.",
+        "If a team wins or loses at the NBA finals, then they are attending the finals."
+      ],
+      "premises_fol": [
+        "Team(goldenStateWarriors) ∧ From(goldenStateWarriors, sanFrancisco)",
+        "Won(goldenStateWarriors, nbaFinals)",
+        "∀x ((Team(x) ∧ Attending(x, nbaFinals)) → WonManyGames(x))",
+        "Team(bostonCeltics) ∧ Lost(bostonCeltics, nbaFinals)",
+        "∀x ((Team(x) ∧ Won(x, nbaFinals)) → MoreIncome(x))",
+        "∀x ((Won(x, nbaFinals) ∨ Lost(x, nbaFinals)) → Attending(x, nbaFinals))"
+      ],
+      "conclusion": "The Boston Celtics have more than 30 years of experience.",
+      "conclusion_fol": "HasMoreThanThirtyYearsOfHistory(bostonCeltics)",
+      "seqprover": {
+        "premises": [
+          "(team(goldenStateWarriors) /\\ from(goldenStateWarriors,sanFrancisco))",
+          "won(goldenStateWarriors,nbaFinals)",
+          "X@(((team(X) /\\ attending(X,nbaFinals)) -> wonManyGames(X)))",
+          "(team(bostonCeltics) /\\ lost(bostonCeltics,nbaFinals))",
+          "X@(((team(X) /\\ won(X,nbaFinals)) -> moreIncome(X)))",
+          "X@(((won(X,nbaFinals) \\/ lost(X,nbaFinals)) -> attending(X,nbaFinals)))"
+        ],
+        "conclusion": "hasMoreThanThirtyYearsOfHistory(bostonCeltics)",
+        "goal": "(team(goldenStateWarriors) /\\ from(goldenStateWarriors,sanFrancisco)), won(goldenStateWarriors,nbaFinals), X@(((team(X) /\\ attending(X,nbaFinals)) -> wonManyGames(X))), (team(bostonCeltics) /\\ lost(bostonCeltics,nbaFinals)), X@(((team(X) /\\ won(X,nbaFinals)) -> moreIncome(X))), X@(((won(X,nbaFinals) \\/ lost(X,nbaFinals)) -> attending(X,nbaFinals))) --> hasMoreThanThirtyYearsOfHistory(bostonCeltics)",
+        "negated_goal": "(team(goldenStateWarriors) /\\ from(goldenStateWarriors,sanFrancisco)), won(goldenStateWarriors,nbaFinals), X@(((team(X) /\\ attending(X,nbaFinals)) -> wonManyGames(X))), (team(bostonCeltics) /\\ lost(bostonCeltics,nbaFinals)), X@(((team(X) /\\ won(X,nbaFinals)) -> moreIncome(X))), X@(((won(X,nbaFinals) \\/ lost(X,nbaFinals)) -> attending(X,nbaFinals))) --> ~hasMoreThanThirtyYearsOfHistory(bostonCeltics)",
+        "expected": {
+          "goal": true,
+          "negated_goal": false
+        }
+      }
+    },
+    {
+      "id": "ARG-24",
+      "folio_split": "train",
+      "folio_example_id": 62,
+      "folio_story_id": 21,
+      "label": "True",
+      "n_premises": 6,
+      "premises": [
+        "The Golden State Warriors are a team from San Francisco.",
+        "The Golden State Warriors won the NBA finals.",
+        "All teams attending the NBA finals have won many games.",
+        "Boston Celtics are a team that lost the NBA finals.",
+        "If a team wins the NBA finals, then they will have more income.",
+        "If a team wins or loses at the NBA finals, then they are attending the finals."
+      ],
+      "premises_fol": [
+        "Team(goldenStateWarriors) ∧ From(goldenStateWarriors, sanFrancisco)",
+        "Won(goldenStateWarriors, nbaFinals)",
+        "∀x ((Team(x) ∧ Attending(x, nbaFinals)) → WonManyGames(x))",
+        "Team(bostonCeltics) ∧ Lost(bostonCeltics, nbaFinals)",
+        "∀x ((Team(x) ∧ Won(x, nbaFinals)) → MoreIncome(x))",
+        "∀x ((Won(x, nbaFinals) ∨ Lost(x, nbaFinals)) → Attending(x, nbaFinals))"
+      ],
+      "conclusion": "The Golden State Warriors will have more income from gate receipts.",
+      "conclusion_fol": "MoreIncome(goldenStateWarriors)",
+      "seqprover": {
+        "premises": [
+          "(team(goldenStateWarriors) /\\ from(goldenStateWarriors,sanFrancisco))",
+          "won(goldenStateWarriors,nbaFinals)",
+          "X@(((team(X) /\\ attending(X,nbaFinals)) -> wonManyGames(X)))",
+          "(team(bostonCeltics) /\\ lost(bostonCeltics,nbaFinals))",
+          "X@(((team(X) /\\ won(X,nbaFinals)) -> moreIncome(X)))",
+          "X@(((won(X,nbaFinals) \\/ lost(X,nbaFinals)) -> attending(X,nbaFinals)))"
+        ],
+        "conclusion": "moreIncome(goldenStateWarriors)",
+        "goal": "(team(goldenStateWarriors) /\\ from(goldenStateWarriors,sanFrancisco)), won(goldenStateWarriors,nbaFinals), X@(((team(X) /\\ attending(X,nbaFinals)) -> wonManyGames(X))), (team(bostonCeltics) /\\ lost(bostonCeltics,nbaFinals)), X@(((team(X) /\\ won(X,nbaFinals)) -> moreIncome(X))), X@(((won(X,nbaFinals) \\/ lost(X,nbaFinals)) -> attending(X,nbaFinals))) --> moreIncome(goldenStateWarriors)",
+        "negated_goal": "(team(goldenStateWarriors) /\\ from(goldenStateWarriors,sanFrancisco)), won(goldenStateWarriors,nbaFinals), X@(((team(X) /\\ attending(X,nbaFinals)) -> wonManyGames(X))), (team(bostonCeltics) /\\ lost(bostonCeltics,nbaFinals)), X@(((team(X) /\\ won(X,nbaFinals)) -> moreIncome(X))), X@(((won(X,nbaFinals) \\/ lost(X,nbaFinals)) -> attending(X,nbaFinals))) --> ~moreIncome(goldenStateWarriors)",
+        "expected": {
+          "goal": true,
+          "negated_goal": false
+        }
+      }
+    },
+    {
+      "id": "ARG-25",
+      "folio_split": "train",
+      "folio_example_id": 65,
+      "folio_story_id": 22,
+      "label": "True",
+      "n_premises": 6,
+      "premises": [
+        "If a customer subscribes to AMC A-List, then he/she can watch 3 movies every week without any additional fees.",
+        "Some customers go to cinemas every week.",
+        "Customers who prefer TV series will not watch TV series in cinemas.",
+        "James watches TV series in cinemas.",
+        "James subscribes to AMC A-List.",
+        "Peter prefers TV series."
+      ],
+      "premises_fol": [
+        "∀x (SubscribedTo(x, aMCAList) → EligibleForThreeFreeMovies(x))",
+        "∃x (CinemaEveryWeek(x))",
+        "∀x (Prefer(x, tVSeries) → ¬WatchTVIn(x, cinemas))",
+        "WatchTVIn(james, cinemas)",
+        "SubscribedTo(james, aMCAList)",
+        "Prefer(peter, tVSeries)"
+      ],
+      "conclusion": "Peter will not watch TV series in cinemas.",
+      "conclusion_fol": "¬WatchTVIn(peter, cinemas)",
+      "seqprover": {
+        "premises": [
+          "X@((subscribedTo(X,aMCAList) -> eligibleForThreeFreeMovies(X)))",
+          "X#(cinemaEveryWeek(X))",
+          "X@((prefer(X,tVSeries) -> ~watchTVIn(X,cinemas)))",
+          "watchTVIn(james,cinemas)",
+          "subscribedTo(james,aMCAList)",
+          "prefer(peter,tVSeries)"
+        ],
+        "conclusion": "~watchTVIn(peter,cinemas)",
+        "goal": "X@((subscribedTo(X,aMCAList) -> eligibleForThreeFreeMovies(X))), X#(cinemaEveryWeek(X)), X@((prefer(X,tVSeries) -> ~watchTVIn(X,cinemas))), watchTVIn(james,cinemas), subscribedTo(james,aMCAList), prefer(peter,tVSeries) --> ~watchTVIn(peter,cinemas)",
+        "negated_goal": "X@((subscribedTo(X,aMCAList) -> eligibleForThreeFreeMovies(X))), X#(cinemaEveryWeek(X)), X@((prefer(X,tVSeries) -> ~watchTVIn(X,cinemas))), watchTVIn(james,cinemas), subscribedTo(james,aMCAList), prefer(peter,tVSeries) --> ~ ~watchTVIn(peter,cinemas)",
+        "expected": {
+          "goal": true,
+          "negated_goal": false
+        }
+      }
+    },
+    {
+      "id": "ARG-26",
+      "folio_split": "train",
+      "folio_example_id": 67,
+      "folio_story_id": 23,
+      "label": "True",
+      "n_premises": 5,
+      "premises": [
+        "All books written by Cixin Liu have sold more than 1 million copies.",
+        "Some books that have won the Hugo Award were written by Cixin Liu.",
+        "All books about the future are forward-looking.",
+        "The book Three-Body Problem has sold more than 1 million copies.",
+        "The Three-Body Problem is about the future."
+      ],
+      "premises_fol": [
+        "∀x ((Book(x) ∧ WrittenBy(x, cixinLiu)) → ∃y(MoreThan(y, oneMillion) ∧ Sold(x,y)))",
+        "∃x (Won(x, hugoAward) ∧ Book(x) ∧ WrittenBy(x, cixinLiu))",
+        "∀x ((Book(x) ∧ AboutFuture(x)) → FowardLooking(x))",
+        "Book(threeBodyProblem) ∧ ∃y(MoreThan(y, oneMillion) ∧ Sold(threeBodyProblem,y))",
+        "AboutFuture(threeBodyProblem)"
+      ],
+      "conclusion": "The Three-Body Problem is forward-looking.",
+      "conclusion_fol": "AboutFuture(threeBodyProblem)",
+      "seqprover": {
+        "premises": [
+          "X@(((book(X) /\\ writtenBy(X,cixinLiu)) -> Y#((moreThan(Y,oneMillion) /\\ sold(X,Y)))))",
+          "X#((won(X,hugoAward) /\\ (book(X) /\\ writtenBy(X,cixinLiu))))",
+          "X@(((book(X) /\\ aboutFuture(X)) -> fowardLooking(X)))",
+          "(book(threeBodyProblem) /\\ Y#((moreThan(Y,oneMillion) /\\ sold(threeBodyProblem,Y))))",
+          "aboutFuture(threeBodyProblem)"
+        ],
+        "conclusion": "aboutFuture(threeBodyProblem)",
+        "goal": "X@(((book(X) /\\ writtenBy(X,cixinLiu)) -> Y#((moreThan(Y,oneMillion) /\\ sold(X,Y))))), X#((won(X,hugoAward) /\\ (book(X) /\\ writtenBy(X,cixinLiu)))), X@(((book(X) /\\ aboutFuture(X)) -> fowardLooking(X))), (book(threeBodyProblem) /\\ Y#((moreThan(Y,oneMillion) /\\ sold(threeBodyProblem,Y)))), aboutFuture(threeBodyProblem) --> aboutFuture(threeBodyProblem)",
+        "negated_goal": "X@(((book(X) /\\ writtenBy(X,cixinLiu)) -> Y#((moreThan(Y,oneMillion) /\\ sold(X,Y))))), X#((won(X,hugoAward) /\\ (book(X) /\\ writtenBy(X,cixinLiu)))), X@(((book(X) /\\ aboutFuture(X)) -> fowardLooking(X))), (book(threeBodyProblem) /\\ Y#((moreThan(Y,oneMillion) /\\ sold(threeBodyProblem,Y)))), aboutFuture(threeBodyProblem) --> ~aboutFuture(threeBodyProblem)",
+        "expected": {
+          "goal": true,
+          "negated_goal": false
+        }
+      }
+    },
+    {
+      "id": "ARG-27",
+      "folio_split": "train",
+      "folio_example_id": 101,
+      "folio_story_id": 35,
+      "label": "True",
+      "n_premises": 5,
+      "premises": [
+        "An Olympian is a person who trains for an Olympic sport and goes to the Olympics.",
+        "Carlos Reyes trains for an Olympic sport.",
+        "Carlos Reyes went to the Olympics.",
+        "Carlos Reyes is a welterweight.",
+        "Heavy weights are not welterweights."
+      ],
+      "premises_fol": [
+        "∀x ((DoesOlympicSport(x) ∧ GoesToOlympicGames(x)) → Olympian(x))",
+        "DoesOlympicSport(carlosReyes)",
+        "GoesToOlympicGames(carlosReyes)",
+        "WelterWeight(carlosReyes)",
+        "∀x (WelterWeight(x) → ¬ HeavyWeight(x))"
+      ],
+      "conclusion": "Carlos Reyes is an Olympian.",
+      "conclusion_fol": "Olympian(carlosReyes)",
+      "seqprover": {
+        "premises": [
+          "X@(((doesOlympicSport(X) /\\ goesToOlympicGames(X)) -> olympian(X)))",
+          "doesOlympicSport(carlosReyes)",
+          "goesToOlympicGames(carlosReyes)",
+          "welterWeight(carlosReyes)",
+          "X@((welterWeight(X) -> ~heavyWeight(X)))"
+        ],
+        "conclusion": "olympian(carlosReyes)",
+        "goal": "X@(((doesOlympicSport(X) /\\ goesToOlympicGames(X)) -> olympian(X))), doesOlympicSport(carlosReyes), goesToOlympicGames(carlosReyes), welterWeight(carlosReyes), X@((welterWeight(X) -> ~heavyWeight(X))) --> olympian(carlosReyes)",
+        "negated_goal": "X@(((doesOlympicSport(X) /\\ goesToOlympicGames(X)) -> olympian(X))), doesOlympicSport(carlosReyes), goesToOlympicGames(carlosReyes), welterWeight(carlosReyes), X@((welterWeight(X) -> ~heavyWeight(X))) --> ~olympian(carlosReyes)",
+        "expected": {
+          "goal": true,
+          "negated_goal": false
+        }
+      }
+    },
+    {
+      "id": "ARG-28",
+      "folio_split": "train",
+      "folio_example_id": 110,
+      "folio_story_id": 38,
+      "label": "True",
+      "n_premises": 5,
+      "premises": [
+        "The Metropolitan Museum of Art is a museum in NYC.",
+        "Whitney Museum of American Art is a museum in NYC.",
+        "The Museum of Modern Art (MoMA) is a museum in NYC.",
+        "The Metropolitan Museum of Art includes Byzantine and Islamic Art.",
+        "Whitney Museum of American Art includes American art."
+      ],
+      "premises_fol": [
+        "Museum(metropolitanMuseumOfArt) ∧ In(metropolitanMuseumOfArt, nYC)",
+        "Museum(whitneyMuseumOfAmericanArt) ∧ In(metropolitanMuseumOfArt, nYC)",
+        "Museum(museumOfModernArt) ∧ In(museumOfModernArt, nYC)",
+        "Include(metropolitanMuseumOfArt, byzantineArt) ∧ Include(metropolitanMuseumOfArt, islamicArt)",
+        "Include(whitneyMuseumOfAmericanArt, americanArt)"
+      ],
+      "conclusion": "A museum in NYC includes Byzantine and Islamic Art.",
+      "conclusion_fol": "∃x (Museum(x) ∧ In(x, nYC) ∧ Include(x, byzantineArt) ∧ Include(x, islamicArt))",
+      "seqprover": {
+        "premises": [
+          "(museum(metropolitanMuseumOfArt) /\\ in(metropolitanMuseumOfArt,nYC))",
+          "(museum(whitneyMuseumOfAmericanArt) /\\ in(metropolitanMuseumOfArt,nYC))",
+          "(museum(museumOfModernArt) /\\ in(museumOfModernArt,nYC))",
+          "(include(metropolitanMuseumOfArt,byzantineArt) /\\ include(metropolitanMuseumOfArt,islamicArt))",
+          "include(whitneyMuseumOfAmericanArt,americanArt)"
+        ],
+        "conclusion": "X#((museum(X) /\\ (in(X,nYC) /\\ (include(X,byzantineArt) /\\ include(X,islamicArt)))))",
+        "goal": "(museum(metropolitanMuseumOfArt) /\\ in(metropolitanMuseumOfArt,nYC)), (museum(whitneyMuseumOfAmericanArt) /\\ in(metropolitanMuseumOfArt,nYC)), (museum(museumOfModernArt) /\\ in(museumOfModernArt,nYC)), (include(metropolitanMuseumOfArt,byzantineArt) /\\ include(metropolitanMuseumOfArt,islamicArt)), include(whitneyMuseumOfAmericanArt,americanArt) --> X#((museum(X) /\\ (in(X,nYC) /\\ (include(X,byzantineArt) /\\ include(X,islamicArt)))))",
+        "negated_goal": "(museum(metropolitanMuseumOfArt) /\\ in(metropolitanMuseumOfArt,nYC)), (museum(whitneyMuseumOfAmericanArt) /\\ in(metropolitanMuseumOfArt,nYC)), (museum(museumOfModernArt) /\\ in(museumOfModernArt,nYC)), (include(metropolitanMuseumOfArt,byzantineArt) /\\ include(metropolitanMuseumOfArt,islamicArt)), include(whitneyMuseumOfAmericanArt,americanArt) --> ~X#((museum(X) /\\ (in(X,nYC) /\\ (include(X,byzantineArt) /\\ include(X,islamicArt)))))",
+        "expected": {
+          "goal": true,
+          "negated_goal": false
+        }
+      }
+    },
+    {
+      "id": "ARG-29",
+      "folio_split": "train",
+      "folio_example_id": 111,
+      "folio_story_id": 38,
+      "label": "True",
+      "n_premises": 5,
+      "premises": [
+        "The Metropolitan Museum of Art is a museum in NYC.",
+        "Whitney Museum of American Art is a museum in NYC.",
+        "The Museum of Modern Art (MoMA) is a museum in NYC.",
+        "The Metropolitan Museum of Art includes Byzantine and Islamic Art.",
+        "Whitney Museum of American Art includes American art."
+      ],
+      "premises_fol": [
+        "Museum(metropolitanMuseumOfArt) ∧ In(metropolitanMuseumOfArt, nYC)",
+        "Museum(whitneyMuseumOfAmericanArt) ∧ In(metropolitanMuseumOfArt, nYC)",
+        "Museum(museumOfModernArt) ∧ In(museumOfModernArt, nYC)",
+        "Include(metropolitanMuseumOfArt, byzantineArt) ∧ Include(metropolitanMuseumOfArt, islamicArt)",
+        "Include(whitneyMuseumOfAmericanArt, americanArt)"
+      ],
+      "conclusion": "A museum in NYC includes American art.",
+      "conclusion_fol": "∃x (Museum(x) ∧ In(x, nYC) ∧ Include(x, americanArt))",
+      "seqprover": {
+        "premises": [
+          "(museum(metropolitanMuseumOfArt) /\\ in(metropolitanMuseumOfArt,nYC))",
+          "(museum(whitneyMuseumOfAmericanArt) /\\ in(metropolitanMuseumOfArt,nYC))",
+          "(museum(museumOfModernArt) /\\ in(museumOfModernArt,nYC))",
+          "(include(metropolitanMuseumOfArt,byzantineArt) /\\ include(metropolitanMuseumOfArt,islamicArt))",
+          "include(whitneyMuseumOfAmericanArt,americanArt)"
+        ],
+        "conclusion": "X#((museum(X) /\\ (in(X,nYC) /\\ include(X,americanArt))))",
+        "goal": "(museum(metropolitanMuseumOfArt) /\\ in(metropolitanMuseumOfArt,nYC)), (museum(whitneyMuseumOfAmericanArt) /\\ in(metropolitanMuseumOfArt,nYC)), (museum(museumOfModernArt) /\\ in(museumOfModernArt,nYC)), (include(metropolitanMuseumOfArt,byzantineArt) /\\ include(metropolitanMuseumOfArt,islamicArt)), include(whitneyMuseumOfAmericanArt,americanArt) --> X#((museum(X) /\\ (in(X,nYC) /\\ include(X,americanArt))))",
+        "negated_goal": "(museum(metropolitanMuseumOfArt) /\\ in(metropolitanMuseumOfArt,nYC)), (museum(whitneyMuseumOfAmericanArt) /\\ in(metropolitanMuseumOfArt,nYC)), (museum(museumOfModernArt) /\\ in(museumOfModernArt,nYC)), (include(metropolitanMuseumOfArt,byzantineArt) /\\ include(metropolitanMuseumOfArt,islamicArt)), include(whitneyMuseumOfAmericanArt,americanArt) --> ~X#((museum(X) /\\ (in(X,nYC) /\\ include(X,americanArt))))",
+        "expected": {
+          "goal": true,
+          "negated_goal": false
+        }
+      }
+    },
+    {
+      "id": "ARG-30",
+      "folio_split": "train",
+      "folio_example_id": 119,
+      "folio_story_id": 41,
+      "label": "True",
+      "n_premises": 5,
+      "premises": [
+        "Federico Garcia Lorca was a talented Spanish poet, and he supported the Popular Front.",
+        "The Spanish Nationalists opposed anyone who supported the Popular Front",
+        "Talented poets are popular.",
+        "Spanish Nationalists killed anyone who they opposed and who was popular.",
+        "Daniel supported the Popular Front but was not popular."
+      ],
+      "premises_fol": [
+        "TalentedPoet(lorca) ∧ Support(lorca, populists)",
+        "∀x (Support(x, populists) → Opposed(nationalists, x))",
+        "∀x (TalentedPoet(x) → Popular(x))",
+        "∀x ((Opposed(nationalists, x) ∧ Popular(x)) → Killed(nationalists, x))",
+        "Support(daniel, populists) ∧ (¬Popular(daniel))"
+      ],
+      "conclusion": "The Spanish Nationalists killed Lorca.",
+      "conclusion_fol": "Killed(nationalists, lorca)",
+      "seqprover": {
+        "premises": [
+          "(talentedPoet(lorca) /\\ support(lorca,populists))",
+          "X@((support(X,populists) -> opposed(nationalists,X)))",
+          "X@((talentedPoet(X) -> popular(X)))",
+          "X@(((opposed(nationalists,X) /\\ popular(X)) -> killed(nationalists,X)))",
+          "(support(daniel,populists) /\\ ~popular(daniel))"
+        ],
+        "conclusion": "killed(nationalists,lorca)",
+        "goal": "(talentedPoet(lorca) /\\ support(lorca,populists)), X@((support(X,populists) -> opposed(nationalists,X))), X@((talentedPoet(X) -> popular(X))), X@(((opposed(nationalists,X) /\\ popular(X)) -> killed(nationalists,X))), (support(daniel,populists) /\\ ~popular(daniel)) --> killed(nationalists,lorca)",
+        "negated_goal": "(talentedPoet(lorca) /\\ support(lorca,populists)), X@((support(X,populists) -> opposed(nationalists,X))), X@((talentedPoet(X) -> popular(X))), X@(((opposed(nationalists,X) /\\ popular(X)) -> killed(nationalists,X))), (support(daniel,populists) /\\ ~popular(daniel)) --> ~killed(nationalists,lorca)",
+        "expected": {
+          "goal": true,
+          "negated_goal": false
+        }
+      }
+    },
+    {
+      "id": "ARG-31",
+      "folio_split": "validation",
       "folio_example_id": 1,
       "folio_story_id": 0,
       "label": "False",
@@ -856,7 +1338,8 @@
       }
     },
     {
-      "id": "ARG-22",
+      "id": "ARG-32",
+      "folio_split": "validation",
       "folio_example_id": 254,
       "folio_story_id": 83,
       "label": "False",
@@ -895,7 +1378,8 @@
       }
     },
     {
-      "id": "ARG-23",
+      "id": "ARG-33",
+      "folio_split": "validation",
       "folio_example_id": 304,
       "folio_story_id": 101,
       "label": "False",
@@ -934,7 +1418,8 @@
       }
     },
     {
-      "id": "ARG-24",
+      "id": "ARG-34",
+      "folio_split": "validation",
       "folio_example_id": 305,
       "folio_story_id": 101,
       "label": "False",
@@ -973,7 +1458,8 @@
       }
     },
     {
-      "id": "ARG-25",
+      "id": "ARG-35",
+      "folio_split": "validation",
       "folio_example_id": 306,
       "folio_story_id": 101,
       "label": "False",
@@ -1012,7 +1498,8 @@
       }
     },
     {
-      "id": "ARG-26",
+      "id": "ARG-36",
+      "folio_split": "validation",
       "folio_example_id": 389,
       "folio_story_id": 131,
       "label": "False",
@@ -1051,7 +1538,8 @@
       }
     },
     {
-      "id": "ARG-27",
+      "id": "ARG-37",
+      "folio_split": "validation",
       "folio_example_id": 441,
       "folio_story_id": 151,
       "label": "False",
@@ -1090,7 +1578,8 @@
       }
     },
     {
-      "id": "ARG-28",
+      "id": "ARG-38",
+      "folio_split": "validation",
       "folio_example_id": 562,
       "folio_story_id": 197,
       "label": "False",
@@ -1132,7 +1621,8 @@
       }
     },
     {
-      "id": "ARG-29",
+      "id": "ARG-39",
+      "folio_split": "validation",
       "folio_example_id": 580,
       "folio_story_id": 203,
       "label": "False",
@@ -1171,7 +1661,8 @@
       }
     },
     {
-      "id": "ARG-30",
+      "id": "ARG-40",
+      "folio_split": "validation",
       "folio_example_id": 608,
       "folio_story_id": 213,
       "label": "False",
@@ -1213,7 +1704,8 @@
       }
     },
     {
-      "id": "ARG-31",
+      "id": "ARG-41",
+      "folio_split": "validation",
       "folio_example_id": 805,
       "folio_story_id": 319,
       "label": "False",
@@ -1252,7 +1744,8 @@
       }
     },
     {
-      "id": "ARG-32",
+      "id": "ARG-42",
+      "folio_split": "validation",
       "folio_example_id": 934,
       "folio_story_id": 352,
       "label": "False",
@@ -1294,7 +1787,8 @@
       }
     },
     {
-      "id": "ARG-33",
+      "id": "ARG-43",
+      "folio_split": "validation",
       "folio_example_id": 1034,
       "folio_story_id": 386,
       "label": "False",
@@ -1336,7 +1830,8 @@
       }
     },
     {
-      "id": "ARG-34",
+      "id": "ARG-44",
+      "folio_split": "validation",
       "folio_example_id": 1272,
       "folio_story_id": 442,
       "label": "False",
@@ -1375,7 +1870,8 @@
       }
     },
     {
-      "id": "ARG-35",
+      "id": "ARG-45",
+      "folio_split": "validation",
       "folio_example_id": 1315,
       "folio_story_id": 456,
       "label": "False",
@@ -1414,7 +1910,8 @@
       }
     },
     {
-      "id": "ARG-36",
+      "id": "ARG-46",
+      "folio_split": "validation",
       "folio_example_id": 1316,
       "folio_story_id": 456,
       "label": "False",
@@ -1453,938 +1950,628 @@
       }
     },
     {
-      "id": "ARG-37",
-      "folio_example_id": 148,
-      "folio_story_id": 51,
-      "label": "False",
-      "n_premises": 3,
-      "premises": [
-        "The summer Olympic games is a sporting event.",
-        "The last summer Olympic games was in Tokyo.",
-        "The United States won the most medals in Tokyo."
-      ],
-      "premises_fol": [
-        "SportingEvent(olympics)",
-        "LastSummerOlympics(tokyo)",
-        "MostMedals(unitedStates, tokyo)"
-      ],
-      "conclusion": "The last summer Olympic games were not in Tokyo.",
-      "conclusion_fol": "¬LastSummerOlympics(tokyo)",
-      "seqprover": {
-        "premises": [
-          "sportingEvent(olympics)",
-          "lastSummerOlympics(tokyo)",
-          "mostMedals(unitedStates,tokyo)"
-        ],
-        "conclusion": "~lastSummerOlympics(tokyo)",
-        "goal": "sportingEvent(olympics), lastSummerOlympics(tokyo), mostMedals(unitedStates,tokyo) --> ~lastSummerOlympics(tokyo)",
-        "negated_goal": "sportingEvent(olympics), lastSummerOlympics(tokyo), mostMedals(unitedStates,tokyo) --> ~ ~lastSummerOlympics(tokyo)",
-        "expected": {
-          "goal": false,
-          "negated_goal": true
-        }
-      }
-    },
-    {
-      "id": "ARG-38",
-      "folio_example_id": 241,
-      "folio_story_id": 79,
-      "label": "False",
-      "n_premises": 4,
-      "premises": [
-        "Robert Lewandowski is a striker.",
-        "Strikers are soccer players.",
-        "Robert Lewandowski left Bayern Munchen.",
-        "If a player leaves a team they no longer play for that team."
-      ],
-      "premises_fol": [
-        "Striker(robertLewandowski)",
-        "∀x (Striker(x) → SoccerPlayer(x))",
-        "Left(robertLewandowski, bayernMunchen)",
-        "∀x ∀y (Left(x, y) → ¬PlaysFor(x, y))"
-      ],
-      "conclusion": "Robert Lewandowski plays for Bayern Munchen.",
-      "conclusion_fol": "PlaysFor(robertLewandowski, bayernMunchen)",
-      "seqprover": {
-        "premises": [
-          "striker(robertLewandowski)",
-          "X@((striker(X) -> soccerPlayer(X)))",
-          "left(robertLewandowski,bayernMunchen)",
-          "X@(Y@((left(X,Y) -> ~playsFor(X,Y))))"
-        ],
-        "conclusion": "playsFor(robertLewandowski,bayernMunchen)",
-        "goal": "striker(robertLewandowski), X@((striker(X) -> soccerPlayer(X))), left(robertLewandowski,bayernMunchen), X@(Y@((left(X,Y) -> ~playsFor(X,Y)))) --> playsFor(robertLewandowski,bayernMunchen)",
-        "negated_goal": "striker(robertLewandowski), X@((striker(X) -> soccerPlayer(X))), left(robertLewandowski,bayernMunchen), X@(Y@((left(X,Y) -> ~playsFor(X,Y)))) --> ~playsFor(robertLewandowski,bayernMunchen)",
-        "expected": {
-          "goal": false,
-          "negated_goal": true
-        }
-      }
-    },
-    {
-      "id": "ARG-39",
-      "folio_example_id": 291,
-      "folio_story_id": 96,
-      "label": "False",
-      "n_premises": 4,
-      "premises": [
-        "Diamond Mine is a professional wrestling stable formed in WWE.",
-        "Roderick Strong leads Diamond Mine.",
-        "Diamond Mine includes the Creed Brothers and Ivy Nile.",
-        "Imperium has a feud with Diamond Mine."
-      ],
-      "premises_fol": [
-        "ProfessionalWrestlingStable(diamondMine) ∧ In(diamondMine, wWE)",
-        "Leads(roderickStrong, diamondMine)",
-        "Includes(diamondMine, creedBrothers) ∧ Includes(diamondMine, ivyNile)",
-        "Feuds(imperium, diamondMine)"
-      ],
-      "conclusion": "Imperium doesn't have a feud with a professional wrestling stable that includes Ivy Nile.",
-      "conclusion_fol": "∀x ((ProfessionalWrestlingStable(x) ∧ Includes(x, ivynile)) → ¬Feuds(imperium, x))",
-      "seqprover": {
-        "premises": [
-          "(professionalWrestlingStable(diamondMine) /\\ in(diamondMine,wWE))",
-          "leads(roderickStrong,diamondMine)",
-          "(includes(diamondMine,creedBrothers) /\\ includes(diamondMine,ivyNile))",
-          "feuds(imperium,diamondMine)"
-        ],
-        "conclusion": "X@(((professionalWrestlingStable(X) /\\ includes(X,ivynile)) -> ~feuds(imperium,X)))",
-        "goal": "(professionalWrestlingStable(diamondMine) /\\ in(diamondMine,wWE)), leads(roderickStrong,diamondMine), (includes(diamondMine,creedBrothers) /\\ includes(diamondMine,ivyNile)), feuds(imperium,diamondMine) --> X@(((professionalWrestlingStable(X) /\\ includes(X,ivynile)) -> ~feuds(imperium,X)))",
-        "negated_goal": "(professionalWrestlingStable(diamondMine) /\\ in(diamondMine,wWE)), leads(roderickStrong,diamondMine), (includes(diamondMine,creedBrothers) /\\ includes(diamondMine,ivyNile)), feuds(imperium,diamondMine) --> ~X@(((professionalWrestlingStable(X) /\\ includes(X,ivynile)) -> ~feuds(imperium,X)))",
-        "expected": {
-          "goal": false,
-          "negated_goal": true
-        }
-      }
-    },
-    {
-      "id": "ARG-40",
-      "folio_example_id": 325,
-      "folio_story_id": 107,
-      "label": "False",
-      "n_premises": 2,
-      "premises": [
-        "Heinrich Schmidt was a German politician.",
-        "Heinrich Schmidt was also a member of the Prussian State Parliament and the Nazi Reichstag."
-      ],
-      "premises_fol": [
-        "German(heinrichSchmidt) ∧ Politician(heinrichSchmidt)",
-        "Member(heinrichSchmidt, prussianStateParliament) ∧ Member(heinrichSchmidt, naziReichstag)"
-      ],
-      "conclusion": "No politicians are part of the Nazi Reichstag.",
-      "conclusion_fol": "∀x (Politician(x) → ¬Member(x, naziReichstag))",
-      "seqprover": {
-        "premises": [
-          "(german(heinrichSchmidt) /\\ politician(heinrichSchmidt))",
-          "(member(heinrichSchmidt,prussianStateParliament) /\\ member(heinrichSchmidt,naziReichstag))"
-        ],
-        "conclusion": "X@((politician(X) -> ~member(X,naziReichstag)))",
-        "goal": "(german(heinrichSchmidt) /\\ politician(heinrichSchmidt)), (member(heinrichSchmidt,prussianStateParliament) /\\ member(heinrichSchmidt,naziReichstag)) --> X@((politician(X) -> ~member(X,naziReichstag)))",
-        "negated_goal": "(german(heinrichSchmidt) /\\ politician(heinrichSchmidt)), (member(heinrichSchmidt,prussianStateParliament) /\\ member(heinrichSchmidt,naziReichstag)) --> ~X@((politician(X) -> ~member(X,naziReichstag)))",
-        "expected": {
-          "goal": false,
-          "negated_goal": true
-        }
-      }
-    },
-    {
-      "id": "ARG-41",
-      "folio_example_id": 2,
-      "folio_story_id": 0,
-      "label": "Uncertain",
-      "n_premises": 6,
-      "premises": [
-        "There are six types of wild turkeys: Eastern wild turkey, Osceola wild turkey, Gould’s wild turkey, Merriam’s wild turkey, Rio Grande wild turkey, and Ocellated wild turkey.",
-        "Tom is not an Eastern wild turkey.",
-        "Tom is not an Osceola wild turkey.",
-        "Tom is not a Gould's wild turkey.",
-        "Tom is neither a Merriam's wild turkey nor a Rio Grande wild turkey.",
-        "Tom is a wild turkey."
-      ],
-      "premises_fol": [
-        "∀x (WildTurkey(x) → (EasternWildTurkey(x) ∨ OsceolaWildTurkey(x) ∨ GouldsWildTurkey(x) ∨ MerriamsWildTurkey(x) ∨ RiograndeWildTurkey(x) ∨ OcellatedWildTurkey(x)))",
-        "¬(EasternWildTurkey(tom))",
-        "¬(OsceolaWildTurkey(tom))",
-        "¬(GouldsWildTurkey(tom))",
-        "¬(MerriamsWildTurkey(tom) ∨ RiograndeWildTurkey(tom))",
-        "WildTurkey(tom)"
-      ],
-      "conclusion": "Joey is a wild turkey.",
-      "conclusion_fol": "WildTurkey(joey)",
-      "seqprover": {
-        "premises": [
-          "X@((wildTurkey(X) -> (easternWildTurkey(X) \\/ (osceolaWildTurkey(X) \\/ (gouldsWildTurkey(X) \\/ (merriamsWildTurkey(X) \\/ (riograndeWildTurkey(X) \\/ ocellatedWildTurkey(X))))))))",
-          "~easternWildTurkey(tom)",
-          "~osceolaWildTurkey(tom)",
-          "~gouldsWildTurkey(tom)",
-          "~(merriamsWildTurkey(tom) \\/ riograndeWildTurkey(tom))",
-          "wildTurkey(tom)"
-        ],
-        "conclusion": "wildTurkey(joey)",
-        "goal": "X@((wildTurkey(X) -> (easternWildTurkey(X) \\/ (osceolaWildTurkey(X) \\/ (gouldsWildTurkey(X) \\/ (merriamsWildTurkey(X) \\/ (riograndeWildTurkey(X) \\/ ocellatedWildTurkey(X)))))))), ~easternWildTurkey(tom), ~osceolaWildTurkey(tom), ~gouldsWildTurkey(tom), ~(merriamsWildTurkey(tom) \\/ riograndeWildTurkey(tom)), wildTurkey(tom) --> wildTurkey(joey)",
-        "negated_goal": "X@((wildTurkey(X) -> (easternWildTurkey(X) \\/ (osceolaWildTurkey(X) \\/ (gouldsWildTurkey(X) \\/ (merriamsWildTurkey(X) \\/ (riograndeWildTurkey(X) \\/ ocellatedWildTurkey(X)))))))), ~easternWildTurkey(tom), ~osceolaWildTurkey(tom), ~gouldsWildTurkey(tom), ~(merriamsWildTurkey(tom) \\/ riograndeWildTurkey(tom)), wildTurkey(tom) --> ~wildTurkey(joey)",
-        "expected": {
-          "goal": false,
-          "negated_goal": false
-        }
-      }
-    },
-    {
-      "id": "ARG-42",
-      "folio_example_id": 244,
-      "folio_story_id": 80,
-      "label": "Uncertain",
-      "n_premises": 5,
-      "premises": [
-        "New Vessel Press is a publishing house specializing in translating foreign literature into English.",
-        "All of New Vessel Press's published books are in English.",
-        "Neapolitan Chronicles is a book published by New Vessel Press.",
-        "Neapolitan Chronicles was translated from Italian.",
-        "Palace of Flies is a book published by New Vessel Press."
-      ],
-      "premises_fol": [
-        "PublishingHouse(newVesselPress) ∧ SpecializesInTranslatingIntoEnglish(newVesselPress, foreignLiterature)",
-        "∀x ((Book(x) ∧ PublishedBy(x, newVesselPress)) → In(x, english))",
-        "Book(neapolitanChronicles) ∧ PublishedBy(neapolitanChronicles, newVesselPress)",
-        "TranslatedFrom(neapolitanChronicles, italian)",
-        "Book(palaceOfFlies) ∧ PublishedBy(palaceOfFlies, newVesselPress)"
-      ],
-      "conclusion": "Harry Potter was published by New Vessel Press.",
-      "conclusion_fol": "PublishedBy(harryPotter, newVesselPress)",
-      "seqprover": {
-        "premises": [
-          "(publishingHouse(newVesselPress) /\\ specializesInTranslatingIntoEnglish(newVesselPress,foreignLiterature))",
-          "X@(((book(X) /\\ publishedBy(X,newVesselPress)) -> in(X,english)))",
-          "(book(neapolitanChronicles) /\\ publishedBy(neapolitanChronicles,newVesselPress))",
-          "translatedFrom(neapolitanChronicles,italian)",
-          "(book(palaceOfFlies) /\\ publishedBy(palaceOfFlies,newVesselPress))"
-        ],
-        "conclusion": "publishedBy(harryPotter,newVesselPress)",
-        "goal": "(publishingHouse(newVesselPress) /\\ specializesInTranslatingIntoEnglish(newVesselPress,foreignLiterature)), X@(((book(X) /\\ publishedBy(X,newVesselPress)) -> in(X,english))), (book(neapolitanChronicles) /\\ publishedBy(neapolitanChronicles,newVesselPress)), translatedFrom(neapolitanChronicles,italian), (book(palaceOfFlies) /\\ publishedBy(palaceOfFlies,newVesselPress)) --> publishedBy(harryPotter,newVesselPress)",
-        "negated_goal": "(publishingHouse(newVesselPress) /\\ specializesInTranslatingIntoEnglish(newVesselPress,foreignLiterature)), X@(((book(X) /\\ publishedBy(X,newVesselPress)) -> in(X,english))), (book(neapolitanChronicles) /\\ publishedBy(neapolitanChronicles,newVesselPress)), translatedFrom(neapolitanChronicles,italian), (book(palaceOfFlies) /\\ publishedBy(palaceOfFlies,newVesselPress)) --> ~publishedBy(harryPotter,newVesselPress)",
-        "expected": {
-          "goal": false,
-          "negated_goal": false
-        }
-      }
-    },
-    {
-      "id": "ARG-43",
-      "folio_example_id": 245,
-      "folio_story_id": 80,
-      "label": "Uncertain",
-      "n_premises": 5,
-      "premises": [
-        "New Vessel Press is a publishing house specializing in translating foreign literature into English.",
-        "All of New Vessel Press's published books are in English.",
-        "Neapolitan Chronicles is a book published by New Vessel Press.",
-        "Neapolitan Chronicles was translated from Italian.",
-        "Palace of Flies is a book published by New Vessel Press."
-      ],
-      "premises_fol": [
-        "PublishingHouse(newVesselPress) ∧ SpecializesInTranslatingIntoEnglish(newVesselPress, foreignLiterature)",
-        "∀x ((Book(x) ∧ PublishedBy(x, newVesselPress)) → In(x, english))",
-        "Book(neapolitanChronicles) ∧ PublishedBy(neapolitanChronicles, newVesselPress)",
-        "TranslatedFrom(neapolitanChronicles, italian)",
-        "Book(palaceOfFlies) ∧ PublishedBy(palaceOfFlies, newVesselPress)"
-      ],
-      "conclusion": "Palace of Flies was translated from Italian.",
-      "conclusion_fol": "TranslatedFrom(palaceOfFlies, italian)",
-      "seqprover": {
-        "premises": [
-          "(publishingHouse(newVesselPress) /\\ specializesInTranslatingIntoEnglish(newVesselPress,foreignLiterature))",
-          "X@(((book(X) /\\ publishedBy(X,newVesselPress)) -> in(X,english)))",
-          "(book(neapolitanChronicles) /\\ publishedBy(neapolitanChronicles,newVesselPress))",
-          "translatedFrom(neapolitanChronicles,italian)",
-          "(book(palaceOfFlies) /\\ publishedBy(palaceOfFlies,newVesselPress))"
-        ],
-        "conclusion": "translatedFrom(palaceOfFlies,italian)",
-        "goal": "(publishingHouse(newVesselPress) /\\ specializesInTranslatingIntoEnglish(newVesselPress,foreignLiterature)), X@(((book(X) /\\ publishedBy(X,newVesselPress)) -> in(X,english))), (book(neapolitanChronicles) /\\ publishedBy(neapolitanChronicles,newVesselPress)), translatedFrom(neapolitanChronicles,italian), (book(palaceOfFlies) /\\ publishedBy(palaceOfFlies,newVesselPress)) --> translatedFrom(palaceOfFlies,italian)",
-        "negated_goal": "(publishingHouse(newVesselPress) /\\ specializesInTranslatingIntoEnglish(newVesselPress,foreignLiterature)), X@(((book(X) /\\ publishedBy(X,newVesselPress)) -> in(X,english))), (book(neapolitanChronicles) /\\ publishedBy(neapolitanChronicles,newVesselPress)), translatedFrom(neapolitanChronicles,italian), (book(palaceOfFlies) /\\ publishedBy(palaceOfFlies,newVesselPress)) --> ~translatedFrom(palaceOfFlies,italian)",
-        "expected": {
-          "goal": false,
-          "negated_goal": false
-        }
-      }
-    },
-    {
-      "id": "ARG-44",
-      "folio_example_id": 439,
-      "folio_story_id": 151,
-      "label": "Uncertain",
-      "n_premises": 5,
-      "premises": [
-        "Barutin Cove is a cove named after the Bulgarian settlement of Barutin.",
-        "Barutin Cove is on the southwest coast of Snow Island.",
-        "Snow Island, Greenwich Island, and Deception Island are located in the South Shetland Islands.",
-        "Antarctica is located on the South Shetland Islands.",
-        "If place A is located in place B and place B is located in place C, then place A is located in place C."
-      ],
-      "premises_fol": [
-        "Cove(barutinCove) ∧ NamedAfter(barutinCove, barutinSettlement) ∧ LocatedIn(barutinSettlement, bulgaria)",
-        "LocatedIn(barutinCove, snowIsland)",
-        "LocatedIn(snowIsland, southShetlandIslands) ∧ LocatedIn(greenwichIsland, southShetlandIslands) ∧ LocatedIn(deceptionIsland, southShetlandIslands)",
-        "LocatedIn(southShetlandIslands, antarctica)",
-        "∀x ∀y ∀z ((LocatedIn(x, y) ∧ LocatedIn(y, z)) → LocatedIn(x, z))"
-      ],
-      "conclusion": "Barutin Cove is named after all islands in Antarctica.",
-      "conclusion_fol": "∀x (LocatedIn(x, antarctica) → NamedAfter(barutinCove, x))",
-      "seqprover": {
-        "premises": [
-          "(cove(barutinCove) /\\ (namedAfter(barutinCove,barutinSettlement) /\\ locatedIn(barutinSettlement,bulgaria)))",
-          "locatedIn(barutinCove,snowIsland)",
-          "(locatedIn(snowIsland,southShetlandIslands) /\\ (locatedIn(greenwichIsland,southShetlandIslands) /\\ locatedIn(deceptionIsland,southShetlandIslands)))",
-          "locatedIn(southShetlandIslands,antarctica)",
-          "X@(Y@(Z@(((locatedIn(X,Y) /\\ locatedIn(Y,Z)) -> locatedIn(X,Z)))))"
-        ],
-        "conclusion": "X@((locatedIn(X,antarctica) -> namedAfter(barutinCove,X)))",
-        "goal": "(cove(barutinCove) /\\ (namedAfter(barutinCove,barutinSettlement) /\\ locatedIn(barutinSettlement,bulgaria))), locatedIn(barutinCove,snowIsland), (locatedIn(snowIsland,southShetlandIslands) /\\ (locatedIn(greenwichIsland,southShetlandIslands) /\\ locatedIn(deceptionIsland,southShetlandIslands))), locatedIn(southShetlandIslands,antarctica), X@(Y@(Z@(((locatedIn(X,Y) /\\ locatedIn(Y,Z)) -> locatedIn(X,Z))))) --> X@((locatedIn(X,antarctica) -> namedAfter(barutinCove,X)))",
-        "negated_goal": "(cove(barutinCove) /\\ (namedAfter(barutinCove,barutinSettlement) /\\ locatedIn(barutinSettlement,bulgaria))), locatedIn(barutinCove,snowIsland), (locatedIn(snowIsland,southShetlandIslands) /\\ (locatedIn(greenwichIsland,southShetlandIslands) /\\ locatedIn(deceptionIsland,southShetlandIslands))), locatedIn(southShetlandIslands,antarctica), X@(Y@(Z@(((locatedIn(X,Y) /\\ locatedIn(Y,Z)) -> locatedIn(X,Z))))) --> ~X@((locatedIn(X,antarctica) -> namedAfter(barutinCove,X)))",
-        "expected": {
-          "goal": false,
-          "negated_goal": false
-        }
-      }
-    },
-    {
-      "id": "ARG-45",
-      "folio_example_id": 564,
-      "folio_story_id": 198,
-      "label": "Uncertain",
-      "n_premises": 6,
-      "premises": [
-        "When the Monkeypox virus occurs in a being, it may get Monkeypox.",
-        "Monkeypox virus can occur in certain animals.",
-        "Humans are mammals.",
-        "Mammals are animals.",
-        "Symptoms of Monkeypox include fever, headache, muscle pains, and tiredness.",
-        "People feel tired when they get the flu."
-      ],
-      "premises_fol": [
-        "∃x (OccurIn(monkeypoxVirus, x) ∧ Get(x, monkeypoxVirus))",
-        "∃x (Animal(x) ∧ OccurIn(monkeypoxVirus, x))",
-        "∀x (Human(x) → Mammal(x))",
-        "∀x (Mammal(x) → Animal(x))",
-        "∃x (SymptonOf(x, monkeypoxVirus) ∧ (Fever(x) ∨ Headache(x) ∨ MusclePain(x) ∨ Tired(x)))",
-        "∀x (Human(x) ∧ Get(x, flu) → Feel(x, tired))"
-      ],
-      "conclusion": "No one gets the flu.",
-      "conclusion_fol": "∀x (Human(x) → ¬Get(x, flu))",
-      "seqprover": {
-        "premises": [
-          "X#((occurIn(monkeypoxVirus,X) /\\ get(X,monkeypoxVirus)))",
-          "X#((animal(X) /\\ occurIn(monkeypoxVirus,X)))",
-          "X@((human(X) -> mammal(X)))",
-          "X@((mammal(X) -> animal(X)))",
-          "X#((symptonOf(X,monkeypoxVirus) /\\ (fever(X) \\/ (headache(X) \\/ (musclePain(X) \\/ tired(X))))))",
-          "X@(((human(X) /\\ get(X,flu)) -> feel(X,tired)))"
-        ],
-        "conclusion": "X@((human(X) -> ~get(X,flu)))",
-        "goal": "X#((occurIn(monkeypoxVirus,X) /\\ get(X,monkeypoxVirus))), X#((animal(X) /\\ occurIn(monkeypoxVirus,X))), X@((human(X) -> mammal(X))), X@((mammal(X) -> animal(X))), X#((symptonOf(X,monkeypoxVirus) /\\ (fever(X) \\/ (headache(X) \\/ (musclePain(X) \\/ tired(X)))))), X@(((human(X) /\\ get(X,flu)) -> feel(X,tired))) --> X@((human(X) -> ~get(X,flu)))",
-        "negated_goal": "X#((occurIn(monkeypoxVirus,X) /\\ get(X,monkeypoxVirus))), X#((animal(X) /\\ occurIn(monkeypoxVirus,X))), X@((human(X) -> mammal(X))), X@((mammal(X) -> animal(X))), X#((symptonOf(X,monkeypoxVirus) /\\ (fever(X) \\/ (headache(X) \\/ (musclePain(X) \\/ tired(X)))))), X@(((human(X) /\\ get(X,flu)) -> feel(X,tired))) --> ~X@((human(X) -> ~get(X,flu)))",
-        "expected": {
-          "goal": false,
-          "negated_goal": false
-        }
-      }
-    },
-    {
-      "id": "ARG-46",
-      "folio_example_id": 565,
-      "folio_story_id": 198,
-      "label": "Uncertain",
-      "n_premises": 6,
-      "premises": [
-        "When the Monkeypox virus occurs in a being, it may get Monkeypox.",
-        "Monkeypox virus can occur in certain animals.",
-        "Humans are mammals.",
-        "Mammals are animals.",
-        "Symptoms of Monkeypox include fever, headache, muscle pains, and tiredness.",
-        "People feel tired when they get the flu."
-      ],
-      "premises_fol": [
-        "∃x (OccurIn(monkeypoxVirus, x) ∧ Get(x, monkeypoxVirus))",
-        "∃x (Animal(x) ∧ OccurIn(monkeypoxVirus, x))",
-        "∀x (Human(x) → Mammal(x))",
-        "∀x (Mammal(x) → Animal(x))",
-        "∃x (SymptonOf(x, monkeypoxVirus) ∧ (Fever(x) ∨ Headache(x) ∨ MusclePain(x) ∨ Tired(x)))",
-        "∀x (Human(x) ∧ Get(x, flu) → Feel(x, tired))"
-      ],
-      "conclusion": "Symptoms of Monkeypox include coughing.",
-      "conclusion_fol": "∃x (SymptonOf(x, monkeypoxVirus) ∧ Coughing(x))",
-      "seqprover": {
-        "premises": [
-          "X#((occurIn(monkeypoxVirus,X) /\\ get(X,monkeypoxVirus)))",
-          "X#((animal(X) /\\ occurIn(monkeypoxVirus,X)))",
-          "X@((human(X) -> mammal(X)))",
-          "X@((mammal(X) -> animal(X)))",
-          "X#((symptonOf(X,monkeypoxVirus) /\\ (fever(X) \\/ (headache(X) \\/ (musclePain(X) \\/ tired(X))))))",
-          "X@(((human(X) /\\ get(X,flu)) -> feel(X,tired)))"
-        ],
-        "conclusion": "X#((symptonOf(X,monkeypoxVirus) /\\ coughing(X)))",
-        "goal": "X#((occurIn(monkeypoxVirus,X) /\\ get(X,monkeypoxVirus))), X#((animal(X) /\\ occurIn(monkeypoxVirus,X))), X@((human(X) -> mammal(X))), X@((mammal(X) -> animal(X))), X#((symptonOf(X,monkeypoxVirus) /\\ (fever(X) \\/ (headache(X) \\/ (musclePain(X) \\/ tired(X)))))), X@(((human(X) /\\ get(X,flu)) -> feel(X,tired))) --> X#((symptonOf(X,monkeypoxVirus) /\\ coughing(X)))",
-        "negated_goal": "X#((occurIn(monkeypoxVirus,X) /\\ get(X,monkeypoxVirus))), X#((animal(X) /\\ occurIn(monkeypoxVirus,X))), X@((human(X) -> mammal(X))), X@((mammal(X) -> animal(X))), X#((symptonOf(X,monkeypoxVirus) /\\ (fever(X) \\/ (headache(X) \\/ (musclePain(X) \\/ tired(X)))))), X@(((human(X) /\\ get(X,flu)) -> feel(X,tired))) --> ~X#((symptonOf(X,monkeypoxVirus) /\\ coughing(X)))",
-        "expected": {
-          "goal": false,
-          "negated_goal": false
-        }
-      }
-    },
-    {
       "id": "ARG-47",
-      "folio_example_id": 579,
-      "folio_story_id": 203,
-      "label": "Uncertain",
-      "n_premises": 5,
+      "folio_split": "train",
+      "folio_example_id": 19,
+      "folio_story_id": 7,
+      "label": "False",
+      "n_premises": 9,
       "premises": [
-        "Plungers suck.",
-        "Vacuums suck.",
-        "Vampires suck.",
-        "Space is a vacuum.",
-        "A duster is a household appliance that doesn't suck."
+        "Six, seven and eight are real numbers.",
+        "If a real number equals another real number added by one, the first number is larger.",
+        "If the number x is larger than the number y, then y is not larger than x.",
+        "Seven equals six plus one.",
+        "Eight equals seven plus one.",
+        "Two is positive.",
+        "If a number is positive, then the double of it is also positive.",
+        "Eight is the double of four.",
+        "Four is the double of two."
       ],
       "premises_fol": [
-        "∀x (Plunger(x) → Suck(x))",
-        "∀x (Vacuum(x) → Suck(x))",
-        "∀x (Vampire(x) → Suck(x))",
-        "Vacuum(space)",
-        "HouseholdAppliance(duster) ∧ ¬Suck(duster)"
+        "RealNum(num6) ∧ RealNum(num7) ∧ RealNum(num8)",
+        "∀x ∀y ((RealNum(x) ∧ RealNum(y) ∧ IsSuccessorOf(x, y)) → Larger(x, y))",
+        "∀x ∀y (Larger(x, y) → ¬Larger(y, x))",
+        "∃y(IsSuccessorOf(y, num6) ∧ Equals(num7, y))",
+        "∃y(IsSuccessorOf(y, num7) ∧ Equals(num8, y))",
+        "Positive(num2)",
+        "∀x ∀y ((Positive(x) ∧ IsDouble(y, x)) → Positive(y))",
+        "IsDouble(num8, num4)",
+        "IsDouble(num4, num2)"
       ],
-      "conclusion": "Space is a vampire.",
-      "conclusion_fol": "Vampire(space)",
+      "conclusion": "Six is larger than seven.",
+      "conclusion_fol": "Larger(six, seven)",
       "seqprover": {
         "premises": [
-          "X@((plunger(X) -> suck(X)))",
-          "X@((vacuum(X) -> suck(X)))",
-          "X@((vampire(X) -> suck(X)))",
-          "vacuum(space)",
-          "(householdAppliance(duster) /\\ ~suck(duster))"
+          "(realNum(num6) /\\ (realNum(num7) /\\ realNum(num8)))",
+          "X@(Y@(((realNum(X) /\\ (realNum(Y) /\\ isSuccessorOf(X,Y))) -> larger(X,Y))))",
+          "X@(Y@((larger(X,Y) -> ~larger(Y,X))))",
+          "Y#((isSuccessorOf(Y,num6) /\\ equals(num7,Y)))",
+          "Y#((isSuccessorOf(Y,num7) /\\ equals(num8,Y)))",
+          "positive(num2)",
+          "X@(Y@(((positive(X) /\\ isDouble(Y,X)) -> positive(Y))))",
+          "isDouble(num8,num4)",
+          "isDouble(num4,num2)"
         ],
-        "conclusion": "vampire(space)",
-        "goal": "X@((plunger(X) -> suck(X))), X@((vacuum(X) -> suck(X))), X@((vampire(X) -> suck(X))), vacuum(space), (householdAppliance(duster) /\\ ~suck(duster)) --> vampire(space)",
-        "negated_goal": "X@((plunger(X) -> suck(X))), X@((vacuum(X) -> suck(X))), X@((vampire(X) -> suck(X))), vacuum(space), (householdAppliance(duster) /\\ ~suck(duster)) --> ~vampire(space)",
+        "conclusion": "larger(six,seven)",
+        "goal": "(realNum(num6) /\\ (realNum(num7) /\\ realNum(num8))), X@(Y@(((realNum(X) /\\ (realNum(Y) /\\ isSuccessorOf(X,Y))) -> larger(X,Y)))), X@(Y@((larger(X,Y) -> ~larger(Y,X)))), Y#((isSuccessorOf(Y,num6) /\\ equals(num7,Y))), Y#((isSuccessorOf(Y,num7) /\\ equals(num8,Y))), positive(num2), X@(Y@(((positive(X) /\\ isDouble(Y,X)) -> positive(Y)))), isDouble(num8,num4), isDouble(num4,num2) --> larger(six,seven)",
+        "negated_goal": "(realNum(num6) /\\ (realNum(num7) /\\ realNum(num8))), X@(Y@(((realNum(X) /\\ (realNum(Y) /\\ isSuccessorOf(X,Y))) -> larger(X,Y)))), X@(Y@((larger(X,Y) -> ~larger(Y,X)))), Y#((isSuccessorOf(Y,num6) /\\ equals(num7,Y))), Y#((isSuccessorOf(Y,num7) /\\ equals(num8,Y))), positive(num2), X@(Y@(((positive(X) /\\ isDouble(Y,X)) -> positive(Y)))), isDouble(num8,num4), isDouble(num4,num2) --> ~larger(six,seven)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-48",
-      "folio_example_id": 609,
-      "folio_story_id": 213,
-      "label": "Uncertain",
+      "folio_split": "train",
+      "folio_example_id": 37,
+      "folio_story_id": 13,
+      "label": "False",
       "n_premises": 6,
       "premises": [
-        "All Romance languages are Indo-European languages.",
-        "Romance languages are a language family.",
-        "All languages within a language family are related to each other.",
-        "French and Spanish are both Romance languages.",
-        "German is related to Spanish.",
-        "Basque is not related to any other language."
+        "System 7 is a UK-based electronic dance music band.",
+        "Steve Hillage and Miquette Giraudy formed System 7.",
+        "Steve Hillage and Miquette Giraudy are former members of the band Gong.",
+        "Electric dance music bands are bands.",
+        "System 7 has released several club singles.",
+        "Club singles are not singles."
       ],
       "premises_fol": [
-        "∀x (RomanceLanguage(x) → IndoEuropeanLanguage(x))",
-        "∀x (RomanceLanguage(x) → MemberOf(x, languageFamily))",
-        "∀x ∀y ∀z ((MemberOf(x, z) ∧ MemberOf(y, z)) → (Related(x, y) ∧ Related(y, x)))",
-        "RomanceLanguage(french) ∧ RomanceLanguage(spanish)",
-        "Related(german, spanish)",
-        "∀x (Language(x) → ¬Related(basque, x))"
+        "BasedIn(system7, uk) ∧ ElectronicDanceMusicBand(system7)",
+        "Form(stevehillage, system7) ∧ Form(miquettegiraudy, system7)",
+        "FormerMemberOf(stevehillage, gong) ∧ FormerMemberOf(miquettegiraudy, gong)",
+        "∀x (ElectronicDanceMusicBand(x) → Band(x))",
+        "∃x (ClubSingle(x) ∧ Release(system7, x))",
+        "∀x (ClubSingle(x) → ¬Single(x))"
       ],
-      "conclusion": "German is a Romance language.",
-      "conclusion_fol": "RomanceLanguage(german)",
+      "conclusion": "System 7 is not a band.",
+      "conclusion_fol": "¬Band(system7)",
       "seqprover": {
         "premises": [
-          "X@((romanceLanguage(X) -> indoEuropeanLanguage(X)))",
-          "X@((romanceLanguage(X) -> memberOf(X,languageFamily)))",
-          "X@(Y@(Z@(((memberOf(X,Z) /\\ memberOf(Y,Z)) -> (related(X,Y) /\\ related(Y,X))))))",
-          "(romanceLanguage(french) /\\ romanceLanguage(spanish))",
-          "related(german,spanish)",
-          "X@((language(X) -> ~related(basque,X)))"
+          "(basedIn(system7,uk) /\\ electronicDanceMusicBand(system7))",
+          "(form(stevehillage,system7) /\\ form(miquettegiraudy,system7))",
+          "(formerMemberOf(stevehillage,gong) /\\ formerMemberOf(miquettegiraudy,gong))",
+          "X@((electronicDanceMusicBand(X) -> band(X)))",
+          "X#((clubSingle(X) /\\ release(system7,X)))",
+          "X@((clubSingle(X) -> ~single(X)))"
         ],
-        "conclusion": "romanceLanguage(german)",
-        "goal": "X@((romanceLanguage(X) -> indoEuropeanLanguage(X))), X@((romanceLanguage(X) -> memberOf(X,languageFamily))), X@(Y@(Z@(((memberOf(X,Z) /\\ memberOf(Y,Z)) -> (related(X,Y) /\\ related(Y,X)))))), (romanceLanguage(french) /\\ romanceLanguage(spanish)), related(german,spanish), X@((language(X) -> ~related(basque,X))) --> romanceLanguage(german)",
-        "negated_goal": "X@((romanceLanguage(X) -> indoEuropeanLanguage(X))), X@((romanceLanguage(X) -> memberOf(X,languageFamily))), X@(Y@(Z@(((memberOf(X,Z) /\\ memberOf(Y,Z)) -> (related(X,Y) /\\ related(Y,X)))))), (romanceLanguage(french) /\\ romanceLanguage(spanish)), related(german,spanish), X@((language(X) -> ~related(basque,X))) --> ~romanceLanguage(german)",
+        "conclusion": "~band(system7)",
+        "goal": "(basedIn(system7,uk) /\\ electronicDanceMusicBand(system7)), (form(stevehillage,system7) /\\ form(miquettegiraudy,system7)), (formerMemberOf(stevehillage,gong) /\\ formerMemberOf(miquettegiraudy,gong)), X@((electronicDanceMusicBand(X) -> band(X))), X#((clubSingle(X) /\\ release(system7,X))), X@((clubSingle(X) -> ~single(X))) --> ~band(system7)",
+        "negated_goal": "(basedIn(system7,uk) /\\ electronicDanceMusicBand(system7)), (form(stevehillage,system7) /\\ form(miquettegiraudy,system7)), (formerMemberOf(stevehillage,gong) /\\ formerMemberOf(miquettegiraudy,gong)), X@((electronicDanceMusicBand(X) -> band(X))), X#((clubSingle(X) /\\ release(system7,X))), X@((clubSingle(X) -> ~single(X))) --> ~ ~band(system7)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-49",
-      "folio_example_id": 658,
-      "folio_story_id": 232,
-      "label": "Uncertain",
-      "n_premises": 6,
+      "folio_split": "train",
+      "folio_example_id": 40,
+      "folio_story_id": 14,
+      "label": "False",
+      "n_premises": 5,
       "premises": [
-        "Beijing is the capital of the People's Republic of China.",
-        "Beijing is the capital city of the world's most populous nation.",
-        "Beijing is located in Northern China.",
-        "Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.",
-        "Beijing has hosted the Summer and Winter Olympics and the Summer and Winter Paralympics.",
-        "Many of Beijing's 91 universities consistently rank among the best universities in the world."
+        "The USS Salem is a heavy cruiser built for the United States Navy.",
+        "The last heavy cruiser to enter service was the USS Salem.",
+        "The USS Salem is a museum ship.",
+        "Museum ships are open to the public.",
+        "The USS Salem served in the Atlantic and Mediterranean."
       ],
       "premises_fol": [
-        "CapitalOf(beijing, peoplesRepublicOfChina)",
-        "∃x (CapitalOf(beijing, x) → WorldsMostPopulousNation(x))",
-        "LocatedIn(beijing, northernChina)",
-        "Hosted(beijing, 2008SummerOlympics) ∧ Hosted(beijing, 2008SummerParalympicGames)",
-        "Hosted(beijing, summerOlympics) ∧ Hosted(beijing, winterOlympics) ∧ Hosted(beijing, summerParalympicGames)  ∧ Hosted(beijing, winterParalympicGames)",
-        "∃x (University(x) ∧ InBeijing(x) ∧ ConsistentlyRankAmongTheBestIn(x, theWorld))"
+        "HeavyCruiser(usssalem) ∧ BuiltFor(usssalem, unitedstatesnavy)",
+        "LastHeavyCruiserToEnterService(usssalem)",
+        "MuseumShip(usssalem)",
+        "∀x (MuseumShip(x) → OpenToPublic(x))",
+        "ServedIn(usssalem, atlantic) ∧ ServedIn(usssalem, mediterranean)"
       ],
-      "conclusion": "Beijing is located in southern China.",
-      "conclusion_fol": "LocatedIn(beijing, southernChina)",
+      "conclusion": "The USS Salem was not the last heavy cruiser to enter service.",
+      "conclusion_fol": "¬LastHeavyCruiserToEnterService(usssalem)",
       "seqprover": {
         "premises": [
-          "capitalOf(beijing,peoplesRepublicOfChina)",
-          "X#((capitalOf(beijing,X) -> worldsMostPopulousNation(X)))",
-          "locatedIn(beijing,northernChina)",
-          "(hosted(beijing,'2008SummerOlympics') /\\ hosted(beijing,'2008SummerParalympicGames'))",
-          "(hosted(beijing,summerOlympics) /\\ (hosted(beijing,winterOlympics) /\\ (hosted(beijing,summerParalympicGames) /\\ hosted(beijing,winterParalympicGames))))",
-          "X#((university(X) /\\ (inBeijing(X) /\\ consistentlyRankAmongTheBestIn(X,theWorld))))"
+          "(heavyCruiser(usssalem) /\\ builtFor(usssalem,unitedstatesnavy))",
+          "lastHeavyCruiserToEnterService(usssalem)",
+          "museumShip(usssalem)",
+          "X@((museumShip(X) -> openToPublic(X)))",
+          "(servedIn(usssalem,atlantic) /\\ servedIn(usssalem,mediterranean))"
         ],
-        "conclusion": "locatedIn(beijing,southernChina)",
-        "goal": "capitalOf(beijing,peoplesRepublicOfChina), X#((capitalOf(beijing,X) -> worldsMostPopulousNation(X))), locatedIn(beijing,northernChina), (hosted(beijing,'2008SummerOlympics') /\\ hosted(beijing,'2008SummerParalympicGames')), (hosted(beijing,summerOlympics) /\\ (hosted(beijing,winterOlympics) /\\ (hosted(beijing,summerParalympicGames) /\\ hosted(beijing,winterParalympicGames)))), X#((university(X) /\\ (inBeijing(X) /\\ consistentlyRankAmongTheBestIn(X,theWorld)))) --> locatedIn(beijing,southernChina)",
-        "negated_goal": "capitalOf(beijing,peoplesRepublicOfChina), X#((capitalOf(beijing,X) -> worldsMostPopulousNation(X))), locatedIn(beijing,northernChina), (hosted(beijing,'2008SummerOlympics') /\\ hosted(beijing,'2008SummerParalympicGames')), (hosted(beijing,summerOlympics) /\\ (hosted(beijing,winterOlympics) /\\ (hosted(beijing,summerParalympicGames) /\\ hosted(beijing,winterParalympicGames)))), X#((university(X) /\\ (inBeijing(X) /\\ consistentlyRankAmongTheBestIn(X,theWorld)))) --> ~locatedIn(beijing,southernChina)",
+        "conclusion": "~lastHeavyCruiserToEnterService(usssalem)",
+        "goal": "(heavyCruiser(usssalem) /\\ builtFor(usssalem,unitedstatesnavy)), lastHeavyCruiserToEnterService(usssalem), museumShip(usssalem), X@((museumShip(X) -> openToPublic(X))), (servedIn(usssalem,atlantic) /\\ servedIn(usssalem,mediterranean)) --> ~lastHeavyCruiserToEnterService(usssalem)",
+        "negated_goal": "(heavyCruiser(usssalem) /\\ builtFor(usssalem,unitedstatesnavy)), lastHeavyCruiserToEnterService(usssalem), museumShip(usssalem), X@((museumShip(X) -> openToPublic(X))), (servedIn(usssalem,atlantic) /\\ servedIn(usssalem,mediterranean)) --> ~ ~lastHeavyCruiserToEnterService(usssalem)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-50",
-      "folio_example_id": 659,
-      "folio_story_id": 232,
-      "label": "Uncertain",
+      "folio_split": "train",
+      "folio_example_id": 63,
+      "folio_story_id": 22,
+      "label": "False",
       "n_premises": 6,
       "premises": [
-        "Beijing is the capital of the People's Republic of China.",
-        "Beijing is the capital city of the world's most populous nation.",
-        "Beijing is located in Northern China.",
-        "Beijing hosted the 2008 Summer Olympics and 2008 Summer Paralympics Games.",
-        "Beijing has hosted the Summer and Winter Olympics and the Summer and Winter Paralympics.",
-        "Many of Beijing's 91 universities consistently rank among the best universities in the world."
+        "If a customer subscribes to AMC A-List, then he/she can watch 3 movies every week without any additional fees.",
+        "Some customers go to cinemas every week.",
+        "Customers who prefer TV series will not watch TV series in cinemas.",
+        "James watches TV series in cinemas.",
+        "James subscribes to AMC A-List.",
+        "Peter prefers TV series."
       ],
       "premises_fol": [
-        "CapitalOf(beijing, peoplesRepublicOfChina)",
-        "∃x (CapitalOf(beijing, x) → WorldsMostPopulousNation(x))",
-        "LocatedIn(beijing, northernChina)",
-        "Hosted(beijing, 2008SummerOlympics) ∧ Hosted(beijing, 2008SummerParalympicGames)",
-        "Hosted(beijing, summerOlympics) ∧ Hosted(beijing, winterOlympics) ∧ Hosted(beijing, summerParalympicGames)  ∧ Hosted(beijing, winterParalympicGames)",
-        "∃x (University(x) ∧ InBeijing(x) ∧ ConsistentlyRankAmongTheBestIn(x, theWorld))"
+        "∀x (SubscribedTo(x, aMCAList) → EligibleForThreeFreeMovies(x))",
+        "∃x (CinemaEveryWeek(x))",
+        "∀x (Prefer(x, tVSeries) → ¬WatchTVIn(x, cinemas))",
+        "WatchTVIn(james, cinemas)",
+        "SubscribedTo(james, aMCAList)",
+        "Prefer(peter, tVSeries)"
       ],
-      "conclusion": "Beijing is the second largest Chinese city.",
-      "conclusion_fol": "SecondLargestChineseCity(beijing)",
+      "conclusion": "James cannot watch 3 movies every week without any additional fees.",
+      "conclusion_fol": "¬EligibleForThreeFreeMovies(james)",
       "seqprover": {
         "premises": [
-          "capitalOf(beijing,peoplesRepublicOfChina)",
-          "X#((capitalOf(beijing,X) -> worldsMostPopulousNation(X)))",
-          "locatedIn(beijing,northernChina)",
-          "(hosted(beijing,'2008SummerOlympics') /\\ hosted(beijing,'2008SummerParalympicGames'))",
-          "(hosted(beijing,summerOlympics) /\\ (hosted(beijing,winterOlympics) /\\ (hosted(beijing,summerParalympicGames) /\\ hosted(beijing,winterParalympicGames))))",
-          "X#((university(X) /\\ (inBeijing(X) /\\ consistentlyRankAmongTheBestIn(X,theWorld))))"
+          "X@((subscribedTo(X,aMCAList) -> eligibleForThreeFreeMovies(X)))",
+          "X#(cinemaEveryWeek(X))",
+          "X@((prefer(X,tVSeries) -> ~watchTVIn(X,cinemas)))",
+          "watchTVIn(james,cinemas)",
+          "subscribedTo(james,aMCAList)",
+          "prefer(peter,tVSeries)"
         ],
-        "conclusion": "secondLargestChineseCity(beijing)",
-        "goal": "capitalOf(beijing,peoplesRepublicOfChina), X#((capitalOf(beijing,X) -> worldsMostPopulousNation(X))), locatedIn(beijing,northernChina), (hosted(beijing,'2008SummerOlympics') /\\ hosted(beijing,'2008SummerParalympicGames')), (hosted(beijing,summerOlympics) /\\ (hosted(beijing,winterOlympics) /\\ (hosted(beijing,summerParalympicGames) /\\ hosted(beijing,winterParalympicGames)))), X#((university(X) /\\ (inBeijing(X) /\\ consistentlyRankAmongTheBestIn(X,theWorld)))) --> secondLargestChineseCity(beijing)",
-        "negated_goal": "capitalOf(beijing,peoplesRepublicOfChina), X#((capitalOf(beijing,X) -> worldsMostPopulousNation(X))), locatedIn(beijing,northernChina), (hosted(beijing,'2008SummerOlympics') /\\ hosted(beijing,'2008SummerParalympicGames')), (hosted(beijing,summerOlympics) /\\ (hosted(beijing,winterOlympics) /\\ (hosted(beijing,summerParalympicGames) /\\ hosted(beijing,winterParalympicGames)))), X#((university(X) /\\ (inBeijing(X) /\\ consistentlyRankAmongTheBestIn(X,theWorld)))) --> ~secondLargestChineseCity(beijing)",
+        "conclusion": "~eligibleForThreeFreeMovies(james)",
+        "goal": "X@((subscribedTo(X,aMCAList) -> eligibleForThreeFreeMovies(X))), X#(cinemaEveryWeek(X)), X@((prefer(X,tVSeries) -> ~watchTVIn(X,cinemas))), watchTVIn(james,cinemas), subscribedTo(james,aMCAList), prefer(peter,tVSeries) --> ~eligibleForThreeFreeMovies(james)",
+        "negated_goal": "X@((subscribedTo(X,aMCAList) -> eligibleForThreeFreeMovies(X))), X#(cinemaEveryWeek(X)), X@((prefer(X,tVSeries) -> ~watchTVIn(X,cinemas))), watchTVIn(james,cinemas), subscribedTo(james,aMCAList), prefer(peter,tVSeries) --> ~ ~eligibleForThreeFreeMovies(james)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-51",
-      "folio_example_id": 802,
-      "folio_story_id": 318,
-      "label": "Uncertain",
-      "n_premises": 6,
+      "folio_split": "train",
+      "folio_example_id": 102,
+      "folio_story_id": 35,
+      "label": "False",
+      "n_premises": 5,
       "premises": [
-        "Some show airing at 8 pm on Monday gives out roses on TV.",
-        "If a show gives out roses on TV, then the show is an episode of The Bachelor.",
-        "The Bachelor portrays the lives of real people.",
-        "All shows portraying the lives of real people are reality TV shows.",
-        "Breaking Bad is a show.",
-        "Breaking Bad is not a reality TV show."
+        "An Olympian is a person who trains for an Olympic sport and goes to the Olympics.",
+        "Carlos Reyes trains for an Olympic sport.",
+        "Carlos Reyes went to the Olympics.",
+        "Carlos Reyes is a welterweight.",
+        "Heavy weights are not welterweights."
       ],
       "premises_fol": [
-        "∃x (Show(x) ∧ AiringAtOn(x, 8PMMonday) ∧ GivenOutOn(x, rose, tV))",
-        "∀x (Show(x) ∧ GivenOutOnAt(rose, tV, x) → TheBachelor(x))",
-        "∀x (TheBachelor(x) → Portray(x, lifeOfRealPeople))",
-        "∀x (Portray(x, liveOfRealPeople) → RealityTVShow(x))",
-        "Show(breakingBad)",
-        "¬RealityTVShow(breakingBad)"
+        "∀x ((DoesOlympicSport(x) ∧ GoesToOlympicGames(x)) → Olympian(x))",
+        "DoesOlympicSport(carlosReyes)",
+        "GoesToOlympicGames(carlosReyes)",
+        "WelterWeight(carlosReyes)",
+        "∀x (WelterWeight(x) → ¬ HeavyWeight(x))"
       ],
-      "conclusion": "Breaking Bad is on Monday at 8 pm.",
-      "conclusion_fol": "∀x (MondayAt8PM(x) ∧ On(breakingBad, x))",
+      "conclusion": "Carlos Reyes is a heavy weight.",
+      "conclusion_fol": "HeavyWeight(carlosReyes)",
       "seqprover": {
         "premises": [
-          "X#((show(X) /\\ (airingAtOn(X,'8PMMonday') /\\ givenOutOn(X,rose,tV))))",
-          "X@(((show(X) /\\ givenOutOnAt(rose,tV,X)) -> theBachelor(X)))",
-          "X@((theBachelor(X) -> portray(X,lifeOfRealPeople)))",
-          "X@((portray(X,liveOfRealPeople) -> realityTVShow(X)))",
-          "show(breakingBad)",
-          "~realityTVShow(breakingBad)"
+          "X@(((doesOlympicSport(X) /\\ goesToOlympicGames(X)) -> olympian(X)))",
+          "doesOlympicSport(carlosReyes)",
+          "goesToOlympicGames(carlosReyes)",
+          "welterWeight(carlosReyes)",
+          "X@((welterWeight(X) -> ~heavyWeight(X)))"
         ],
-        "conclusion": "X@((mondayAt8PM(X) /\\ on(breakingBad,X)))",
-        "goal": "X#((show(X) /\\ (airingAtOn(X,'8PMMonday') /\\ givenOutOn(X,rose,tV)))), X@(((show(X) /\\ givenOutOnAt(rose,tV,X)) -> theBachelor(X))), X@((theBachelor(X) -> portray(X,lifeOfRealPeople))), X@((portray(X,liveOfRealPeople) -> realityTVShow(X))), show(breakingBad), ~realityTVShow(breakingBad) --> X@((mondayAt8PM(X) /\\ on(breakingBad,X)))",
-        "negated_goal": "X#((show(X) /\\ (airingAtOn(X,'8PMMonday') /\\ givenOutOn(X,rose,tV)))), X@(((show(X) /\\ givenOutOnAt(rose,tV,X)) -> theBachelor(X))), X@((theBachelor(X) -> portray(X,lifeOfRealPeople))), X@((portray(X,liveOfRealPeople) -> realityTVShow(X))), show(breakingBad), ~realityTVShow(breakingBad) --> ~X@((mondayAt8PM(X) /\\ on(breakingBad,X)))",
+        "conclusion": "heavyWeight(carlosReyes)",
+        "goal": "X@(((doesOlympicSport(X) /\\ goesToOlympicGames(X)) -> olympian(X))), doesOlympicSport(carlosReyes), goesToOlympicGames(carlosReyes), welterWeight(carlosReyes), X@((welterWeight(X) -> ~heavyWeight(X))) --> heavyWeight(carlosReyes)",
+        "negated_goal": "X@(((doesOlympicSport(X) /\\ goesToOlympicGames(X)) -> olympian(X))), doesOlympicSport(carlosReyes), goesToOlympicGames(carlosReyes), welterWeight(carlosReyes), X@((welterWeight(X) -> ~heavyWeight(X))) --> ~heavyWeight(carlosReyes)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-52",
-      "folio_example_id": 933,
-      "folio_story_id": 352,
-      "label": "Uncertain",
-      "n_premises": 6,
+      "folio_split": "train",
+      "folio_example_id": 178,
+      "folio_story_id": 60,
+      "label": "False",
+      "n_premises": 7,
       "premises": [
-        "All business organizations are legal entities.",
-        "All companies are business organizations.",
-        "All private companies are companies.",
-        "All legal entities are created under law.",
-        "All legal entities have legal obligations.",
-        "If the Harvard Weekly Book Club is created under law, then it is not a private company."
+        "All buildings in New Haven are not high.",
+        "All buildings managed by Yale Housing are located in New Haven.",
+        "All buildings in Manhattans are high.",
+        "All buildings owned by Bloomberg are located in Manhattans.",
+        "All buildings with the Bloomberg logo are owned by Bloomberg.",
+        "Tower A is managed by Yale Housing.",
+        "Tower B is with the Bloomberg logo."
       ],
       "premises_fol": [
-        "∀x (BusinessOrganization(x) → LegalEntity(x))",
-        "∀x (Company(x) → BusinessOrganization(x))",
-        "∀x (PrivateCompany(x) → Company(x))",
-        "∀x (LegalEntity(x) → CreatedUnderLaw(x))",
-        "∀x (LegalEntity(x) → LegalObligation(x))",
-        "CreatedUnderLaw(harvardWeeklyBookClub) → ¬PrivateCompany(harvardWeeklyBookClub)"
+        "∀x (In(x, newHaven) → ¬High(x))",
+        "∀x (YaleHousing(x) → In(x, newHaven))",
+        "∀x (In(x, manhattan) → High(x))",
+        "∀x (Bloomberg(x) → In(x, manhattan))",
+        "∀x (BloombergLogo(x) → Bloomberg(x))",
+        "YaleHousing(tower-a)",
+        "BloombergLogo(tower-b)"
       ],
-      "conclusion": "The Harvard Weekly Book club has legal obligations.",
-      "conclusion_fol": "LegalObligation(harvardWeeklyBookClub)",
+      "conclusion": "Tower B is not located in Manhattans.",
+      "conclusion_fol": "¬In(tower-b, manhattan)",
       "seqprover": {
         "premises": [
-          "X@((businessOrganization(X) -> legalEntity(X)))",
-          "X@((company(X) -> businessOrganization(X)))",
-          "X@((privateCompany(X) -> company(X)))",
-          "X@((legalEntity(X) -> createdUnderLaw(X)))",
-          "X@((legalEntity(X) -> legalObligation(X)))",
-          "(createdUnderLaw(harvardWeeklyBookClub) -> ~privateCompany(harvardWeeklyBookClub))"
+          "X@((in(X,newHaven) -> ~high(X)))",
+          "X@((yaleHousing(X) -> in(X,newHaven)))",
+          "X@((in(X,manhattan) -> high(X)))",
+          "X@((bloomberg(X) -> in(X,manhattan)))",
+          "X@((bloombergLogo(X) -> bloomberg(X)))",
+          "yaleHousing('tower-a')",
+          "bloombergLogo('tower-b')"
         ],
-        "conclusion": "legalObligation(harvardWeeklyBookClub)",
-        "goal": "X@((businessOrganization(X) -> legalEntity(X))), X@((company(X) -> businessOrganization(X))), X@((privateCompany(X) -> company(X))), X@((legalEntity(X) -> createdUnderLaw(X))), X@((legalEntity(X) -> legalObligation(X))), (createdUnderLaw(harvardWeeklyBookClub) -> ~privateCompany(harvardWeeklyBookClub)) --> legalObligation(harvardWeeklyBookClub)",
-        "negated_goal": "X@((businessOrganization(X) -> legalEntity(X))), X@((company(X) -> businessOrganization(X))), X@((privateCompany(X) -> company(X))), X@((legalEntity(X) -> createdUnderLaw(X))), X@((legalEntity(X) -> legalObligation(X))), (createdUnderLaw(harvardWeeklyBookClub) -> ~privateCompany(harvardWeeklyBookClub)) --> ~legalObligation(harvardWeeklyBookClub)",
+        "conclusion": "~in('tower-b',manhattan)",
+        "goal": "X@((in(X,newHaven) -> ~high(X))), X@((yaleHousing(X) -> in(X,newHaven))), X@((in(X,manhattan) -> high(X))), X@((bloomberg(X) -> in(X,manhattan))), X@((bloombergLogo(X) -> bloomberg(X))), yaleHousing('tower-a'), bloombergLogo('tower-b') --> ~in('tower-b',manhattan)",
+        "negated_goal": "X@((in(X,newHaven) -> ~high(X))), X@((yaleHousing(X) -> in(X,newHaven))), X@((in(X,manhattan) -> high(X))), X@((bloomberg(X) -> in(X,manhattan))), X@((bloombergLogo(X) -> bloomberg(X))), yaleHousing('tower-a'), bloombergLogo('tower-b') --> ~ ~in('tower-b',manhattan)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-53",
-      "folio_example_id": 1032,
-      "folio_story_id": 386,
-      "label": "Uncertain",
-      "n_premises": 6,
+      "folio_split": "train",
+      "folio_example_id": 179,
+      "folio_story_id": 60,
+      "label": "False",
+      "n_premises": 7,
       "premises": [
-        "If something is a deadly disease, then it comes with a low survival rate.",
-        "Severe cancers are deadly diseases.",
-        "Bile duct cancer is a severe form cancer.",
-        "All Cholangiocarcinoma is bile duct cancer.",
-        "Mild flu comes with a low survival rate.",
-        "Colorectal cancer is not both a bile duct cancer and with a low survival rate."
+        "All buildings in New Haven are not high.",
+        "All buildings managed by Yale Housing are located in New Haven.",
+        "All buildings in Manhattans are high.",
+        "All buildings owned by Bloomberg are located in Manhattans.",
+        "All buildings with the Bloomberg logo are owned by Bloomberg.",
+        "Tower A is managed by Yale Housing.",
+        "Tower B is with the Bloomberg logo."
       ],
       "premises_fol": [
-        "∀x (DeadlyDiseases(x) → ComeWith(x, lowSurvivalRate))",
-        "∀x (SevereCancer(x) → DeadlyDiseases(x))",
-        "∀x (BileDuctCancer(x) → SevereCancer(x))",
-        "∀x (Cholangiocarcinoma(x) → BileDuctCancer(x))",
-        "∀x (MildFlu(x) → ¬ComeWith(x, lowSurvivalRate))",
-        "¬(BileDuctCancer(colorectalCancer) ∧ ComeWith(colorectalCancer, lowSurvivalRate))"
+        "∀x (In(x, newHaven) → ¬High(x))",
+        "∀x (YaleHousing(x) → In(x, newHaven))",
+        "∀x (In(x, manhattan) → High(x))",
+        "∀x (Bloomberg(x) → In(x, manhattan))",
+        "∀x (BloombergLogo(x) → Bloomberg(x))",
+        "YaleHousing(tower-a)",
+        "BloombergLogo(tower-b)"
       ],
-      "conclusion": "Colorectal cancer is a kind of severe cancer",
-      "conclusion_fol": "SevereCancer(colorectalCancer)",
+      "conclusion": "Tower B is located in New Haven.",
+      "conclusion_fol": "¬In(tower-b, newHaven)",
       "seqprover": {
         "premises": [
-          "X@((deadlyDiseases(X) -> comeWith(X,lowSurvivalRate)))",
-          "X@((severeCancer(X) -> deadlyDiseases(X)))",
-          "X@((bileDuctCancer(X) -> severeCancer(X)))",
-          "X@((cholangiocarcinoma(X) -> bileDuctCancer(X)))",
-          "X@((mildFlu(X) -> ~comeWith(X,lowSurvivalRate)))",
-          "~(bileDuctCancer(colorectalCancer) /\\ comeWith(colorectalCancer,lowSurvivalRate))"
+          "X@((in(X,newHaven) -> ~high(X)))",
+          "X@((yaleHousing(X) -> in(X,newHaven)))",
+          "X@((in(X,manhattan) -> high(X)))",
+          "X@((bloomberg(X) -> in(X,manhattan)))",
+          "X@((bloombergLogo(X) -> bloomberg(X)))",
+          "yaleHousing('tower-a')",
+          "bloombergLogo('tower-b')"
         ],
-        "conclusion": "severeCancer(colorectalCancer)",
-        "goal": "X@((deadlyDiseases(X) -> comeWith(X,lowSurvivalRate))), X@((severeCancer(X) -> deadlyDiseases(X))), X@((bileDuctCancer(X) -> severeCancer(X))), X@((cholangiocarcinoma(X) -> bileDuctCancer(X))), X@((mildFlu(X) -> ~comeWith(X,lowSurvivalRate))), ~(bileDuctCancer(colorectalCancer) /\\ comeWith(colorectalCancer,lowSurvivalRate)) --> severeCancer(colorectalCancer)",
-        "negated_goal": "X@((deadlyDiseases(X) -> comeWith(X,lowSurvivalRate))), X@((severeCancer(X) -> deadlyDiseases(X))), X@((bileDuctCancer(X) -> severeCancer(X))), X@((cholangiocarcinoma(X) -> bileDuctCancer(X))), X@((mildFlu(X) -> ~comeWith(X,lowSurvivalRate))), ~(bileDuctCancer(colorectalCancer) /\\ comeWith(colorectalCancer,lowSurvivalRate)) --> ~severeCancer(colorectalCancer)",
+        "conclusion": "~in('tower-b',newHaven)",
+        "goal": "X@((in(X,newHaven) -> ~high(X))), X@((yaleHousing(X) -> in(X,newHaven))), X@((in(X,manhattan) -> high(X))), X@((bloomberg(X) -> in(X,manhattan))), X@((bloombergLogo(X) -> bloomberg(X))), yaleHousing('tower-a'), bloombergLogo('tower-b') --> ~in('tower-b',newHaven)",
+        "negated_goal": "X@((in(X,newHaven) -> ~high(X))), X@((yaleHousing(X) -> in(X,newHaven))), X@((in(X,manhattan) -> high(X))), X@((bloomberg(X) -> in(X,manhattan))), X@((bloombergLogo(X) -> bloomberg(X))), yaleHousing('tower-a'), bloombergLogo('tower-b') --> ~ ~in('tower-b',newHaven)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-54",
-      "folio_example_id": 1268,
-      "folio_story_id": 441,
-      "label": "Uncertain",
-      "n_premises": 5,
+      "folio_split": "train",
+      "folio_example_id": 193,
+      "folio_story_id": 65,
+      "label": "False",
+      "n_premises": 7,
       "premises": [
-        "No one nice to animals is also mean to animals.",
-        "Some grumpy people are mean to animals.",
-        "All animal lovers are nice to animals.",
-        "All pet owners love animals.",
-        "Tom is a pet owner."
+        "If a person coaches a football club, the person is a football coach.",
+        "If a person has a position in a club in a year, and the club is in NFL in the same year, the person plays in NFL.",
+        "Minnesota Vikings is a football club.",
+        "Dennis Green coached Minnesota Vikings.",
+        "Cris Carter had 13 touchdown receptions.",
+        "Minnesota Vikings were in the National Football League in 1997.",
+        "John Randle was Minnesota Vikings defensive tackle in 1997."
       ],
       "premises_fol": [
-        "∀x (NiceTo(x, animal) → ¬MeanTo(x, animal))",
-        "∃x (Grumpy(x) ∧ MeanTo(x, animal))",
-        "∀x (AnimalLover(x) → NiceTo(x, animal))",
-        "∀x (PetOwner(x) → AnimalLover(x))",
-        "PetOwner(tom)"
+        "∀x ∀y ((Coach(x, y) ∧ FootballClub(y)) → FootballCoach(x))",
+        "∀w ∀x ∀y ∀z ((PlayPositionFor(x, w, y, z) ∧ InNFL(y, z)) → PlayInNFL(x))",
+        "FootballClub(minnesotaVikings)",
+        "Coach(dennisGreen, minnesotaVikings)",
+        "ReceiveTD(crisCarter, num13)",
+        "InNFL(minnesotaVikings, yr1997)",
+        "PlayPositionFor(johnRandle, defensiveTackle, minnesotaVikings, yr1997)"
       ],
-      "conclusion": "Tom is a grumpy person.",
-      "conclusion_fol": "Grumpy(tom)",
+      "conclusion": "John Randle didn't play in the National Football League.",
+      "conclusion_fol": "¬PlayInNFL(johnRandle)",
       "seqprover": {
         "premises": [
-          "X@((niceTo(X,animal) -> ~meanTo(X,animal)))",
-          "X#((grumpy(X) /\\ meanTo(X,animal)))",
-          "X@((animalLover(X) -> niceTo(X,animal)))",
-          "X@((petOwner(X) -> animalLover(X)))",
-          "petOwner(tom)"
+          "X@(Y@(((coach(X,Y) /\\ footballClub(Y)) -> footballCoach(X))))",
+          "W@(X@(Y@(Z@(((playPositionFor(X,W,Y,Z) /\\ inNFL(Y,Z)) -> playInNFL(X))))))",
+          "footballClub(minnesotaVikings)",
+          "coach(dennisGreen,minnesotaVikings)",
+          "receiveTD(crisCarter,num13)",
+          "inNFL(minnesotaVikings,yr1997)",
+          "playPositionFor(johnRandle,defensiveTackle,minnesotaVikings,yr1997)"
         ],
-        "conclusion": "grumpy(tom)",
-        "goal": "X@((niceTo(X,animal) -> ~meanTo(X,animal))), X#((grumpy(X) /\\ meanTo(X,animal))), X@((animalLover(X) -> niceTo(X,animal))), X@((petOwner(X) -> animalLover(X))), petOwner(tom) --> grumpy(tom)",
-        "negated_goal": "X@((niceTo(X,animal) -> ~meanTo(X,animal))), X#((grumpy(X) /\\ meanTo(X,animal))), X@((animalLover(X) -> niceTo(X,animal))), X@((petOwner(X) -> animalLover(X))), petOwner(tom) --> ~grumpy(tom)",
+        "conclusion": "~playInNFL(johnRandle)",
+        "goal": "X@(Y@(((coach(X,Y) /\\ footballClub(Y)) -> footballCoach(X)))), W@(X@(Y@(Z@(((playPositionFor(X,W,Y,Z) /\\ inNFL(Y,Z)) -> playInNFL(X)))))), footballClub(minnesotaVikings), coach(dennisGreen,minnesotaVikings), receiveTD(crisCarter,num13), inNFL(minnesotaVikings,yr1997), playPositionFor(johnRandle,defensiveTackle,minnesotaVikings,yr1997) --> ~playInNFL(johnRandle)",
+        "negated_goal": "X@(Y@(((coach(X,Y) /\\ footballClub(Y)) -> footballCoach(X)))), W@(X@(Y@(Z@(((playPositionFor(X,W,Y,Z) /\\ inNFL(Y,Z)) -> playInNFL(X)))))), footballClub(minnesotaVikings), coach(dennisGreen,minnesotaVikings), receiveTD(crisCarter,num13), inNFL(minnesotaVikings,yr1997), playPositionFor(johnRandle,defensiveTackle,minnesotaVikings,yr1997) --> ~ ~playInNFL(johnRandle)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-55",
-      "folio_example_id": 1271,
-      "folio_story_id": 442,
-      "label": "Uncertain",
-      "n_premises": 5,
+      "folio_split": "train",
+      "folio_example_id": 196,
+      "folio_story_id": 66,
+      "label": "False",
+      "n_premises": 10,
       "premises": [
-        "All Brown Swiss cattle are cows.",
-        "Some pets are Brown Swiss Cattle.",
-        "All cows are domesticated animals.",
-        "Alligators are not domesticated animals.",
-        "Ted is an alligator."
+        "If a city holds a Summer Olympics, and the city is a US city, then the Summer Olympics will be in the US.",
+        "If a city is in a state in the US, the city is a US city.",
+        "If a city is in a state, and a Summer Olympics is in this city, then the Summer Olympics is in this state.",
+        "The 2028 Summer Olympics is scheduled to take place in Los Angeles.",
+        "Los Angeles is a city in California.",
+        "Atlanta is a US city.",
+        "Atlanta is in Georgia.",
+        "California is a state in the United States.",
+        "Boxing, modern pentathlon, and weightlifting will be removed from The 2028 Summer Olympics.",
+        "Atlanta in the United States held the 1996 Summer Olympics."
       ],
       "premises_fol": [
-        "∀x (BrownSwissCattle(x) → Cow(x))",
-        "∃x (Pet(x) ∧ BrownSwissCattle(x))",
-        "∀x (Cow(x) → DomesticatedAnimal(x))",
-        "∀x (Aligator(x) → ¬DomesticatedAnimal(x))",
-        "Aligator(ted)"
+        "∀x ∀y ((SummerOlympicsIn(x,y) ∧ In(x, unitedStates)) → SummerOlympicsIn(x, unitedStates))",
+        "∀x ∀y ((In(x, y) ∧ In(y, unitedStates)) → In(x, unitedStates))",
+        "∀x ∀y ∀z ((In(x, z) ∧ State(z) ∧ SummerOlympicsIn(x,y)) → SummerOlympicsIn(z, y))",
+        "SummerOlympicsIn(losAngeles, yr2028)",
+        "In(losAngeles, california)",
+        "In(atlanta, unitedStates)",
+        "In(california, unitedStates)",
+        "In(atlanta, georgia)",
+        "¬InSummerOlympicsIn(boxing, yr2028) ∧ (¬InSummerOlympicsIn(modern_pentathlon, yr2028)) ∧ (¬InSummerOlympicsIn(weightlifting, yr2028))",
+        "SummerOlympicsIn(atlanta, yr1996)"
       ],
-      "conclusion": "Ted is a pet.",
-      "conclusion_fol": "Pet(ted)",
+      "conclusion": "The 1996 Summer Olympics is not in Georgia.",
+      "conclusion_fol": "¬SummerOlympicsIn(georgia, yr1996)",
       "seqprover": {
         "premises": [
-          "X@((brownSwissCattle(X) -> cow(X)))",
-          "X#((pet(X) /\\ brownSwissCattle(X)))",
-          "X@((cow(X) -> domesticatedAnimal(X)))",
-          "X@((aligator(X) -> ~domesticatedAnimal(X)))",
-          "aligator(ted)"
+          "X@(Y@(((summerOlympicsIn(X,Y) /\\ in(X,unitedStates)) -> summerOlympicsIn(X,unitedStates))))",
+          "X@(Y@(((in(X,Y) /\\ in(Y,unitedStates)) -> in(X,unitedStates))))",
+          "X@(Y@(Z@(((in(X,Z) /\\ (state(Z) /\\ summerOlympicsIn(X,Y))) -> summerOlympicsIn(Z,Y)))))",
+          "summerOlympicsIn(losAngeles,yr2028)",
+          "in(losAngeles,california)",
+          "in(atlanta,unitedStates)",
+          "in(california,unitedStates)",
+          "in(atlanta,georgia)",
+          "(~inSummerOlympicsIn(boxing,yr2028) /\\ (~inSummerOlympicsIn(modern_pentathlon,yr2028) /\\ ~inSummerOlympicsIn(weightlifting,yr2028)))",
+          "summerOlympicsIn(atlanta,yr1996)"
         ],
-        "conclusion": "pet(ted)",
-        "goal": "X@((brownSwissCattle(X) -> cow(X))), X#((pet(X) /\\ brownSwissCattle(X))), X@((cow(X) -> domesticatedAnimal(X))), X@((aligator(X) -> ~domesticatedAnimal(X))), aligator(ted) --> pet(ted)",
-        "negated_goal": "X@((brownSwissCattle(X) -> cow(X))), X#((pet(X) /\\ brownSwissCattle(X))), X@((cow(X) -> domesticatedAnimal(X))), X@((aligator(X) -> ~domesticatedAnimal(X))), aligator(ted) --> ~pet(ted)",
+        "conclusion": "~summerOlympicsIn(georgia,yr1996)",
+        "goal": "X@(Y@(((summerOlympicsIn(X,Y) /\\ in(X,unitedStates)) -> summerOlympicsIn(X,unitedStates)))), X@(Y@(((in(X,Y) /\\ in(Y,unitedStates)) -> in(X,unitedStates)))), X@(Y@(Z@(((in(X,Z) /\\ (state(Z) /\\ summerOlympicsIn(X,Y))) -> summerOlympicsIn(Z,Y))))), summerOlympicsIn(losAngeles,yr2028), in(losAngeles,california), in(atlanta,unitedStates), in(california,unitedStates), in(atlanta,georgia), (~inSummerOlympicsIn(boxing,yr2028) /\\ (~inSummerOlympicsIn(modern_pentathlon,yr2028) /\\ ~inSummerOlympicsIn(weightlifting,yr2028))), summerOlympicsIn(atlanta,yr1996) --> ~summerOlympicsIn(georgia,yr1996)",
+        "negated_goal": "X@(Y@(((summerOlympicsIn(X,Y) /\\ in(X,unitedStates)) -> summerOlympicsIn(X,unitedStates)))), X@(Y@(((in(X,Y) /\\ in(Y,unitedStates)) -> in(X,unitedStates)))), X@(Y@(Z@(((in(X,Z) /\\ (state(Z) /\\ summerOlympicsIn(X,Y))) -> summerOlympicsIn(Z,Y))))), summerOlympicsIn(losAngeles,yr2028), in(losAngeles,california), in(atlanta,unitedStates), in(california,unitedStates), in(atlanta,georgia), (~inSummerOlympicsIn(boxing,yr2028) /\\ (~inSummerOlympicsIn(modern_pentathlon,yr2028) /\\ ~inSummerOlympicsIn(weightlifting,yr2028))), summerOlympicsIn(atlanta,yr1996) --> ~ ~summerOlympicsIn(georgia,yr1996)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-56",
-      "folio_example_id": 1410,
-      "folio_story_id": 483,
-      "label": "Uncertain",
-      "n_premises": 6,
+      "folio_split": "train",
+      "folio_example_id": 199,
+      "folio_story_id": 67,
+      "label": "False",
+      "n_premises": 7,
       "premises": [
-        "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.",
-        "If someone has United States citizenship, then they can register to vote in the United States.",
-        "A person either has United States citizenship or Taiwanese citizenship.",
-        "No Russian Federation officials hold Taiwanese citizenship.",
-        "Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom.",
-        "Ekaterina she can register to vote in the United States, or she is a Russian federation official."
+        "If an album is written by a rock band, then the genre of the album is rock.",
+        "If a band writes an album winning an award, then this band wins this award.",
+        "Trouble at the Henhouse is an album by The Tragically Hip.",
+        "The Tragically Hip is a Canadian rock band.",
+        "The song \"Butts Wigglin'\" is in Trouble at the Henhouse.",
+        "Trouble at the Henhouse won the Album of the Year award.",
+        "A song in Trouble at the Henhouse appeared in a film."
       ],
       "premises_fol": [
-        "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, 2024UnitedStatesElection))",
-        "∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))",
-        "∀x (Have(x, unitedStatesCitizenship) ∨ Have(x, taiwaneseCitizenship))",
-        "∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))",
-        "¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)",
-        "(Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ∨ CanRegisterToVoteIn(ekaterina, unitedStates)"
+        "∀x ∀y ∀z (AlbumByBand(x, y) ∧ RockBand(y, z) → Genre(x, rock))",
+        "∀x ∀y ∀z (AlbumByBand(x, y) ∧ AlbumAward(x, z) → RockBandAward(y, z))",
+        "AlbumByBand(trouble_at_the_Henhouse, the_Tragically_Hip)",
+        "RockBand(the_Tragically_Hip, canada)",
+        "SongInAlbum(butts_Wigglin, trouble_at_the_Henhouse)",
+        "AlbumAward(trouble_at_the_Henhouse, the_Album_of_the_Year)",
+        "∃x (SongInFilm(x) ∧ SongInAlbum(x, trouble_at_the_Henhouse))"
       ],
-      "conclusion": "Vladimir is a Russian federation official",
-      "conclusion_fol": "Russian(vladimir) ∧ FederationOfficial(vladimir)",
+      "conclusion": "No Canadian rock band has won the Album of the Year award.",
+      "conclusion_fol": "¬∃x(RockBand(x, canada) ∧ Award(x, theAlbumOfTheYear))",
       "seqprover": {
         "premises": [
-          "X@((canRegisterToVoteIn(X,unitedStates) -> canParticipateIn(X,'2024UnitedStatesElection')))",
-          "X@((have(X,unitedStatesCitizenship) -> canRegisterToVoteIn(X,unitedStates)))",
-          "X@((have(X,unitedStatesCitizenship) \\/ have(X,taiwaneseCitizenship)))",
-          "X@(((russian(X) /\\ federationOfficial(X)) -> ~have(X,taiwaneseCitizenship)))",
-          "(~have(vladimir,taiwaneseCitizenship) /\\ ~managerAt(vladimir,gazprom))",
-          "((russian(ekaterina) /\\ federationOfficial(ekaterina)) \\/ canRegisterToVoteIn(ekaterina,unitedStates))"
+          "X@(Y@(Z@(((albumByBand(X,Y) /\\ rockBand(Y,Z)) -> genre(X,rock)))))",
+          "X@(Y@(Z@(((albumByBand(X,Y) /\\ albumAward(X,Z)) -> rockBandAward(Y,Z)))))",
+          "albumByBand(trouble_at_the_Henhouse,the_Tragically_Hip)",
+          "rockBand(the_Tragically_Hip,canada)",
+          "songInAlbum(butts_Wigglin,trouble_at_the_Henhouse)",
+          "albumAward(trouble_at_the_Henhouse,the_Album_of_the_Year)",
+          "X#((songInFilm(X) /\\ songInAlbum(X,trouble_at_the_Henhouse)))"
         ],
-        "conclusion": "(russian(vladimir) /\\ federationOfficial(vladimir))",
-        "goal": "X@((canRegisterToVoteIn(X,unitedStates) -> canParticipateIn(X,'2024UnitedStatesElection'))), X@((have(X,unitedStatesCitizenship) -> canRegisterToVoteIn(X,unitedStates))), X@((have(X,unitedStatesCitizenship) \\/ have(X,taiwaneseCitizenship))), X@(((russian(X) /\\ federationOfficial(X)) -> ~have(X,taiwaneseCitizenship))), (~have(vladimir,taiwaneseCitizenship) /\\ ~managerAt(vladimir,gazprom)), ((russian(ekaterina) /\\ federationOfficial(ekaterina)) \\/ canRegisterToVoteIn(ekaterina,unitedStates)) --> (russian(vladimir) /\\ federationOfficial(vladimir))",
-        "negated_goal": "X@((canRegisterToVoteIn(X,unitedStates) -> canParticipateIn(X,'2024UnitedStatesElection'))), X@((have(X,unitedStatesCitizenship) -> canRegisterToVoteIn(X,unitedStates))), X@((have(X,unitedStatesCitizenship) \\/ have(X,taiwaneseCitizenship))), X@(((russian(X) /\\ federationOfficial(X)) -> ~have(X,taiwaneseCitizenship))), (~have(vladimir,taiwaneseCitizenship) /\\ ~managerAt(vladimir,gazprom)), ((russian(ekaterina) /\\ federationOfficial(ekaterina)) \\/ canRegisterToVoteIn(ekaterina,unitedStates)) --> ~(russian(vladimir) /\\ federationOfficial(vladimir))",
+        "conclusion": "~X#((rockBand(X,canada) /\\ award(X,theAlbumOfTheYear)))",
+        "goal": "X@(Y@(Z@(((albumByBand(X,Y) /\\ rockBand(Y,Z)) -> genre(X,rock))))), X@(Y@(Z@(((albumByBand(X,Y) /\\ albumAward(X,Z)) -> rockBandAward(Y,Z))))), albumByBand(trouble_at_the_Henhouse,the_Tragically_Hip), rockBand(the_Tragically_Hip,canada), songInAlbum(butts_Wigglin,trouble_at_the_Henhouse), albumAward(trouble_at_the_Henhouse,the_Album_of_the_Year), X#((songInFilm(X) /\\ songInAlbum(X,trouble_at_the_Henhouse))) --> ~X#((rockBand(X,canada) /\\ award(X,theAlbumOfTheYear)))",
+        "negated_goal": "X@(Y@(Z@(((albumByBand(X,Y) /\\ rockBand(Y,Z)) -> genre(X,rock))))), X@(Y@(Z@(((albumByBand(X,Y) /\\ albumAward(X,Z)) -> rockBandAward(Y,Z))))), albumByBand(trouble_at_the_Henhouse,the_Tragically_Hip), rockBand(the_Tragically_Hip,canada), songInAlbum(butts_Wigglin,trouble_at_the_Henhouse), albumAward(trouble_at_the_Henhouse,the_Album_of_the_Year), X#((songInFilm(X) /\\ songInAlbum(X,trouble_at_the_Henhouse))) --> ~ ~X#((rockBand(X,canada) /\\ award(X,theAlbumOfTheYear)))",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-57",
-      "folio_example_id": 1411,
-      "folio_story_id": 483,
-      "label": "Uncertain",
-      "n_premises": 6,
+      "folio_split": "train",
+      "folio_example_id": 202,
+      "folio_story_id": 68,
+      "label": "False",
+      "n_premises": 8,
       "premises": [
-        "Everyone who can register to vote in the United States can participate in the 2024 United States presidential election.",
-        "If someone has United States citizenship, then they can register to vote in the United States.",
-        "A person either has United States citizenship or Taiwanese citizenship.",
-        "No Russian Federation officials hold Taiwanese citizenship.",
-        "Vladimir neither holds Taiwanese citizenship nor is he a manager at Gazprom.",
-        "Ekaterina she can register to vote in the United States, or she is a Russian federation official."
+        "Lana Wilson directed After Tiller, The Departure, and Miss Americana.",
+        "If a film is directed by a person, the person is a filmmaker.",
+        "After Tiller is a documentary.",
+        "The documentary is a type of film.",
+        "Lana Wilson is from Kirkland.",
+        "Kirkland is a US city.",
+        "If a person is from a city in a country, the person is from the country.",
+        "After Tiller is nominated for the Independent Spirit Award for Best Documentary."
       ],
       "premises_fol": [
-        "∀x (CanRegisterToVoteIn(x, unitedStates) → CanParticipateIn(x, 2024UnitedStatesElection))",
-        "∀x (Have(x, unitedStatesCitizenship) → CanRegisterToVoteIn(x, unitedStates))",
-        "∀x (Have(x, unitedStatesCitizenship) ∨ Have(x, taiwaneseCitizenship))",
-        "∀x (Russian(x) ∧ FederationOfficial(x) → ¬Have(x, taiwaneseCitizenship))",
-        "¬Have(vladimir, taiwaneseCitizenship) ∧ ¬ManagerAt(vladimir, gazprom)",
-        "(Russian(ekaterina) ∧ FederationOfficial(ekaterina)) ∨ CanRegisterToVoteIn(ekaterina, unitedStates)"
+        "DirectedBy(afterTiller, lanaWilson) ∧ DirectedBy(theDeparture, lanaWilson) ∧ DirectedBy(missAmericana, lanaWilson)",
+        "∀x ∀y (DirectedBy(x, y) → Filmmaker(y))",
+        "Documentary(afterTiller)",
+        "∀x (Documentary(x) → Film(x))",
+        "From(lanaWilson, kirkland)",
+        "In(kirkland, unitedStates)",
+        "∀x ∀y ∀z ((From(x, y) ∧ In(y, z)) → From(x, z))",
+        "Nomination(afterTiller, theIndependentSpiritAwardForBestDocumentary)"
       ],
-      "conclusion": "Vladimir is not a Russian federation official",
-      "conclusion_fol": "¬(Russian(vladimir) ∧ FederationOfficial(vladimir))",
+      "conclusion": "Miss Americana is not directed by a filmmaker from Kirkland.",
+      "conclusion_fol": "¬∃x(Filmmaker(x) ∧ From(x, kirkland) ∧ DirectedBy(missAmericana, x))",
       "seqprover": {
         "premises": [
-          "X@((canRegisterToVoteIn(X,unitedStates) -> canParticipateIn(X,'2024UnitedStatesElection')))",
-          "X@((have(X,unitedStatesCitizenship) -> canRegisterToVoteIn(X,unitedStates)))",
-          "X@((have(X,unitedStatesCitizenship) \\/ have(X,taiwaneseCitizenship)))",
-          "X@(((russian(X) /\\ federationOfficial(X)) -> ~have(X,taiwaneseCitizenship)))",
-          "(~have(vladimir,taiwaneseCitizenship) /\\ ~managerAt(vladimir,gazprom))",
-          "((russian(ekaterina) /\\ federationOfficial(ekaterina)) \\/ canRegisterToVoteIn(ekaterina,unitedStates))"
+          "(directedBy(afterTiller,lanaWilson) /\\ (directedBy(theDeparture,lanaWilson) /\\ directedBy(missAmericana,lanaWilson)))",
+          "X@(Y@((directedBy(X,Y) -> filmmaker(Y))))",
+          "documentary(afterTiller)",
+          "X@((documentary(X) -> film(X)))",
+          "from(lanaWilson,kirkland)",
+          "in(kirkland,unitedStates)",
+          "X@(Y@(Z@(((from(X,Y) /\\ in(Y,Z)) -> from(X,Z)))))",
+          "nomination(afterTiller,theIndependentSpiritAwardForBestDocumentary)"
         ],
-        "conclusion": "~(russian(vladimir) /\\ federationOfficial(vladimir))",
-        "goal": "X@((canRegisterToVoteIn(X,unitedStates) -> canParticipateIn(X,'2024UnitedStatesElection'))), X@((have(X,unitedStatesCitizenship) -> canRegisterToVoteIn(X,unitedStates))), X@((have(X,unitedStatesCitizenship) \\/ have(X,taiwaneseCitizenship))), X@(((russian(X) /\\ federationOfficial(X)) -> ~have(X,taiwaneseCitizenship))), (~have(vladimir,taiwaneseCitizenship) /\\ ~managerAt(vladimir,gazprom)), ((russian(ekaterina) /\\ federationOfficial(ekaterina)) \\/ canRegisterToVoteIn(ekaterina,unitedStates)) --> ~(russian(vladimir) /\\ federationOfficial(vladimir))",
-        "negated_goal": "X@((canRegisterToVoteIn(X,unitedStates) -> canParticipateIn(X,'2024UnitedStatesElection'))), X@((have(X,unitedStatesCitizenship) -> canRegisterToVoteIn(X,unitedStates))), X@((have(X,unitedStatesCitizenship) \\/ have(X,taiwaneseCitizenship))), X@(((russian(X) /\\ federationOfficial(X)) -> ~have(X,taiwaneseCitizenship))), (~have(vladimir,taiwaneseCitizenship) /\\ ~managerAt(vladimir,gazprom)), ((russian(ekaterina) /\\ federationOfficial(ekaterina)) \\/ canRegisterToVoteIn(ekaterina,unitedStates)) --> ~ ~(russian(vladimir) /\\ federationOfficial(vladimir))",
+        "conclusion": "~X#((filmmaker(X) /\\ (from(X,kirkland) /\\ directedBy(missAmericana,X))))",
+        "goal": "(directedBy(afterTiller,lanaWilson) /\\ (directedBy(theDeparture,lanaWilson) /\\ directedBy(missAmericana,lanaWilson))), X@(Y@((directedBy(X,Y) -> filmmaker(Y)))), documentary(afterTiller), X@((documentary(X) -> film(X))), from(lanaWilson,kirkland), in(kirkland,unitedStates), X@(Y@(Z@(((from(X,Y) /\\ in(Y,Z)) -> from(X,Z))))), nomination(afterTiller,theIndependentSpiritAwardForBestDocumentary) --> ~X#((filmmaker(X) /\\ (from(X,kirkland) /\\ directedBy(missAmericana,X))))",
+        "negated_goal": "(directedBy(afterTiller,lanaWilson) /\\ (directedBy(theDeparture,lanaWilson) /\\ directedBy(missAmericana,lanaWilson))), X@(Y@((directedBy(X,Y) -> filmmaker(Y)))), documentary(afterTiller), X@((documentary(X) -> film(X))), from(lanaWilson,kirkland), in(kirkland,unitedStates), X@(Y@(Z@(((from(X,Y) /\\ in(Y,Z)) -> from(X,Z))))), nomination(afterTiller,theIndependentSpiritAwardForBestDocumentary) --> ~ ~X#((filmmaker(X) /\\ (from(X,kirkland) /\\ directedBy(missAmericana,X))))",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-58",
-      "folio_example_id": 147,
-      "folio_story_id": 51,
-      "label": "Uncertain",
-      "n_premises": 3,
+      "folio_split": "train",
+      "folio_example_id": 205,
+      "folio_story_id": 69,
+      "label": "False",
+      "n_premises": 5,
       "premises": [
-        "The summer Olympic games is a sporting event.",
-        "The last summer Olympic games was in Tokyo.",
-        "The United States won the most medals in Tokyo."
+        "Brian Winter is a Scottish football referee.",
+        "After being injured, Brian Winter retired in 2012.",
+        "Brian Winter was appointed as a referee observer after his retirement.",
+        "Some football referees become referee observers.",
+        "The son of Brian Winter, Andy Winter, is a football player who plays for Hamilton Academical."
       ],
       "premises_fol": [
-        "SportingEvent(olympics)",
-        "LastSummerOlympics(tokyo)",
-        "MostMedals(unitedStates, tokyo)"
+        "Scottish(brianWinter) ∧ FootballReferee(brianWinter)",
+        "Retired(brianWinter) ∧ RetiredIn(brianWinter, yr2012)",
+        "RefereeObserver(brianWinter)",
+        "∃x (FootballReferee(x) ∧ RefereeObserver(x))",
+        "SonOf(andyWinter, brianWinter) ∧ FootballPlayer(andyWinter) ∧ PlaysFor(andyWinter, hamiltonAcademical)"
       ],
-      "conclusion": "The world championships is a sporting event.",
-      "conclusion_fol": "SportingEvent(champs)",
+      "conclusion": "Brian Winter was not a referee observer.",
+      "conclusion_fol": "¬RefereeObserver(brianwinter)",
       "seqprover": {
         "premises": [
-          "sportingEvent(olympics)",
-          "lastSummerOlympics(tokyo)",
-          "mostMedals(unitedStates,tokyo)"
+          "(scottish(brianWinter) /\\ footballReferee(brianWinter))",
+          "(retired(brianWinter) /\\ retiredIn(brianWinter,yr2012))",
+          "refereeObserver(brianWinter)",
+          "X#((footballReferee(X) /\\ refereeObserver(X)))",
+          "(sonOf(andyWinter,brianWinter) /\\ (footballPlayer(andyWinter) /\\ playsFor(andyWinter,hamiltonAcademical)))"
         ],
-        "conclusion": "sportingEvent(champs)",
-        "goal": "sportingEvent(olympics), lastSummerOlympics(tokyo), mostMedals(unitedStates,tokyo) --> sportingEvent(champs)",
-        "negated_goal": "sportingEvent(olympics), lastSummerOlympics(tokyo), mostMedals(unitedStates,tokyo) --> ~sportingEvent(champs)",
+        "conclusion": "~refereeObserver(brianwinter)",
+        "goal": "(scottish(brianWinter) /\\ footballReferee(brianWinter)), (retired(brianWinter) /\\ retiredIn(brianWinter,yr2012)), refereeObserver(brianWinter), X#((footballReferee(X) /\\ refereeObserver(X))), (sonOf(andyWinter,brianWinter) /\\ (footballPlayer(andyWinter) /\\ playsFor(andyWinter,hamiltonAcademical))) --> ~refereeObserver(brianwinter)",
+        "negated_goal": "(scottish(brianWinter) /\\ footballReferee(brianWinter)), (retired(brianWinter) /\\ retiredIn(brianWinter,yr2012)), refereeObserver(brianWinter), X#((footballReferee(X) /\\ refereeObserver(X))), (sonOf(andyWinter,brianWinter) /\\ (footballPlayer(andyWinter) /\\ playsFor(andyWinter,hamiltonAcademical))) --> ~ ~refereeObserver(brianwinter)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-59",
-      "folio_example_id": 173,
-      "folio_story_id": 58,
-      "label": "Uncertain",
-      "n_premises": 4,
+      "folio_split": "train",
+      "folio_example_id": 239,
+      "folio_story_id": 78,
+      "label": "False",
+      "n_premises": 5,
       "premises": [
-        "Books contain tons of knowledge.",
-        "When a person reads a book, that person gains knowledge.",
-        "If a person gains knowledge, they become smarter.",
-        "Harry read the book “Walden” by Henry Thoreau."
+        "Ableton has an office in Germany.",
+        "Ableton has an office in the USA.",
+        "USA and Germany are different countries.",
+        "Any company that has offices in different countries is a multinational company.",
+        "Ableton makes music software."
       ],
       "premises_fol": [
-        "∀x (Book(x) → Contains(x, knowledge))",
-        "∀x ∀y (ReadBook(x, y) → Gains(x, knowledge))",
-        "∀x (Gains(x, knowledge) → Smarter(x))",
-        "ReadBook(harry, walden) ∧ Book(walden)"
+        "OfficeIn(ableton, germany)",
+        "OfficeIn(ableton, unitedStates)",
+        "¬SameCountry(germany, unitedStates)",
+        "∀x ∀y ∀z (OfficeIn(x, y) ∧ OfficeIn(x, z) ∧ (¬SameCountry(y, z)) → MultinationalCompany(x))",
+        "MakesMusicSoftware(ableton)"
       ],
-      "conclusion": "A smarter person has gained knowledge.",
-      "conclusion_fol": "∀x (Smarter(x) → GainKnowledge(x))",
+      "conclusion": "Ableton does not have an office in Germany.",
+      "conclusion_fol": "¬OfficeIn(ableton, germany)",
       "seqprover": {
         "premises": [
-          "X@((book(X) -> contains(X,knowledge)))",
-          "X@(Y@((readBook(X,Y) -> gains(X,knowledge))))",
-          "X@((gains(X,knowledge) -> smarter(X)))",
-          "(readBook(harry,walden) /\\ book(walden))"
+          "officeIn(ableton,germany)",
+          "officeIn(ableton,unitedStates)",
+          "~sameCountry(germany,unitedStates)",
+          "X@(Y@(Z@(((officeIn(X,Y) /\\ (officeIn(X,Z) /\\ ~sameCountry(Y,Z))) -> multinationalCompany(X)))))",
+          "makesMusicSoftware(ableton)"
         ],
-        "conclusion": "X@((smarter(X) -> gainKnowledge(X)))",
-        "goal": "X@((book(X) -> contains(X,knowledge))), X@(Y@((readBook(X,Y) -> gains(X,knowledge)))), X@((gains(X,knowledge) -> smarter(X))), (readBook(harry,walden) /\\ book(walden)) --> X@((smarter(X) -> gainKnowledge(X)))",
-        "negated_goal": "X@((book(X) -> contains(X,knowledge))), X@(Y@((readBook(X,Y) -> gains(X,knowledge)))), X@((gains(X,knowledge) -> smarter(X))), (readBook(harry,walden) /\\ book(walden)) --> ~X@((smarter(X) -> gainKnowledge(X)))",
+        "conclusion": "~officeIn(ableton,germany)",
+        "goal": "officeIn(ableton,germany), officeIn(ableton,unitedStates), ~sameCountry(germany,unitedStates), X@(Y@(Z@(((officeIn(X,Y) /\\ (officeIn(X,Z) /\\ ~sameCountry(Y,Z))) -> multinationalCompany(X))))), makesMusicSoftware(ableton) --> ~officeIn(ableton,germany)",
+        "negated_goal": "officeIn(ableton,germany), officeIn(ableton,unitedStates), ~sameCountry(germany,unitedStates), X@(Y@(Z@(((officeIn(X,Y) /\\ (officeIn(X,Z) /\\ ~sameCountry(Y,Z))) -> multinationalCompany(X))))), makesMusicSoftware(ableton) --> ~ ~officeIn(ableton,germany)",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     },
     {
       "id": "ARG-60",
-      "folio_example_id": 242,
-      "folio_story_id": 79,
-      "label": "Uncertain",
-      "n_premises": 4,
+      "folio_split": "train",
+      "folio_example_id": 318,
+      "folio_story_id": 105,
+      "label": "False",
+      "n_premises": 5,
       "premises": [
-        "Robert Lewandowski is a striker.",
-        "Strikers are soccer players.",
-        "Robert Lewandowski left Bayern Munchen.",
-        "If a player leaves a team they no longer play for that team."
+        "Show Your Love is a song recorded by the South Korean boy band BtoB 4u.",
+        "The lead single of the extended play Inside is Show Your Love.",
+        "Show Your Love contains a hopeful message.",
+        "BtoB 4u member Hyunsik wrote Show Your Love.",
+        "There is a music video for Show Your Love."
       ],
       "premises_fol": [
-        "Striker(robertLewandowski)",
-        "∀x (Striker(x) → SoccerPlayer(x))",
-        "Left(robertLewandowski, bayernMunchen)",
-        "∀x ∀y (Left(x, y) → ¬PlaysFor(x, y))"
+        "Song(showYourLove) ∧ RecordedBy(showYourLove, bToB4u) ∧ SouthKorean(bToB4u) ∧ BoyBand(bToB4u)",
+        "ExtendedPlay(inside) ∧ LeadSingleOf(showYourLove, inside)",
+        "Contains(showYourLove, hopefulMessage)",
+        "Member(hyunsik, btob4u) ∧ Wrote(hyunsik, showYourLove)",
+        "Have(showYourLove, musicVideo)"
       ],
-      "conclusion": "Robert Lewandowski is a star.",
-      "conclusion_fol": "SoccerStar(robertLewandowski)",
+      "conclusion": "Show Your Love wasn't written by a member of a boy band.",
+      "conclusion_fol": "∀x ∀y (Wrote(x, showYourLove) → ¬(BoyBand(y) ∧ MemberOf(x, y)))",
       "seqprover": {
         "premises": [
-          "striker(robertLewandowski)",
-          "X@((striker(X) -> soccerPlayer(X)))",
-          "left(robertLewandowski,bayernMunchen)",
-          "X@(Y@((left(X,Y) -> ~playsFor(X,Y))))"
+          "(song(showYourLove) /\\ (recordedBy(showYourLove,bToB4u) /\\ (southKorean(bToB4u) /\\ boyBand(bToB4u))))",
+          "(extendedPlay(inside) /\\ leadSingleOf(showYourLove,inside))",
+          "contains(showYourLove,hopefulMessage)",
+          "(member(hyunsik,btob4u) /\\ wrote(hyunsik,showYourLove))",
+          "have(showYourLove,musicVideo)"
         ],
-        "conclusion": "soccerStar(robertLewandowski)",
-        "goal": "striker(robertLewandowski), X@((striker(X) -> soccerPlayer(X))), left(robertLewandowski,bayernMunchen), X@(Y@((left(X,Y) -> ~playsFor(X,Y)))) --> soccerStar(robertLewandowski)",
-        "negated_goal": "striker(robertLewandowski), X@((striker(X) -> soccerPlayer(X))), left(robertLewandowski,bayernMunchen), X@(Y@((left(X,Y) -> ~playsFor(X,Y)))) --> ~soccerStar(robertLewandowski)",
+        "conclusion": "X@(Y@((wrote(X,showYourLove) -> ~(boyBand(Y) /\\ memberOf(X,Y)))))",
+        "goal": "(song(showYourLove) /\\ (recordedBy(showYourLove,bToB4u) /\\ (southKorean(bToB4u) /\\ boyBand(bToB4u)))), (extendedPlay(inside) /\\ leadSingleOf(showYourLove,inside)), contains(showYourLove,hopefulMessage), (member(hyunsik,btob4u) /\\ wrote(hyunsik,showYourLove)), have(showYourLove,musicVideo) --> X@(Y@((wrote(X,showYourLove) -> ~(boyBand(Y) /\\ memberOf(X,Y)))))",
+        "negated_goal": "(song(showYourLove) /\\ (recordedBy(showYourLove,bToB4u) /\\ (southKorean(bToB4u) /\\ boyBand(bToB4u)))), (extendedPlay(inside) /\\ leadSingleOf(showYourLove,inside)), contains(showYourLove,hopefulMessage), (member(hyunsik,btob4u) /\\ wrote(hyunsik,showYourLove)), have(showYourLove,musicVideo) --> ~X@(Y@((wrote(X,showYourLove) -> ~(boyBand(Y) /\\ memberOf(X,Y)))))",
         "expected": {
           "goal": false,
-          "negated_goal": false
+          "negated_goal": true
         }
       }
     }

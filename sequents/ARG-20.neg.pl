@@ -1,2 +1,2 @@
 pretty.
-X@((book(X) -> contains(X,knowledge))), X@(Y@((readBook(X,Y) -> gains(X,knowledge)))), X@((gains(X,knowledge) -> smarter(X))), (readBook(harry,walden) /\ book(walden)) --> ~smarter(harry).
+(basedIn(system7,uk) /\ electronicDanceMusicBand(system7)), (form(stevehillage,system7) /\ form(miquettegiraudy,system7)), (formerMemberOf(stevehillage,gong) /\ formerMemberOf(miquettegiraudy,gong)), X@((electronicDanceMusicBand(X) -> band(X))), X#((clubSingle(X) /\ release(system7,X))), X@((clubSingle(X) -> ~single(X))) --> ~X#((form(X,system7) /\ formerMemberOf(X,gong))).

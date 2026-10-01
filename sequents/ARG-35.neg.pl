@@ -1,2 +1,2 @@
 pretty.
-X#((professional(X) /\ (basketballPlayer(X) /\ ~americanNational(X)))), X@(((professional(X) /\ basketballPlayer(X)) -> canDo(X,jumpShot))), X@((canDo(X,jumpShot) -> leapStraightIntoAir(X))), X@((leapStraightIntoAir(X) -> activate(X,legMuscle))), ~activate(yuri,legMuscle) --> ~(americanNational(yuri) /\ (professional(yuri) /\ basketballPlayer(yuri))).
+(bornIn(ailtonSilva,year1995) /\ commonlyKnownAs(ailtonSilva,ailton)), (footballPlayer(ailton) /\ loanedTo(ailton,braga)), (brazilian(ailtonSilva) /\ (footballplayer(ailtonSilva) /\ playFor(ailtonSilva,nautico))), (footballClub(nautico) /\ footballClub(braga)), footballClub(fluminense) --> ~X@((footballClub(X) -> ~loanedTo(ailton,X))).

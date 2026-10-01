@@ -1,2 +1,2 @@
 pretty.
-X@((plunger(X) -> suck(X))), X@((vacuum(X) -> suck(X))), X@((vampire(X) -> suck(X))), vacuum(space), (householdAppliance(duster) /\ ~suck(duster)) --> ~vampire(space).
+(realNum(num6) /\ (realNum(num7) /\ realNum(num8))), X@(Y@(((realNum(X) /\ (realNum(Y) /\ isSuccessorOf(X,Y))) -> larger(X,Y)))), X@(Y@((larger(X,Y) -> ~larger(Y,X)))), Y#((isSuccessorOf(Y,num6) /\ equals(num7,Y))), Y#((isSuccessorOf(Y,num7) /\ equals(num8,Y))), positive(num2), X@(Y@(((positive(X) /\ isDouble(Y,X)) -> positive(Y)))), isDouble(num8,num4), isDouble(num4,num2) --> ~larger(six,seven).

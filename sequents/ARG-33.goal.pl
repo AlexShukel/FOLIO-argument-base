@@ -1,2 +1,2 @@
 pretty.
-X@((deadlyDiseases(X) -> comeWith(X,lowSurvivalRate))), X@((severeCancer(X) -> deadlyDiseases(X))), X@((bileDuctCancer(X) -> severeCancer(X))), X@((cholangiocarcinoma(X) -> bileDuctCancer(X))), X@((mildFlu(X) -> ~comeWith(X,lowSurvivalRate))), ~(bileDuctCancer(colorectalCancer) /\ comeWith(colorectalCancer,lowSurvivalRate)) --> (cholangiocarcinoma(colorectalCancer) /\ (mildFlu(colorectalCancer) \/ bileDuctCancer(colorectalCancer))).
+(bornIn(ailtonSilva,year1995) /\ commonlyKnownAs(ailtonSilva,ailton)), (footballPlayer(ailton) /\ loanedTo(ailton,braga)), (brazilian(ailtonSilva) /\ (footballplayer(ailtonSilva) /\ playFor(ailtonSilva,nautico))), (footballClub(nautico) /\ footballClub(braga)), footballClub(fluminense) --> X@((playFor(X,nautico) -> ~brazilian(X))).

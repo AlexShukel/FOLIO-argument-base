@@ -1,2 +1,2 @@
 pretty.
-X@((brownSwissCattle(X) -> cow(X))), X#((pet(X) /\ brownSwissCattle(X))), X@((cow(X) -> domesticatedAnimal(X))), X@((aligator(X) -> ~domesticatedAnimal(X))), aligator(ted) --> ~(pet(ted) /\ brownSwissCattle(ted)).
+(bornIn(ailtonSilva,year1995) /\ commonlyKnownAs(ailtonSilva,ailton)), (footballPlayer(ailton) /\ loanedTo(ailton,braga)), (brazilian(ailtonSilva) /\ (footballplayer(ailtonSilva) /\ playFor(ailtonSilva,nautico))), (footballClub(nautico) /\ footballClub(braga)), footballClub(fluminense) --> ~X@((footballClub(X) -> ~playFor(ailtonSilva,X))).

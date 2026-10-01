@@ -1,2 +1,2 @@
 pretty.
-X@((vehicleRegistrationPlateIn(X,istanbul) -> beginWith(X,num34))), X@((~beginWith(X,num34) -> ~fromIstanbul(X))), X#((owns(joe,X) /\ vehicleRegistrationPlateIn(X,istanbul))), X#((owns(tom,X) /\ beginWith(X,num35))), X@((beginWith(X,num35) -> ~beginWith(X,num34))) --> X#((owns(tom,X) /\ vehicleRegistrationPlateIn(X,istanbul))).
+(heavyCruiser(usssalem) /\ builtFor(usssalem,unitedstatesnavy)), lastHeavyCruiserToEnterService(usssalem), museumShip(usssalem), X@((museumShip(X) -> openToPublic(X))), (servedIn(usssalem,atlantic) /\ servedIn(usssalem,mediterranean)) --> X#((museumShip(X) /\ (openToPublic(X) /\ servedIn(X,mediterranean)))).

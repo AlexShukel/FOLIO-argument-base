@@ -7,7 +7,7 @@ Library use:
     sequent_for(premises_fol, conclusion_fol, label) -> {goal, negated_goal, expected}
 
 CLI use:
-    folio2seq.py build --source data/folio_v2_validation.jsonl --per-label 20 --out .
+    folio2seq.py build --source data/folio_v2_validation.jsonl data/folio_v2_train.jsonl --labels True,False --per-label 30 --out .
 
 FOLIO precedence assumed: ¬ > ∧ > ∨ > →, quantifier scopes over the next unit.
 Seqprover (Tamura) gives /\\ and \\/ equal precedence, so the output is
@@ -308,6 +308,7 @@ class Candidate:
     seq: dict = field(default_factory=dict)
     seq_premises: list[str] = field(default_factory=list)
     seq_conclusion: str = ""
+    split: str = ""
 
 
 def load_rows(path: Path) -> list[dict]:
@@ -347,23 +348,27 @@ def convert_row(row: dict) -> Candidate:
 
 
 def select(cands: list[Candidate], per_label: int, min_premises: int,
-           max_per_story: int) -> list[Candidate]:
+           max_per_story: int, labels: tuple[str, ...] = ("True", "False", "Uncertain"),
+           split_order: tuple[str, ...] = ()) -> list[Candidate]:
     """Deterministic pick: per label, prefer >= min_premises, cap rows per story,
-    then top up with shorter arguments if needed. Order by example_id."""
+    then top up with shorter arguments if needed. Candidates are ordered by
+    source split (in the order given) and then example_id."""
+    rank = {s: i for i, s in enumerate(split_order)}
     chosen: list[Candidate] = []
     story_use: Counter = Counter()
-    for label in ("True", "False", "Uncertain"):
-        pool = sorted((c for c in cands if c.label == label), key=lambda c: c.example_id)
+    for label in labels:
+        pool = sorted((c for c in cands if c.label == label),
+                      key=lambda c: (rank.get(c.split, len(rank)), c.example_id))
         picked: list[Candidate] = []
         for tier in (lambda c: len(c.premises) >= min_premises,
                      lambda c: len(c.premises) < min_premises):
             for c in pool:
                 if len(picked) >= per_label:
                     break
-                if not tier(c) or story_use[c.story_id] >= max_per_story:
+                if not tier(c) or story_use[(c.split, c.story_id)] >= max_per_story:
                     continue
                 picked.append(c)
-                story_use[c.story_id] += 1
+                story_use[(c.split, c.story_id)] += 1
         chosen.extend(picked)
     return chosen
 
@@ -376,6 +381,7 @@ def write_outputs(chosen: list[Candidate], excluded: list[dict], out: Path,
         arg_id = f"ARG-{i:02d}"
         rec = {
             "id": arg_id,
+            "folio_split": c.split,
             "folio_example_id": c.example_id,
             "folio_story_id": c.story_id,
             "label": c.label,
@@ -404,14 +410,14 @@ def write_outputs(chosen: list[Candidate], excluded: list[dict], out: Path,
 
     md = [f"# Curated FOLIO argument base ({len(records)} arguments)", "",
           f"Source: {source_name}. Labels: True = conclusion follows; "
-          "False = negation of the conclusion follows; Uncertain = neither follows.", ""]
-    md.append("| ID | FOLIO id | Story | Label | Premises |")
-    md.append("|---|---|---|---|---|")
+          "False = negation of the conclusion follows.", ""]
+    md.append("| ID | FOLIO split | FOLIO id | Story | Label | Premises |")
+    md.append("|---|---|---|---|---|---|")
     for r in records:
-        md.append(f"| {r['id']} | {r['folio_example_id']} | {r['folio_story_id']} | {r['label']} | {r['n_premises']} |")
+        md.append(f"| {r['id']} | {r['folio_split']} | {r['folio_example_id']} | {r['folio_story_id']} | {r['label']} | {r['n_premises']} |")
     md.append("")
     for r in records:
-        md += [f"## {r['id']} — {r['label']} (FOLIO example {r['folio_example_id']}, story {r['folio_story_id']})", "",
+        md += [f"## {r['id']} — {r['label']} (FOLIO {r['folio_split']} example {r['folio_example_id']}, story {r['folio_story_id']})", "",
                "**Premises**", ""]
         for nl, fol in zip(r["premises"], r["premises_fol"]):
             md.append(f"- {nl}  ")
@@ -423,42 +429,55 @@ def write_outputs(chosen: list[Candidate], excluded: list[dict], out: Path,
 
 # FOLIO rows excluded by hand after checking the prover output against the text.
 MANUAL_EXCLUSIONS = {
-    1414: "FOL conclusion omits the negation present in the natural-language conclusion "
+    ("validation", 1414): "FOL conclusion omits the negation present in the natural-language conclusion "
           "('It is not true that ...'); Seqprover proves the un-negated FOL, so the FOL "
           "does not match the label",
 }
 
 
 def build(args: argparse.Namespace) -> int:
-    source = Path(args.source)
-    rows = load_rows(source)
+    sources = [Path(s) for s in args.source]
+    labels = tuple(x.strip() for x in args.labels.split(",") if x.strip())
     cands: list[Candidate] = []
     excluded: list[dict] = []
-    for row in rows:
-        if int(row["example_id"]) in MANUAL_EXCLUSIONS:
-            excluded.append({"example_id": row["example_id"], "story_id": row["story_id"],
-                             "label": row["label"], "reason": "manual: " + MANUAL_EXCLUSIONS[int(row["example_id"])]})
-            continue
-        try:
-            cands.append(convert_row(row))
-        except ConvertError as e:
-            excluded.append({"example_id": row.get("example_id"), "story_id": row.get("story_id"),
-                             "label": row.get("label"), "reason": str(e)})
-    chosen = select(cands, args.per_label, args.min_premises, args.max_per_story)
-    reasons = Counter(re.split(r"[ {(:]", e["reason"], 1)[0] for e in excluded)
+    n_rows = 0
+    for source in sources:
+        split = source.stem.replace("folio_v2_", "")
+        for row in load_rows(source):
+            n_rows += 1
+            key = {"split": split, "example_id": row.get("example_id"), "story_id": row.get("story_id"),
+                   "label": row.get("label")}
+            if (split, int(row["example_id"])) in MANUAL_EXCLUSIONS:
+                excluded.append({**key, "reason": "manual: " + MANUAL_EXCLUSIONS[(split, int(row["example_id"]))]})
+                continue
+            try:
+                c = convert_row(row)
+                c.split = split
+                if c.label in labels:
+                    cands.append(c)
+                else:
+                    excluded.append({**key, "reason": f"label {c.label} not selected"})
+            except ConvertError as e:
+                excluded.append({**key, "reason": str(e)})
+    chosen = select(cands, args.per_label, args.min_premises, args.max_per_story,
+                    labels=labels, split_order=tuple(s.stem.replace("folio_v2_", "") for s in sources))
+    reasons = Counter(re.split(r"[ {(:]", e["reason"], maxsplit=1)[0] for e in excluded)
     stats = {
-        "source_rows": len(rows),
+        "sources": [s.name for s in sources],
+        "labels": list(labels),
+        "source_rows": n_rows,
         "convertible_rows": len(cands),
         "excluded_rows": len(excluded),
         "exclusion_reasons": dict(reasons),
         "selected": len(chosen),
         "selected_by_label": dict(Counter(c.label for c in chosen)),
+        "selected_by_split": dict(Counter(c.split for c in chosen)),
         "selected_with_min_premises": sum(len(c.premises) >= args.min_premises for c in chosen),
-        "selected_stories": len({c.story_id for c in chosen}),
+        "selected_stories": len({(c.split, c.story_id) for c in chosen}),
         "min_premises": args.min_premises,
         "max_per_story": args.max_per_story,
     }
-    write_outputs(chosen, excluded, Path(args.out), source.name, stats)
+    write_outputs(chosen, excluded, Path(args.out), " + ".join(s.name for s in sources), stats)
     print(json.dumps(stats, indent=2))
     return 0
 
@@ -467,9 +486,11 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     b = sub.add_parser("build", help="select the argument base and write outputs")
-    b.add_argument("--source", default="data/folio_v2_validation.jsonl")
+    b.add_argument("--source", nargs="+", default=["data/folio_v2_validation.jsonl", "data/folio_v2_train.jsonl"],
+                   help="FOLIO jsonl files in priority order")
+    b.add_argument("--labels", default="True,False", help="comma-separated labels to include")
     b.add_argument("--out", default=".")
-    b.add_argument("--per-label", type=int, default=20)
+    b.add_argument("--per-label", type=int, default=30)
     b.add_argument("--min-premises", type=int, default=5)
     b.add_argument("--max-per-story", type=int, default=3)
     b.set_defaults(func=build)

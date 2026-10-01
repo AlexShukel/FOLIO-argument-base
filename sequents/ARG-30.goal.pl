@@ -1,2 +1,2 @@
 pretty.
-X@((romanceLanguage(X) -> indoEuropeanLanguage(X))), X@((romanceLanguage(X) -> memberOf(X,languageFamily))), X@(Y@(Z@(((memberOf(X,Z) /\ memberOf(Y,Z)) -> (related(X,Y) /\ related(Y,X)))))), (romanceLanguage(french) /\ romanceLanguage(spanish)), related(german,spanish), X@((language(X) -> ~related(basque,X))) --> romanceLanguage(basque).
+(talentedPoet(lorca) /\ support(lorca,populists)), X@((support(X,populists) -> opposed(nationalists,X))), X@((talentedPoet(X) -> popular(X))), X@(((opposed(nationalists,X) /\ popular(X)) -> killed(nationalists,X))), (support(daniel,populists) /\ ~popular(daniel)) --> killed(nationalists,lorca).

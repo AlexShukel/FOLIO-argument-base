@@ -1,752 +1,6302 @@
 [
   {
+    "split": "validation",
     "example_id": 1014,
     "story_id": 380,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 56"
   },
   {
+    "split": "validation",
     "example_id": 1015,
     "story_id": 380,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 56"
   },
   {
+    "split": "validation",
     "example_id": 1016,
     "story_id": 380,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 56"
   },
   {
+    "split": "validation",
     "example_id": 1208,
     "story_id": 426,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 40"
   },
   {
+    "split": "validation",
     "example_id": 1209,
     "story_id": 426,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 40"
   },
   {
+    "split": "validation",
     "example_id": 1210,
     "story_id": 426,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 40"
   },
   {
+    "split": "validation",
+    "example_id": 564,
+    "story_id": 198,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
+    "example_id": 565,
+    "story_id": 198,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
+    "example_id": 2,
+    "story_id": 0,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 57,
     "story_id": 20,
     "label": "True",
     "reason": "trailing token ')' at 77 in '∀x ((Game(x) ∧ ∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(x, y))) → Top10(x)))'"
   },
   {
+    "split": "validation",
     "example_id": 58,
     "story_id": 20,
     "label": "Uncertain",
     "reason": "trailing token ')' at 77 in '∀x ((Game(x) ∧ ∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(x, y))) → Top10(x)))'"
   },
   {
+    "split": "validation",
     "example_id": 59,
     "story_id": 20,
     "label": "False",
     "reason": "trailing token ')' at 77 in '∀x ((Game(x) ∧ ∃y(GreaterThan(y, oneMillion) ∧ CopiesSold(x, y))) → Top10(x)))'"
   },
   {
+    "split": "validation",
     "example_id": 1361,
     "story_id": 471,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 45"
   },
   {
+    "split": "validation",
     "example_id": 1362,
     "story_id": 471,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 45"
   },
   {
+    "split": "validation",
     "example_id": 1363,
     "story_id": 471,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 45"
   },
   {
+    "split": "validation",
     "example_id": 1364,
     "story_id": 471,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 45"
   },
   {
+    "split": "validation",
     "example_id": 1365,
     "story_id": 471,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 45"
   },
   {
+    "split": "validation",
     "example_id": 530,
     "story_id": 184,
     "label": "True",
     "reason": "unsupported connective '↔' (iff) at 44"
   },
   {
+    "split": "validation",
     "example_id": 531,
     "story_id": 184,
     "label": "False",
     "reason": "unsupported connective '↔' (iff) at 44"
   },
   {
+    "split": "validation",
     "example_id": 532,
     "story_id": 184,
     "label": "Uncertain",
     "reason": "unsupported connective '↔' (iff) at 44"
   },
   {
+    "split": "validation",
+    "example_id": 658,
+    "story_id": 232,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
+    "example_id": 659,
+    "story_id": 232,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 1301,
     "story_id": 452,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 22"
   },
   {
+    "split": "validation",
     "example_id": 1302,
     "story_id": 452,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 22"
   },
   {
+    "split": "validation",
     "example_id": 1303,
     "story_id": 452,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 22"
   },
   {
+    "split": "validation",
     "example_id": 893,
     "story_id": 340,
     "label": "Uncertain",
     "reason": "unexpected end of formula in '∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x))'"
   },
   {
+    "split": "validation",
     "example_id": 894,
     "story_id": 340,
     "label": "True",
     "reason": "unexpected end of formula in '∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x))'"
   },
   {
+    "split": "validation",
     "example_id": 895,
     "story_id": 340,
     "label": "False",
     "reason": "unexpected end of formula in '∀x (At(x, mixer) ∧ (GrandSlam(x) ∧ Champion(x) → Professional(x) ∧ TennisPlayer(x))'"
   },
   {
+    "split": "validation",
+    "example_id": 290,
+    "story_id": 96,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 621,
     "story_id": 219,
     "label": "True",
     "reason": "free variable 'y' in '∀x (Orchestra(x) → (∃y Conductor(y) ∧ Lead(y, x)))'"
   },
   {
+    "split": "validation",
     "example_id": 622,
     "story_id": 219,
     "label": "True",
     "reason": "free variable 'y' in '∀x (Orchestra(x) → (∃y Conductor(y) ∧ Lead(y, x)))'"
   },
   {
+    "split": "validation",
     "example_id": 623,
     "story_id": 219,
     "label": "False",
     "reason": "free variable 'y' in '∀x (Orchestra(x) → (∃y Conductor(y) ∧ Lead(y, x)))'"
   },
   {
+    "split": "validation",
     "example_id": 927,
     "story_id": 350,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 53"
   },
   {
+    "split": "validation",
     "example_id": 928,
     "story_id": 350,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 53"
   },
   {
+    "split": "validation",
     "example_id": 929,
     "story_id": 350,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 53"
   },
   {
+    "split": "validation",
     "example_id": 1029,
     "story_id": 385,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 78"
   },
   {
+    "split": "validation",
     "example_id": 1030,
     "story_id": 385,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 78"
   },
   {
+    "split": "validation",
     "example_id": 1031,
     "story_id": 385,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 78"
   },
   {
+    "split": "validation",
+    "example_id": 700,
+    "story_id": 256,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 456,
     "story_id": 159,
     "label": "True",
     "reason": "unsupported connective '=' (equality) at 73"
   },
   {
+    "split": "validation",
     "example_id": 457,
     "story_id": 159,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 73"
   },
   {
+    "split": "validation",
     "example_id": 904,
     "story_id": 343,
     "label": "Uncertain",
     "reason": "free variable 'y1984' in 'PrintedText(y1984)'"
   },
   {
+    "split": "validation",
     "example_id": 905,
     "story_id": 343,
     "label": "False",
     "reason": "free variable 'y1984' in 'StreamingService(y1984)'"
   },
   {
+    "split": "validation",
     "example_id": 906,
     "story_id": 343,
     "label": "True",
     "reason": "free variable 'y1984' in '¬StreamingService(y1984)'"
   },
   {
+    "split": "validation",
+    "example_id": 609,
+    "story_id": 213,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
+    "example_id": 242,
+    "story_id": 79,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 4,
     "story_id": 2,
     "label": "False",
     "reason": "unsupported connective '=' (equality) at 33"
   },
   {
+    "split": "validation",
     "example_id": 5,
     "story_id": 2,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 33"
   },
   {
+    "split": "validation",
     "example_id": 6,
     "story_id": 2,
     "label": "True",
     "reason": "unsupported connective '=' (equality) at 33"
   },
   {
+    "split": "validation",
     "example_id": 548,
     "story_id": 192,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 62"
   },
   {
+    "split": "validation",
     "example_id": 549,
     "story_id": 192,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 62"
   },
   {
+    "split": "validation",
+    "example_id": 1271,
+    "story_id": 442,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 663,
     "story_id": 234,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 70"
   },
   {
+    "split": "validation",
     "example_id": 664,
     "story_id": 234,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 70"
   },
   {
+    "split": "validation",
     "example_id": 665,
     "story_id": 234,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 70"
   },
   {
+    "split": "validation",
     "example_id": 819,
     "story_id": 322,
     "label": "Uncertain",
     "reason": "inconsistent predicate arity {'BoughtToEarnProfitFrom': [2, 3]}"
   },
   {
+    "split": "validation",
     "example_id": 820,
     "story_id": 322,
     "label": "False",
     "reason": "inconsistent predicate arity {'BoughtToEarnProfitFrom': [2, 3]}"
   },
   {
+    "split": "validation",
     "example_id": 821,
     "story_id": 322,
     "label": "True",
     "reason": "inconsistent predicate arity {'BoughtToEarnProfitFrom': [2, 3]}"
   },
   {
+    "split": "validation",
     "example_id": 979,
     "story_id": 368,
     "label": "Uncertain",
     "reason": "unexpected end of formula in '(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition))'"
   },
   {
+    "split": "validation",
     "example_id": 980,
     "story_id": 368,
     "label": "True",
     "reason": "unexpected end of formula in '(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition))'"
   },
   {
+    "split": "validation",
     "example_id": 981,
     "story_id": 368,
     "label": "False",
     "reason": "unexpected end of formula in '(WorkIn(hannah, studentJob, campus) ∧ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition) → ¬(PickyEater(hannah) ∨ NeedToEarnMoneyToHelpPayFor(hannah, collegeTuition))'"
   },
   {
+    "split": "validation",
+    "example_id": 807,
+    "story_id": 319,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 754,
     "story_id": 306,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 57"
   },
   {
+    "split": "validation",
     "example_id": 755,
     "story_id": 306,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 57"
   },
   {
+    "split": "validation",
     "example_id": 756,
     "story_id": 306,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 57"
   },
   {
+    "split": "validation",
     "example_id": 688,
     "story_id": 245,
     "label": "True",
     "reason": "unsupported connective '⟷' (iff) at 32"
   },
   {
+    "split": "validation",
+    "example_id": 173,
+    "story_id": 58,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 546,
     "story_id": 191,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 65"
   },
   {
+    "split": "validation",
     "example_id": 547,
     "story_id": 191,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 65"
   },
   {
+    "split": "validation",
     "example_id": 476,
     "story_id": 166,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 90"
   },
   {
+    "split": "validation",
     "example_id": 477,
     "story_id": 166,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 90"
   },
   {
+    "split": "validation",
     "example_id": 478,
     "story_id": 166,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 90"
   },
   {
+    "split": "validation",
+    "example_id": 933,
+    "story_id": 352,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 935,
     "story_id": 352,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 79"
   },
   {
+    "split": "validation",
     "example_id": 1366,
     "story_id": 472,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 32"
   },
   {
+    "split": "validation",
     "example_id": 1367,
     "story_id": 472,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 32"
   },
   {
+    "split": "validation",
     "example_id": 1368,
     "story_id": 472,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 32"
   },
   {
+    "split": "validation",
     "example_id": 1011,
     "story_id": 379,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 30"
   },
   {
+    "split": "validation",
     "example_id": 1012,
     "story_id": 379,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 30"
   },
   {
+    "split": "validation",
     "example_id": 1013,
     "story_id": 379,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 30"
   },
   {
+    "split": "validation",
     "example_id": 561,
     "story_id": 197,
     "label": "True",
     "reason": "free variable 'x' in 'Cost(gRE, x) ∧ Cheaper(x, 300)'"
   },
   {
+    "split": "validation",
     "example_id": 958,
     "story_id": 361,
     "label": "Uncertain",
     "reason": "unexpected end of formula in '∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness))'"
   },
   {
+    "split": "validation",
     "example_id": 959,
     "story_id": 361,
     "label": "False",
     "reason": "unexpected end of formula in '∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness))'"
   },
   {
+    "split": "validation",
     "example_id": 960,
     "story_id": 361,
     "label": "True",
     "reason": "unexpected end of formula in '∀x ((∃y (FamilyOf(y, x) ∧ Prioritize(y, order) ∧ Prioritize(y, spotlessness)) → Value(x, order) ∧ Value(x, spotlessness))'"
   },
   {
+    "split": "validation",
     "example_id": 706,
     "story_id": 262,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 78"
   },
   {
+    "split": "validation",
     "example_id": 370,
     "story_id": 124,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 73"
   },
   {
+    "split": "validation",
     "example_id": 371,
     "story_id": 124,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 73"
   },
   {
+    "split": "validation",
     "example_id": 372,
     "story_id": 124,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 73"
   },
   {
+    "split": "validation",
     "example_id": 527,
     "story_id": 183,
     "label": "False",
     "reason": "unsupported connective '=' (equality) at 40"
   },
   {
+    "split": "validation",
     "example_id": 528,
     "story_id": 183,
     "label": "True",
     "reason": "unsupported connective '=' (equality) at 40"
   },
   {
+    "split": "validation",
     "example_id": 529,
     "story_id": 183,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 40"
   },
   {
+    "split": "validation",
+    "example_id": 439,
+    "story_id": 151,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
+    "example_id": 739,
+    "story_id": 295,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 786,
     "story_id": 315,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 80"
   },
   {
+    "split": "validation",
     "example_id": 787,
     "story_id": 315,
     "label": "False",
     "reason": "unsupported connective '=' (equality) at 80"
   },
   {
+    "split": "validation",
     "example_id": 788,
     "story_id": 315,
     "label": "True",
     "reason": "unsupported connective '=' (equality) at 80"
   },
   {
+    "split": "validation",
     "example_id": 1348,
     "story_id": 467,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 29"
   },
   {
+    "split": "validation",
     "example_id": 1349,
     "story_id": 467,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 29"
   },
   {
+    "split": "validation",
     "example_id": 1350,
     "story_id": 467,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 29"
   },
   {
+    "split": "validation",
     "example_id": 846,
     "story_id": 330,
     "label": "False",
     "reason": "unsupported connective '=' (equality) at 14"
   },
   {
+    "split": "validation",
     "example_id": 847,
     "story_id": 330,
     "label": "True",
     "reason": "unsupported connective '=' (equality) at 14"
   },
   {
+    "split": "validation",
     "example_id": 848,
     "story_id": 330,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 14"
   },
   {
+    "split": "validation",
     "example_id": 849,
     "story_id": 330,
     "label": "True",
     "reason": "unsupported connective '=' (equality) at 14"
   },
   {
+    "split": "validation",
     "example_id": 74,
     "story_id": 26,
     "label": "True",
     "reason": "unsupported connective '=' (equality) at 35"
   },
   {
+    "split": "validation",
     "example_id": 75,
     "story_id": 26,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 35"
   },
   {
+    "split": "validation",
     "example_id": 76,
     "story_id": 26,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 35"
   },
   {
+    "split": "validation",
+    "example_id": 579,
+    "story_id": 203,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 1327,
     "story_id": 460,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 60"
   },
   {
+    "split": "validation",
     "example_id": 1328,
     "story_id": 460,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 60"
   },
   {
+    "split": "validation",
     "example_id": 1329,
     "story_id": 460,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 60"
   },
   {
+    "split": "validation",
     "example_id": 133,
     "story_id": 46,
     "label": "True",
     "reason": "unsupported connective '=' (equality) at 35"
   },
   {
+    "split": "validation",
     "example_id": 134,
     "story_id": 46,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 35"
   },
   {
+    "split": "validation",
+    "example_id": 1410,
+    "story_id": 483,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
+    "example_id": 1411,
+    "story_id": 483,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 1413,
     "story_id": 483,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 54"
   },
   {
+    "split": "validation",
     "example_id": 1414,
     "story_id": 483,
     "label": "False",
     "reason": "manual: FOL conclusion omits the negation present in the natural-language conclusion ('It is not true that ...'); Seqprover proves the un-negated FOL, so the FOL does not match the label"
   },
   {
+    "split": "validation",
+    "example_id": 244,
+    "story_id": 80,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
+    "example_id": 245,
+    "story_id": 80,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 964,
     "story_id": 363,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 75"
   },
   {
+    "split": "validation",
     "example_id": 965,
     "story_id": 363,
     "label": "False",
     "reason": "unsupported connective '=' (equality) at 75"
   },
   {
+    "split": "validation",
     "example_id": 966,
     "story_id": 363,
     "label": "True",
     "reason": "unsupported connective '=' (equality) at 75"
   },
   {
+    "split": "validation",
     "example_id": 702,
     "story_id": 258,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 56"
   },
   {
+    "split": "validation",
     "example_id": 1244,
     "story_id": 435,
     "label": "False",
     "reason": "free variable 'y' in '∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))'"
   },
   {
+    "split": "validation",
     "example_id": 1245,
     "story_id": 435,
     "label": "True",
     "reason": "free variable 'y' in '∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))'"
   },
   {
+    "split": "validation",
     "example_id": 1246,
     "story_id": 435,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 28"
   },
   {
+    "split": "validation",
     "example_id": 1247,
     "story_id": 435,
     "label": "Uncertain",
     "reason": "free variable 'y' in '∀x (Student(x) ∧ Have(x, partTimeJob) ∧ OfferedBy(y, university) → WorkIn(x, library))'"
   },
   {
+    "split": "validation",
+    "example_id": 619,
+    "story_id": 217,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 736,
     "story_id": 292,
     "label": "False",
     "reason": "unsupported connective '=' (equality) at 50"
   },
   {
+    "split": "validation",
+    "example_id": 802,
+    "story_id": 318,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 803,
     "story_id": 318,
     "label": "False",
     "reason": "inconsistent predicate arity {'GivenOutOn': [2, 3]}"
   },
   {
+    "split": "validation",
     "example_id": 804,
     "story_id": 318,
     "label": "True",
     "reason": "inconsistent predicate arity {'GivenOutOn': [2, 3]}"
   },
   {
+    "split": "validation",
+    "example_id": 1032,
+    "story_id": 386,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 941,
     "story_id": 355,
     "label": "Uncertain",
     "reason": "unsupported connective '⊕' (xor) at 50"
   },
   {
+    "split": "validation",
     "example_id": 942,
     "story_id": 355,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 50"
   },
   {
+    "split": "validation",
     "example_id": 943,
     "story_id": 355,
     "label": "True",
     "reason": "unsupported connective '⊕' (xor) at 50"
   },
   {
+    "split": "validation",
+    "example_id": 147,
+    "story_id": 51,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 703,
     "story_id": 259,
     "label": "False",
     "reason": "unsupported connective '=' (equality) at 25"
   },
   {
+    "split": "validation",
     "example_id": 442,
     "story_id": 152,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 21"
   },
   {
+    "split": "validation",
     "example_id": 443,
     "story_id": 152,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 21"
   },
   {
+    "split": "validation",
+    "example_id": 1268,
+    "story_id": 441,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 1270,
     "story_id": 441,
     "label": "False",
     "reason": "trailing token ')' at 71 in '¬(Grumpy(tom) ∧ MeanTo(tom, animal)) → ¬Grumpy(tom) ∧ ¬AnimalLover(tom))'"
   },
   {
+    "split": "validation",
     "example_id": 189,
     "story_id": 64,
     "label": "True",
     "reason": "unexpected end of formula in '∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x))'"
   },
   {
+    "split": "validation",
     "example_id": 190,
     "story_id": 64,
     "label": "False",
     "reason": "unexpected end of formula in '∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x))'"
   },
   {
+    "split": "validation",
     "example_id": 191,
     "story_id": 64,
     "label": "Uncertain",
     "reason": "unexpected end of formula in '∀x((∃y(BornIn(x, y) ∧ City(y) ∧ LocatedIn(y,america)) → American(x))'"
   },
   {
+    "split": "validation",
+    "example_id": 1313,
+    "story_id": 456,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
     "example_id": 724,
     "story_id": 280,
     "label": "False",
     "reason": "unsupported connective '⊕' (xor) at 24"
   },
   {
+    "split": "validation",
     "example_id": 411,
     "story_id": 140,
     "label": "False",
     "reason": "trailing token ')' at 91 in '∃x ∃y (OnLeaderBoardOf(x, duMaurierClassic) ∧ SixWayTie(x)) ∧ In(y, sixWayTie) ∧ Belgium(y))'"
   },
   {
+    "split": "validation",
     "example_id": 412,
     "story_id": 140,
     "label": "Uncertain",
     "reason": "trailing token ')' at 91 in '∃x ∃y (OnLeaderBoardOf(x, duMaurierClassic) ∧ SixWayTie(x)) ∧ In(y, sixWayTie) ∧ Belgium(y))'"
   },
   {
+    "split": "validation",
     "example_id": 1324,
     "story_id": 459,
     "label": "Uncertain",
     "reason": "unsupported connective '=' (equality) at 14"
   },
   {
+    "split": "validation",
     "example_id": 1325,
     "story_id": 459,
     "label": "False",
     "reason": "unsupported connective '=' (equality) at 14"
   },
   {
+    "split": "validation",
     "example_id": 1326,
     "story_id": 459,
     "label": "True",
     "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "split": "validation",
+    "example_id": 307,
+    "story_id": 101,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "validation",
+    "example_id": 308,
+    "story_id": 101,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1126,
+    "story_id": 406,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 1127,
+    "story_id": 406,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 1128,
+    "story_id": 406,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 1129,
+    "story_id": 406,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 20,
+    "story_id": 8,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 21,
+    "story_id": 8,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 22,
+    "story_id": 8,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 1336,
+    "story_id": 463,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 42"
+  },
+  {
+    "split": "train",
+    "example_id": 1337,
+    "story_id": 463,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 42"
+  },
+  {
+    "split": "train",
+    "example_id": 1338,
+    "story_id": 463,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 42"
+  },
+  {
+    "split": "train",
+    "example_id": 392,
+    "story_id": 133,
+    "label": "True",
+    "reason": "trailing token ')' at 118 in 'Building(emmetBuilding) ∧ Five-Story(emmetBuilding) ∧ LocatedIn(emmetBuilding, portland) ∧ LocatedIn(portland, oregon))'"
+  },
+  {
+    "split": "train",
+    "example_id": 393,
+    "story_id": 133,
+    "label": "True",
+    "reason": "trailing token ')' at 118 in 'Building(emmetBuilding) ∧ Five-Story(emmetBuilding) ∧ LocatedIn(emmetBuilding, portland) ∧ LocatedIn(portland, oregon))'"
+  },
+  {
+    "split": "train",
+    "example_id": 394,
+    "story_id": 133,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 118 in 'Building(emmetBuilding) ∧ Five-Story(emmetBuilding) ∧ LocatedIn(emmetBuilding, portland) ∧ LocatedIn(portland, oregon))'"
+  },
+  {
+    "split": "train",
+    "example_id": 637,
+    "story_id": 226,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 690,
+    "story_id": 247,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "split": "train",
+    "example_id": 1192,
+    "story_id": 422,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 73"
+  },
+  {
+    "split": "train",
+    "example_id": 1193,
+    "story_id": 422,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 73"
+  },
+  {
+    "split": "train",
+    "example_id": 1194,
+    "story_id": 422,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 73"
+  },
+  {
+    "split": "train",
+    "example_id": 1195,
+    "story_id": 422,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 73"
+  },
+  {
+    "split": "train",
+    "example_id": 1196,
+    "story_id": 422,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 73"
+  },
+  {
+    "split": "train",
+    "example_id": 251,
+    "story_id": 82,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 252,
+    "story_id": 82,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 263,
+    "story_id": 86,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 491,
+    "story_id": 171,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 493,
+    "story_id": 171,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1173,
+    "story_id": 417,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 62"
+  },
+  {
+    "split": "train",
+    "example_id": 1174,
+    "story_id": 417,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 62"
+  },
+  {
+    "split": "train",
+    "example_id": 1175,
+    "story_id": 417,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 62"
+  },
+  {
+    "split": "train",
+    "example_id": 1176,
+    "story_id": 417,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 62"
+  },
+  {
+    "split": "train",
+    "example_id": 1177,
+    "story_id": 417,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 62"
+  },
+  {
+    "split": "train",
+    "example_id": 1005,
+    "story_id": 377,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 28"
+  },
+  {
+    "split": "train",
+    "example_id": 1006,
+    "story_id": 377,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 28"
+  },
+  {
+    "split": "train",
+    "example_id": 1007,
+    "story_id": 377,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 28"
+  },
+  {
+    "split": "train",
+    "example_id": 518,
+    "story_id": 180,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 42"
+  },
+  {
+    "split": "train",
+    "example_id": 519,
+    "story_id": 180,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 42"
+  },
+  {
+    "split": "train",
+    "example_id": 520,
+    "story_id": 180,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 42"
+  },
+  {
+    "split": "train",
+    "example_id": 698,
+    "story_id": 254,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1386,
+    "story_id": 477,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 1387,
+    "story_id": 477,
+    "label": "False",
+    "reason": "trailing token ')' at 56 in '¬Contain(tikTok, chatFeature) ∨ ¬ComputerProgram(tikTok))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1388,
+    "story_id": 477,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 29"
+  },
+  {
+    "split": "train",
+    "example_id": 921,
+    "story_id": 348,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 922,
+    "story_id": 348,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 923,
+    "story_id": 348,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 430,
+    "story_id": 147,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 29"
+  },
+  {
+    "split": "train",
+    "example_id": 431,
+    "story_id": 147,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 29"
+  },
+  {
+    "split": "train",
+    "example_id": 913,
+    "story_id": 346,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1143,
+    "story_id": 409,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 1144,
+    "story_id": 409,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 24"
+  },
+  {
+    "split": "train",
+    "example_id": 1145,
+    "story_id": 409,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 29"
+  },
+  {
+    "split": "train",
+    "example_id": 1146,
+    "story_id": 409,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 24"
+  },
+  {
+    "split": "train",
+    "example_id": 1202,
+    "story_id": 425,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 31"
+  },
+  {
+    "split": "train",
+    "example_id": 1203,
+    "story_id": 425,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 31"
+  },
+  {
+    "split": "train",
+    "example_id": 1204,
+    "story_id": 425,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 31"
+  },
+  {
+    "split": "train",
+    "example_id": 1205,
+    "story_id": 425,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 31"
+  },
+  {
+    "split": "train",
+    "example_id": 1206,
+    "story_id": 425,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 31"
+  },
+  {
+    "split": "train",
+    "example_id": 1207,
+    "story_id": 425,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 31"
+  },
+  {
+    "split": "train",
+    "example_id": 1197,
+    "story_id": 423,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 45"
+  },
+  {
+    "split": "train",
+    "example_id": 1198,
+    "story_id": 423,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 45"
+  },
+  {
+    "split": "train",
+    "example_id": 708,
+    "story_id": 264,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1169,
+    "story_id": 416,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 75"
+  },
+  {
+    "split": "train",
+    "example_id": 1170,
+    "story_id": 416,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 75"
+  },
+  {
+    "split": "train",
+    "example_id": 1171,
+    "story_id": 416,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 75"
+  },
+  {
+    "split": "train",
+    "example_id": 1172,
+    "story_id": 416,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 75"
+  },
+  {
+    "split": "train",
+    "example_id": 69,
+    "story_id": 24,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 12"
+  },
+  {
+    "split": "train",
+    "example_id": 70,
+    "story_id": 24,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 12"
+  },
+  {
+    "split": "train",
+    "example_id": 71,
+    "story_id": 24,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 12"
+  },
+  {
+    "split": "train",
+    "example_id": 687,
+    "story_id": 244,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 53"
+  },
+  {
+    "split": "train",
+    "example_id": 1008,
+    "story_id": 378,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x (Attend(x, wedding) → GettingMarried(x) ∨ (∃y (Know(x, y) ∧ GettingMarried(y)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1009,
+    "story_id": 378,
+    "label": "Uncertain",
+    "reason": "unexpected end of formula in '∀x (Attend(x, wedding) → GettingMarried(x) ∨ (∃y (Know(x, y) ∧ GettingMarried(y)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1010,
+    "story_id": 378,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (Attend(x, wedding) → GettingMarried(x) ∨ (∃y (Know(x, y) ∧ GettingMarried(y)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1068,
+    "story_id": 395,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 1069,
+    "story_id": 395,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 1070,
+    "story_id": 395,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 1071,
+    "story_id": 395,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 1072,
+    "story_id": 395,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 1073,
+    "story_id": 395,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 1074,
+    "story_id": 395,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 1075,
+    "story_id": 395,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 709,
+    "story_id": 265,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 90"
+  },
+  {
+    "split": "train",
+    "example_id": 881,
+    "story_id": 337,
+    "label": "False",
+    "reason": "unexpected character ':' at 42 in '∀x (Athlete(x) → ¬NeverExercises(x)) Never: does not exist a time'"
+  },
+  {
+    "split": "train",
+    "example_id": 882,
+    "story_id": 337,
+    "label": "True",
+    "reason": "unexpected character ':' at 42 in '∀x (Athlete(x) → ¬NeverExercises(x)) Never: does not exist a time'"
+  },
+  {
+    "split": "train",
+    "example_id": 883,
+    "story_id": 337,
+    "label": "Uncertain",
+    "reason": "unexpected character ':' at 42 in '∀x (Athlete(x) → ¬NeverExercises(x)) Never: does not exist a time'"
+  },
+  {
+    "split": "train",
+    "example_id": 910,
+    "story_id": 345,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 911,
+    "story_id": 345,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 912,
+    "story_id": 345,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 203,
+    "story_id": 68,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 725,
+    "story_id": 281,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 56"
+  },
+  {
+    "split": "train",
+    "example_id": 165,
+    "story_id": 56,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 25"
+  },
+  {
+    "split": "train",
+    "example_id": 166,
+    "story_id": 56,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 25"
+  },
+  {
+    "split": "train",
+    "example_id": 167,
+    "story_id": 56,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 25"
+  },
+  {
+    "split": "train",
+    "example_id": 976,
+    "story_id": 367,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 76"
+  },
+  {
+    "split": "train",
+    "example_id": 977,
+    "story_id": 367,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 76"
+  },
+  {
+    "split": "train",
+    "example_id": 978,
+    "story_id": 367,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 76"
+  },
+  {
+    "split": "train",
+    "example_id": 54,
+    "story_id": 19,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 464,
+    "story_id": 162,
+    "label": "False",
+    "reason": "free variable 'y' in '∀x (PlayIn(oliver, x, concert) → ¬PlayIn(peter, y, concert))'"
+  },
+  {
+    "split": "train",
+    "example_id": 465,
+    "story_id": 162,
+    "label": "Uncertain",
+    "reason": "free variable 'y' in '∀x (PlayIn(oliver, x, concert) → ¬PlayIn(peter, y, concert))'"
+  },
+  {
+    "split": "train",
+    "example_id": 466,
+    "story_id": 162,
+    "label": "True",
+    "reason": "free variable 'y' in '∀x (PlayIn(oliver, x, concert) → ¬PlayIn(peter, y, concert))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1307,
+    "story_id": 454,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 75 in '∀x (Human(x) ∧ CanStandOnTheGround(x, themselves) → FunctionalLegMuscle(x)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1308,
+    "story_id": 454,
+    "label": "True",
+    "reason": "trailing token ')' at 75 in '∀x (Human(x) ∧ CanStandOnTheGround(x, themselves) → FunctionalLegMuscle(x)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1309,
+    "story_id": 454,
+    "label": "False",
+    "reason": "trailing token ')' at 75 in '∀x (Human(x) ∧ CanStandOnTheGround(x, themselves) → FunctionalLegMuscle(x)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 668,
+    "story_id": 236,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 669,
+    "story_id": 236,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 670,
+    "story_id": 236,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1402,
+    "story_id": 481,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 17"
+  },
+  {
+    "split": "train",
+    "example_id": 1403,
+    "story_id": 481,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 17"
+  },
+  {
+    "split": "train",
+    "example_id": 1404,
+    "story_id": 481,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 17"
+  },
+  {
+    "split": "train",
+    "example_id": 1405,
+    "story_id": 481,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 17"
+  },
+  {
+    "split": "train",
+    "example_id": 1304,
+    "story_id": 453,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1305,
+    "story_id": 453,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 1306,
+    "story_id": 453,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 223,
+    "story_id": 73,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1289,
+    "story_id": 448,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 8,
+    "story_id": 3,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 9,
+    "story_id": 3,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 840,
+    "story_id": 328,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 25"
+  },
+  {
+    "split": "train",
+    "example_id": 841,
+    "story_id": 328,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 25"
+  },
+  {
+    "split": "train",
+    "example_id": 842,
+    "story_id": 328,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 25"
+  },
+  {
+    "split": "train",
+    "example_id": 1417,
+    "story_id": 484,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 17"
+  },
+  {
+    "split": "train",
+    "example_id": 1418,
+    "story_id": 484,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1060,
+    "story_id": 393,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 50"
+  },
+  {
+    "split": "train",
+    "example_id": 1061,
+    "story_id": 393,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 50"
+  },
+  {
+    "split": "train",
+    "example_id": 1062,
+    "story_id": 393,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 50"
+  },
+  {
+    "split": "train",
+    "example_id": 1133,
+    "story_id": 408,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 52"
+  },
+  {
+    "split": "train",
+    "example_id": 1134,
+    "story_id": 408,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 52"
+  },
+  {
+    "split": "train",
+    "example_id": 1135,
+    "story_id": 408,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 52"
+  },
+  {
+    "split": "train",
+    "example_id": 1136,
+    "story_id": 408,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 52"
+  },
+  {
+    "split": "train",
+    "example_id": 1137,
+    "story_id": 408,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 52"
+  },
+  {
+    "split": "train",
+    "example_id": 1138,
+    "story_id": 408,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 52"
+  },
+  {
+    "split": "train",
+    "example_id": 1139,
+    "story_id": 408,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 52"
+  },
+  {
+    "split": "train",
+    "example_id": 1140,
+    "story_id": 408,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 52"
+  },
+  {
+    "split": "train",
+    "example_id": 1141,
+    "story_id": 408,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 52"
+  },
+  {
+    "split": "train",
+    "example_id": 735,
+    "story_id": 291,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 54"
+  },
+  {
+    "split": "train",
+    "example_id": 355,
+    "story_id": 118,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 356,
+    "story_id": 118,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 728,
+    "story_id": 284,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1372,
+    "story_id": 474,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 86"
+  },
+  {
+    "split": "train",
+    "example_id": 1373,
+    "story_id": 474,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 86"
+  },
+  {
+    "split": "train",
+    "example_id": 1374,
+    "story_id": 474,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 86"
+  },
+  {
+    "split": "train",
+    "example_id": 1375,
+    "story_id": 474,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 86"
+  },
+  {
+    "split": "train",
+    "example_id": 1376,
+    "story_id": 474,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 86"
+  },
+  {
+    "split": "train",
+    "example_id": 1377,
+    "story_id": 474,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 86"
+  },
+  {
+    "split": "train",
+    "example_id": 135,
+    "story_id": 47,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 63"
+  },
+  {
+    "split": "train",
+    "example_id": 136,
+    "story_id": 47,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 63"
+  },
+  {
+    "split": "train",
+    "example_id": 137,
+    "story_id": 47,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 63"
+  },
+  {
+    "split": "train",
+    "example_id": 816,
+    "story_id": 321,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "split": "train",
+    "example_id": 817,
+    "story_id": 321,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "split": "train",
+    "example_id": 818,
+    "story_id": 321,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "split": "train",
+    "example_id": 571,
+    "story_id": 200,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 378,
+    "story_id": 127,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 428,
+    "story_id": 146,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 79,
+    "story_id": 27,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 999,
+    "story_id": 375,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 184,
+    "story_id": 62,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 185,
+    "story_id": 62,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1130,
+    "story_id": 407,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 1131,
+    "story_id": 407,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 1132,
+    "story_id": 407,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 95"
+  },
+  {
+    "split": "train",
+    "example_id": 1406,
+    "story_id": 482,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1407,
+    "story_id": 482,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1408,
+    "story_id": 482,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1409,
+    "story_id": 482,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1248,
+    "story_id": 436,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 54"
+  },
+  {
+    "split": "train",
+    "example_id": 1249,
+    "story_id": 436,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 54"
+  },
+  {
+    "split": "train",
+    "example_id": 1250,
+    "story_id": 436,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 54"
+  },
+  {
+    "split": "train",
+    "example_id": 1251,
+    "story_id": 436,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 54"
+  },
+  {
+    "split": "train",
+    "example_id": 1252,
+    "story_id": 436,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 54"
+  },
+  {
+    "split": "train",
+    "example_id": 939,
+    "story_id": 354,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 29"
+  },
+  {
+    "split": "train",
+    "example_id": 940,
+    "story_id": 354,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 29"
+  },
+  {
+    "split": "train",
+    "example_id": 494,
+    "story_id": 172,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 495,
+    "story_id": 172,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 496,
+    "story_id": 172,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 896,
+    "story_id": 341,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 897,
+    "story_id": 341,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 898,
+    "story_id": 341,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 899,
+    "story_id": 341,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 419,
+    "story_id": 143,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 110 in '∀x (Funny(x) ∧ Video(x) ∧ SendIn(viewers, x, frenchBroadcastChannelTF1)  → AirWeekly(x) ) ∧ AirOn(videoGag, x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 420,
+    "story_id": 143,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 110 in '∀x (Funny(x) ∧ Video(x) ∧ SendIn(viewers, x, frenchBroadcastChannelTF1)  → AirWeekly(x) ) ∧ AirOn(videoGag, x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1381,
+    "story_id": 476,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 1382,
+    "story_id": 476,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 1383,
+    "story_id": 476,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 1384,
+    "story_id": 476,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 733,
+    "story_id": 289,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 56"
+  },
+  {
+    "split": "train",
+    "example_id": 112,
+    "story_id": 38,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1117,
+    "story_id": 403,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1118,
+    "story_id": 403,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 28"
+  },
+  {
+    "split": "train",
+    "example_id": 1119,
+    "story_id": 403,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 71"
+  },
+  {
+    "split": "train",
+    "example_id": 83,
+    "story_id": 29,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 85,
+    "story_id": 29,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 599,
+    "story_id": 210,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 43"
+  },
+  {
+    "split": "train",
+    "example_id": 600,
+    "story_id": 210,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 43"
+  },
+  {
+    "split": "train",
+    "example_id": 601,
+    "story_id": 210,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 43"
+  },
+  {
+    "split": "train",
+    "example_id": 271,
+    "story_id": 89,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 272,
+    "story_id": 89,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 713,
+    "story_id": 269,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 296,
+    "story_id": 98,
+    "label": "False",
+    "reason": "free variable 'y' in '∀x (Series(x) ∧ AiredOn(x, aBC) ∧ ∃y(ShowRunnerOf(y, witchesOfEastEnd)) → ¬Develops(y, x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 297,
+    "story_id": 98,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 358,
+    "story_id": 119,
+    "label": "True",
+    "reason": "free variable 'y' in '∀x ∀x ∀z (Company(x) ∧ WorkForIn(y, x, z) → HaveOfficeIn(x, z))'"
+  },
+  {
+    "split": "train",
+    "example_id": 359,
+    "story_id": 119,
+    "label": "False",
+    "reason": "free variable 'y' in '∀x ∀x ∀z (Company(x) ∧ WorkForIn(y, x, z) → HaveOfficeIn(x, z))'"
+  },
+  {
+    "split": "train",
+    "example_id": 432,
+    "story_id": 148,
+    "label": "False",
+    "reason": "expected ident, got ')' at 27 in '∃x (Song(x) ∧ By(x, boneym,) ∧ Number1GermanSingle(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 433,
+    "story_id": 148,
+    "label": "True",
+    "reason": "expected ident, got ')' at 27 in '∃x (Song(x) ∧ By(x, boneym,) ∧ Number1GermanSingle(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 434,
+    "story_id": 148,
+    "label": "Uncertain",
+    "reason": "expected ident, got ')' at 27 in '∃x (Song(x) ∧ By(x, boneym,) ∧ Number1GermanSingle(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 692,
+    "story_id": 249,
+    "label": "True",
+    "reason": "unexpected end of formula in 'CanMake(luke, cookies) ∧ (CanMake(luke, scrambledEggs) ∧ CanMake(luke, muffins) ∧ ¬CanMake(luke, pasta)'"
+  },
+  {
+    "split": "train",
+    "example_id": 693,
+    "story_id": 249,
+    "label": "False",
+    "reason": "unexpected end of formula in 'CanMake(luke, cookies) ∧ (CanMake(luke, scrambledEggs) ∧ CanMake(luke, muffins) ∧ ¬CanMake(luke, pasta)'"
+  },
+  {
+    "split": "train",
+    "example_id": 559,
+    "story_id": 196,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 993,
+    "story_id": 373,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x (Hodophiles(x) → (EnjoyEating(x, gelato) ∨ LoveToTravelOften(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 994,
+    "story_id": 373,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (Hodophiles(x) → (EnjoyEating(x, gelato) ∨ LoveToTravelOften(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 995,
+    "story_id": 373,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x (Hodophiles(x) → (EnjoyEating(x, gelato) ∨ LoveToTravelOften(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 776,
+    "story_id": 312,
+    "label": "False",
+    "reason": "free variable 'x' in '¬StudyIn(x, unitedStates) → EnrolledIn(x, academicProgram)'"
+  },
+  {
+    "split": "train",
+    "example_id": 777,
+    "story_id": 312,
+    "label": "True",
+    "reason": "free variable 'x' in '¬StudyIn(x, unitedStates) → EnrolledIn(x, academicProgram)'"
+  },
+  {
+    "split": "train",
+    "example_id": 778,
+    "story_id": 312,
+    "label": "Uncertain",
+    "reason": "free variable 'x' in '¬StudyIn(x, unitedStates) → EnrolledIn(x, academicProgram)'"
+  },
+  {
+    "split": "train",
+    "example_id": 395,
+    "story_id": 134,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 396,
+    "story_id": 134,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 397,
+    "story_id": 134,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 1211,
+    "story_id": 427,
+    "label": "Uncertain",
+    "reason": "expected ident, got '(' at 15 in '∀x (Imprisoned((x) → Has(x, criminalRecord))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1212,
+    "story_id": 427,
+    "label": "Uncertain",
+    "reason": "expected ident, got '(' at 15 in '∀x (Imprisoned((x) → Has(x, criminalRecord))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1213,
+    "story_id": 427,
+    "label": "False",
+    "reason": "expected ident, got '(' at 15 in '∀x (Imprisoned((x) → Has(x, criminalRecord))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1214,
+    "story_id": 427,
+    "label": "True",
+    "reason": "expected ident, got '(' at 15 in '∀x (Imprisoned((x) → Has(x, criminalRecord))'"
+  },
+  {
+    "split": "train",
+    "example_id": 33,
+    "story_id": 12,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 34,
+    "story_id": 12,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 705,
+    "story_id": 261,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 200,
+    "story_id": 67,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 676,
+    "story_id": 238,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 678,
+    "story_id": 238,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 326,
+    "story_id": 108,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 55"
+  },
+  {
+    "split": "train",
+    "example_id": 327,
+    "story_id": 108,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 55"
+  },
+  {
+    "split": "train",
+    "example_id": 328,
+    "story_id": 108,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 55"
+  },
+  {
+    "split": "train",
+    "example_id": 329,
+    "story_id": 108,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 55"
+  },
+  {
+    "split": "train",
+    "example_id": 255,
+    "story_id": 84,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 961,
+    "story_id": 362,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 118"
+  },
+  {
+    "split": "train",
+    "example_id": 962,
+    "story_id": 362,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 118"
+  },
+  {
+    "split": "train",
+    "example_id": 963,
+    "story_id": 362,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 118"
+  },
+  {
+    "split": "train",
+    "example_id": 683,
+    "story_id": 241,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 108"
+  },
+  {
+    "split": "train",
+    "example_id": 684,
+    "story_id": 241,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 108"
+  },
+  {
+    "split": "train",
+    "example_id": 650,
+    "story_id": 229,
+    "label": "Uncertain",
+    "reason": "unsupported connective '↔' (iff) at 108"
+  },
+  {
+    "split": "train",
+    "example_id": 651,
+    "story_id": 229,
+    "label": "True",
+    "reason": "unsupported connective '↔' (iff) at 108"
+  },
+  {
+    "split": "train",
+    "example_id": 572,
+    "story_id": 201,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 573,
+    "story_id": 201,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 574,
+    "story_id": 201,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 1090,
+    "story_id": 399,
+    "label": "Uncertain",
+    "reason": "unexpected end of formula in '∀x (In(x, loveCity) → (ConsidersMostImportantLoveLanguage(x, physicalTouch)  ∨ ConsidersMostImportantLoveLanguage(x, wordOfAffirmation))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1091,
+    "story_id": 399,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (In(x, loveCity) → (ConsidersMostImportantLoveLanguage(x, physicalTouch)  ∨ ConsidersMostImportantLoveLanguage(x, wordOfAffirmation))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1092,
+    "story_id": 399,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x (In(x, loveCity) → (ConsidersMostImportantLoveLanguage(x, physicalTouch)  ∨ ConsidersMostImportantLoveLanguage(x, wordOfAffirmation))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1093,
+    "story_id": 399,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (In(x, loveCity) → (ConsidersMostImportantLoveLanguage(x, physicalTouch)  ∨ ConsidersMostImportantLoveLanguage(x, wordOfAffirmation))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1094,
+    "story_id": 399,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (In(x, loveCity) → (ConsidersMostImportantLoveLanguage(x, physicalTouch)  ∨ ConsidersMostImportantLoveLanguage(x, wordOfAffirmation))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1277,
+    "story_id": 444,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 24"
+  },
+  {
+    "split": "train",
+    "example_id": 1278,
+    "story_id": 444,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 24"
+  },
+  {
+    "split": "train",
+    "example_id": 1279,
+    "story_id": 444,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 24"
+  },
+  {
+    "split": "train",
+    "example_id": 86,
+    "story_id": 30,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 32"
+  },
+  {
+    "split": "train",
+    "example_id": 87,
+    "story_id": 30,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 32"
+  },
+  {
+    "split": "train",
+    "example_id": 88,
+    "story_id": 30,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 32"
+  },
+  {
+    "split": "train",
+    "example_id": 737,
+    "story_id": 293,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 84"
+  },
+  {
+    "split": "train",
+    "example_id": 1378,
+    "story_id": 475,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 61"
+  },
+  {
+    "split": "train",
+    "example_id": 1379,
+    "story_id": 475,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 61"
+  },
+  {
+    "split": "train",
+    "example_id": 1380,
+    "story_id": 475,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 61"
+  },
+  {
+    "split": "train",
+    "example_id": 712,
+    "story_id": 268,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 88"
+  },
+  {
+    "split": "train",
+    "example_id": 73,
+    "story_id": 25,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 280,
+    "story_id": 92,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 281,
+    "story_id": 92,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1047,
+    "story_id": 391,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 1048,
+    "story_id": 391,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 1049,
+    "story_id": 391,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 1050,
+    "story_id": 391,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 1051,
+    "story_id": 391,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 1052,
+    "story_id": 391,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 1053,
+    "story_id": 391,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 1054,
+    "story_id": 391,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 1055,
+    "story_id": 391,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 1056,
+    "story_id": 391,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 521,
+    "story_id": 181,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 57"
+  },
+  {
+    "split": "train",
+    "example_id": 522,
+    "story_id": 181,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 57"
+  },
+  {
+    "split": "train",
+    "example_id": 523,
+    "story_id": 181,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 57"
+  },
+  {
+    "split": "train",
+    "example_id": 228,
+    "story_id": 75,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 230,
+    "story_id": 75,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 694,
+    "story_id": 250,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 907,
+    "story_id": 344,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "split": "train",
+    "example_id": 908,
+    "story_id": 344,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "split": "train",
+    "example_id": 909,
+    "story_id": 344,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "split": "train",
+    "example_id": 473,
+    "story_id": 165,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 475,
+    "story_id": 165,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 902,
+    "story_id": 342,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1285,
+    "story_id": 446,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 435,
+    "story_id": 149,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 76"
+  },
+  {
+    "split": "train",
+    "example_id": 436,
+    "story_id": 149,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 76"
+  },
+  {
+    "split": "train",
+    "example_id": 212,
+    "story_id": 70,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 699,
+    "story_id": 255,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 742,
+    "story_id": 298,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 42"
+  },
+  {
+    "split": "train",
+    "example_id": 1020,
+    "story_id": 382,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 53"
+  },
+  {
+    "split": "train",
+    "example_id": 1021,
+    "story_id": 382,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 53"
+  },
+  {
+    "split": "train",
+    "example_id": 1022,
+    "story_id": 382,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 53"
+  },
+  {
+    "split": "train",
+    "example_id": 160,
+    "story_id": 54,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 732,
+    "story_id": 288,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 56"
+  },
+  {
+    "split": "train",
+    "example_id": 485,
+    "story_id": 169,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 486,
+    "story_id": 169,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 487,
+    "story_id": 169,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 1002,
+    "story_id": 376,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 146"
+  },
+  {
+    "split": "train",
+    "example_id": 1003,
+    "story_id": 376,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 146"
+  },
+  {
+    "split": "train",
+    "example_id": 1004,
+    "story_id": 376,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 146"
+  },
+  {
+    "split": "train",
+    "example_id": 615,
+    "story_id": 215,
+    "label": "Uncertain",
+    "reason": "unsupported connective '≠' (equality) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 616,
+    "story_id": 215,
+    "label": "True",
+    "reason": "unsupported connective '≠' (equality) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 1235,
+    "story_id": 433,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1236,
+    "story_id": 433,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1237,
+    "story_id": 433,
+    "label": "False",
+    "reason": "free variable 'x' in 'HasLogo(towerB, bloomberg) ∨ ManagedBy(x, yaleHousing)'"
+  },
+  {
+    "split": "train",
+    "example_id": 1238,
+    "story_id": 433,
+    "label": "True",
+    "reason": "free variable 'x' in '¬HasLogo(towerB, bloomberg) ∧ (¬ManagedBy(x, yaleHousing))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1261,
+    "story_id": 439,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 1262,
+    "story_id": 439,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 1263,
+    "story_id": 439,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 453,
+    "story_id": 158,
+    "label": "Uncertain",
+    "reason": "unexpected character '.' at 17 in '∀x (WantToGoTo(mr.AndMrs.Smith, x) ∧ City(x) → (California(x) ∨ Florida(x)) ∧ NeverGo(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 454,
+    "story_id": 158,
+    "label": "Uncertain",
+    "reason": "unexpected character '.' at 17 in '∀x (WantToGoTo(mr.AndMrs.Smith, x) ∧ City(x) → (California(x) ∨ Florida(x)) ∧ NeverGo(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 455,
+    "story_id": 158,
+    "label": "Uncertain",
+    "reason": "unexpected character '.' at 17 in '∀x (WantToGoTo(mr.AndMrs.Smith, x) ∧ City(x) → (California(x) ∨ Florida(x)) ∧ NeverGo(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1424,
+    "story_id": 486,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1425,
+    "story_id": 486,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1428,
+    "story_id": 486,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 20"
+  },
+  {
+    "split": "train",
+    "example_id": 1429,
+    "story_id": 486,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 48"
+  },
+  {
+    "split": "train",
+    "example_id": 1342,
+    "story_id": 465,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 56"
+  },
+  {
+    "split": "train",
+    "example_id": 1343,
+    "story_id": 465,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 56"
+  },
+  {
+    "split": "train",
+    "example_id": 1344,
+    "story_id": 465,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 56"
+  },
+  {
+    "split": "train",
+    "example_id": 834,
+    "story_id": 326,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 67 in '∀x (ProfessionalSoccerPlayer(x) → ¬ProfessionalBasketballPlayer(x)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 835,
+    "story_id": 326,
+    "label": "False",
+    "reason": "trailing token ')' at 67 in '∀x (ProfessionalSoccerPlayer(x) → ¬ProfessionalBasketballPlayer(x)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 836,
+    "story_id": 326,
+    "label": "True",
+    "reason": "trailing token ')' at 67 in '∀x (ProfessionalSoccerPlayer(x) → ¬ProfessionalBasketballPlayer(x)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 537,
+    "story_id": 186,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 967,
+    "story_id": 364,
+    "label": "Uncertain",
+    "reason": "unexpected end of formula in '∀x (In(x, thisNeighborhood) → (VisitRegularly(x, coffeeShop) ∨ (∃y (TakeOut(y) ∧ Order(x, y, aDay))))'"
+  },
+  {
+    "split": "train",
+    "example_id": 968,
+    "story_id": 364,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x (In(x, thisNeighborhood) → (VisitRegularly(x, coffeeShop) ∨ (∃y (TakeOut(y) ∧ Order(x, y, aDay))))'"
+  },
+  {
+    "split": "train",
+    "example_id": 969,
+    "story_id": 364,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (In(x, thisNeighborhood) → (VisitRegularly(x, coffeeShop) ∨ (∃y (TakeOut(y) ∧ Order(x, y, aDay))))'"
+  },
+  {
+    "split": "train",
+    "example_id": 837,
+    "story_id": 327,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 838,
+    "story_id": 327,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 839,
+    "story_id": 327,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 1274,
+    "story_id": 443,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 746,
+    "story_id": 302,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 86"
+  },
+  {
+    "split": "train",
+    "example_id": 267,
+    "story_id": 88,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 269,
+    "story_id": 88,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 982,
+    "story_id": 369,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 167"
+  },
+  {
+    "split": "train",
+    "example_id": 983,
+    "story_id": 369,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 167"
+  },
+  {
+    "split": "train",
+    "example_id": 1298,
+    "story_id": 451,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1300,
+    "story_id": 451,
+    "label": "False",
+    "reason": "trailing token ')' at 46 in '¬PaidBy(nancy, school) ∨ ¬Have(nancy, student))'"
+  },
+  {
+    "split": "train",
+    "example_id": 611,
+    "story_id": 214,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 612,
+    "story_id": 214,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 613,
+    "story_id": 214,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 614,
+    "story_id": 214,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 109,
+    "story_id": 37,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1017,
+    "story_id": 381,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 42"
+  },
+  {
+    "split": "train",
+    "example_id": 1018,
+    "story_id": 381,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 42"
+  },
+  {
+    "split": "train",
+    "example_id": 1019,
+    "story_id": 381,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 42"
+  },
+  {
+    "split": "train",
+    "example_id": 944,
+    "story_id": 356,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 48"
+  },
+  {
+    "split": "train",
+    "example_id": 945,
+    "story_id": 356,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 48"
+  },
+  {
+    "split": "train",
+    "example_id": 946,
+    "story_id": 356,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 48"
+  },
+  {
+    "split": "train",
+    "example_id": 462,
+    "story_id": 161,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 617,
+    "story_id": 216,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 13"
+  },
+  {
+    "split": "train",
+    "example_id": 592,
+    "story_id": 207,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 593,
+    "story_id": 207,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 1199,
+    "story_id": 424,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 60"
+  },
+  {
+    "split": "train",
+    "example_id": 1200,
+    "story_id": 424,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 60"
+  },
+  {
+    "split": "train",
+    "example_id": 1201,
+    "story_id": 424,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 60"
+  },
+  {
+    "split": "train",
+    "example_id": 497,
+    "story_id": 173,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 339,
+    "story_id": 112,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 52,
+    "story_id": 18,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 445,
+    "story_id": 153,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1148,
+    "story_id": 410,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1150,
+    "story_id": 410,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 31"
+  },
+  {
+    "split": "train",
+    "example_id": 587,
+    "story_id": 205,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1369,
+    "story_id": 473,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 37"
+  },
+  {
+    "split": "train",
+    "example_id": 1370,
+    "story_id": 473,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 37"
+  },
+  {
+    "split": "train",
+    "example_id": 1371,
+    "story_id": 473,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 37"
+  },
+  {
+    "split": "train",
+    "example_id": 1264,
+    "story_id": 440,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 1265,
+    "story_id": 440,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 1266,
+    "story_id": 440,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 1267,
+    "story_id": 440,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 197,
+    "story_id": 66,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1041,
+    "story_id": 389,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 174,
+    "story_id": 59,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 37"
+  },
+  {
+    "split": "train",
+    "example_id": 175,
+    "story_id": 59,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 37"
+  },
+  {
+    "split": "train",
+    "example_id": 176,
+    "story_id": 59,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 37"
+  },
+  {
+    "split": "train",
+    "example_id": 1155,
+    "story_id": 412,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 69"
+  },
+  {
+    "split": "train",
+    "example_id": 1156,
+    "story_id": 412,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 69"
+  },
+  {
+    "split": "train",
+    "example_id": 1157,
+    "story_id": 412,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 69"
+  },
+  {
+    "split": "train",
+    "example_id": 1158,
+    "story_id": 412,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 69"
+  },
+  {
+    "split": "train",
+    "example_id": 1178,
+    "story_id": 418,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 61"
+  },
+  {
+    "split": "train",
+    "example_id": 1179,
+    "story_id": 418,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 61"
+  },
+  {
+    "split": "train",
+    "example_id": 1180,
+    "story_id": 418,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 61"
+  },
+  {
+    "split": "train",
+    "example_id": 138,
+    "story_id": 48,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 63"
+  },
+  {
+    "split": "train",
+    "example_id": 139,
+    "story_id": 48,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 63"
+  },
+  {
+    "split": "train",
+    "example_id": 140,
+    "story_id": 48,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 63"
+  },
+  {
+    "split": "train",
+    "example_id": 822,
+    "story_id": 323,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 825,
+    "story_id": 323,
+    "label": "True",
+    "reason": "free variable 'x' in '¬(FastFashion(reformation) ∧ Product(reformation)) ∨ ¬(Disposable(x) ∧ Product(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 695,
+    "story_id": 251,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 884,
+    "story_id": 338,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 885,
+    "story_id": 338,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 886,
+    "story_id": 338,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 93,
+    "story_id": 32,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 94,
+    "story_id": 32,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 448,
+    "story_id": 155,
+    "label": "Uncertain",
+    "reason": "expected rp, got 'bolt' at 31 in '∀x (Man(x) → ¬RunFasterThan(xm bolt))'"
+  },
+  {
+    "split": "train",
+    "example_id": 381,
+    "story_id": 128,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 640,
+    "story_id": 227,
+    "label": "Uncertain",
+    "reason": "expected ident, got '(' at 1 in '∃(CarBody(x) ∧ Made(x, carrozzeriaColli))'"
+  },
+  {
+    "split": "train",
+    "example_id": 641,
+    "story_id": 227,
+    "label": "Uncertain",
+    "reason": "expected ident, got '(' at 1 in '∃(CarBody(x) ∧ Made(x, carrozzeriaColli))'"
+  },
+  {
+    "split": "train",
+    "example_id": 642,
+    "story_id": 227,
+    "label": "True",
+    "reason": "expected ident, got '(' at 1 in '∃(CarBody(x) ∧ Made(x, carrozzeriaColli))'"
+  },
+  {
+    "split": "train",
+    "example_id": 643,
+    "story_id": 227,
+    "label": "True",
+    "reason": "expected ident, got '(' at 1 in '∃(CarBody(x) ∧ Made(x, carrozzeriaColli))'"
+  },
+  {
+    "split": "train",
+    "example_id": 644,
+    "story_id": 227,
+    "label": "Uncertain",
+    "reason": "expected ident, got '(' at 1 in '∃(CarBody(x) ∧ Made(x, carrozzeriaColli))'"
+  },
+  {
+    "split": "train",
+    "example_id": 386,
+    "story_id": 130,
+    "label": "Uncertain",
+    "reason": "unsupported connective '↔' (iff) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 387,
+    "story_id": 130,
+    "label": "Uncertain",
+    "reason": "unsupported connective '↔' (iff) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 246,
+    "story_id": 81,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 247,
+    "story_id": 81,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 760,
+    "story_id": 308,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 761,
+    "story_id": 308,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 46"
+  },
+  {
+    "split": "train",
+    "example_id": 762,
+    "story_id": 308,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 43"
+  },
+  {
+    "split": "train",
+    "example_id": 773,
+    "story_id": 311,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 150,
+    "story_id": 52,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 69"
+  },
+  {
+    "split": "train",
+    "example_id": 151,
+    "story_id": 52,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 69"
+  },
+  {
+    "split": "train",
+    "example_id": 152,
+    "story_id": 52,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 69"
+  },
+  {
+    "split": "train",
+    "example_id": 153,
+    "story_id": 52,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 69"
+  },
+  {
+    "split": "train",
+    "example_id": 1123,
+    "story_id": 405,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 22"
+  },
+  {
+    "split": "train",
+    "example_id": 1124,
+    "story_id": 405,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 22"
+  },
+  {
+    "split": "train",
+    "example_id": 1125,
+    "story_id": 405,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 22"
+  },
+  {
+    "split": "train",
+    "example_id": 80,
+    "story_id": 28,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 68"
+  },
+  {
+    "split": "train",
+    "example_id": 81,
+    "story_id": 28,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 68"
+  },
+  {
+    "split": "train",
+    "example_id": 82,
+    "story_id": 28,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 68"
+  },
+  {
+    "split": "train",
+    "example_id": 1223,
+    "story_id": 430,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1224,
+    "story_id": 430,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 596,
+    "story_id": 209,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 72"
+  },
+  {
+    "split": "train",
+    "example_id": 597,
+    "story_id": 209,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 72"
+  },
+  {
+    "split": "train",
+    "example_id": 598,
+    "story_id": 209,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 72"
+  },
+  {
+    "split": "train",
+    "example_id": 321,
+    "story_id": 106,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 322,
+    "story_id": 106,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1166,
+    "story_id": 415,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 68"
+  },
+  {
+    "split": "train",
+    "example_id": 1167,
+    "story_id": 415,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 68"
+  },
+  {
+    "split": "train",
+    "example_id": 1168,
+    "story_id": 415,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 68"
+  },
+  {
+    "split": "train",
+    "example_id": 1393,
+    "story_id": 479,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1394,
+    "story_id": 479,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 60,
+    "story_id": 21,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 620,
+    "story_id": 218,
+    "label": "True",
+    "reason": "inconsistent predicate arity {'CanInjure': [1, 2]}"
+  },
+  {
+    "split": "train",
+    "example_id": 1215,
+    "story_id": 428,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "split": "train",
+    "example_id": 1216,
+    "story_id": 428,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "split": "train",
+    "example_id": 1217,
+    "story_id": 428,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "split": "train",
+    "example_id": 1218,
+    "story_id": 428,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "split": "train",
+    "example_id": 710,
+    "story_id": 266,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 110"
+  },
+  {
+    "split": "train",
+    "example_id": 916,
+    "story_id": 347,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 917,
+    "story_id": 347,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 918,
+    "story_id": 347,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 919,
+    "story_id": 347,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 920,
+    "story_id": 347,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 1286,
+    "story_id": 447,
+    "label": "Uncertain",
+    "reason": "free variable 'x' in '(CelestialBody(europa) ∧ In(europa, solarSystem) ∧ (∃y (OrbitOf(y, x) ∧ Clear(x, y) ∧ DebrisFree(y))) ∧ NearlySphericalShape(europa, gravity)) ∨ RelyOnToGenerate(europa, nuclearFusion, light) → CelestialBody(europa) ∧ In(europa, solarSystem)'"
+  },
+  {
+    "split": "train",
+    "example_id": 1287,
+    "story_id": 447,
+    "label": "False",
+    "reason": "unexpected character '.' at 82 in 'CelestialBody(europa) ∧ In(europa, solarSystem) ∧ GreaterThan(europa, solarMass, 0.08)'"
+  },
+  {
+    "split": "train",
+    "example_id": 1288,
+    "story_id": 447,
+    "label": "True",
+    "reason": "unexpected character '.' at 84 in '¬(CelestialBody(europa) ∧ In(europa, solarSystem) ∧ GreaterThan(europa, solarMass, 0.08))'"
+  },
+  {
+    "split": "train",
+    "example_id": 936,
+    "story_id": 353,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "split": "train",
+    "example_id": 937,
+    "story_id": 353,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "split": "train",
+    "example_id": 938,
+    "story_id": 353,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 40"
+  },
+  {
+    "split": "train",
+    "example_id": 115,
+    "story_id": 39,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 996,
+    "story_id": 374,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 997,
+    "story_id": 374,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 998,
+    "story_id": 374,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 540,
+    "story_id": 188,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 100"
+  },
+  {
+    "split": "train",
+    "example_id": 541,
+    "story_id": 188,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 100"
+  },
+  {
+    "split": "train",
+    "example_id": 36,
+    "story_id": 13,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 984,
+    "story_id": 370,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 34"
+  },
+  {
+    "split": "train",
+    "example_id": 985,
+    "story_id": 370,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 34"
+  },
+  {
+    "split": "train",
+    "example_id": 986,
+    "story_id": 370,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 34"
+  },
+  {
+    "split": "train",
+    "example_id": 1023,
+    "story_id": 383,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 79"
+  },
+  {
+    "split": "train",
+    "example_id": 1024,
+    "story_id": 383,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 79"
+  },
+  {
+    "split": "train",
+    "example_id": 1025,
+    "story_id": 383,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 79"
+  },
+  {
+    "split": "train",
+    "example_id": 625,
+    "story_id": 220,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 11,
+    "story_id": 5,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 23"
+  },
+  {
+    "split": "train",
+    "example_id": 12,
+    "story_id": 5,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 23"
+  },
+  {
+    "split": "train",
+    "example_id": 13,
+    "story_id": 5,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 23"
+  },
+  {
+    "split": "train",
+    "example_id": 259,
+    "story_id": 85,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 260,
+    "story_id": 85,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1057,
+    "story_id": 392,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1059,
+    "story_id": 392,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 17"
+  },
+  {
+    "split": "train",
+    "example_id": 1036,
+    "story_id": 387,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1037,
+    "story_id": 387,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 27"
+  },
+  {
+    "split": "train",
+    "example_id": 1044,
+    "story_id": 390,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 25"
+  },
+  {
+    "split": "train",
+    "example_id": 1045,
+    "story_id": 390,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 25"
+  },
+  {
+    "split": "train",
+    "example_id": 1046,
+    "story_id": 390,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 25"
+  },
+  {
+    "split": "train",
+    "example_id": 858,
+    "story_id": 332,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 859,
+    "story_id": 332,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 860,
+    "story_id": 332,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 861,
+    "story_id": 332,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 862,
+    "story_id": 332,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 722,
+    "story_id": 278,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 952,
+    "story_id": 359,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 28"
+  },
+  {
+    "split": "train",
+    "example_id": 953,
+    "story_id": 359,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 28"
+  },
+  {
+    "split": "train",
+    "example_id": 954,
+    "story_id": 359,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 28"
+  },
+  {
+    "split": "train",
+    "example_id": 238,
+    "story_id": 78,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1295,
+    "story_id": 450,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1297,
+    "story_id": 450,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 29"
+  },
+  {
+    "split": "train",
+    "example_id": 1354,
+    "story_id": 469,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 27"
+  },
+  {
+    "split": "train",
+    "example_id": 1355,
+    "story_id": 469,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 27"
+  },
+  {
+    "split": "train",
+    "example_id": 1356,
+    "story_id": 469,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 27"
+  },
+  {
+    "split": "train",
+    "example_id": 344,
+    "story_id": 114,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 345,
+    "story_id": 114,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 489,
+    "story_id": 170,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 889,
+    "story_id": 339,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 367,
+    "story_id": 123,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 32"
+  },
+  {
+    "split": "train",
+    "example_id": 368,
+    "story_id": 123,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 32"
+  },
+  {
+    "split": "train",
+    "example_id": 369,
+    "story_id": 123,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 32"
+  },
+  {
+    "split": "train",
+    "example_id": 745,
+    "story_id": 301,
+    "label": "Uncertain",
+    "reason": "free variable 'v' in 'Depressing(v)'"
+  },
+  {
+    "split": "train",
+    "example_id": 313,
+    "story_id": 103,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 108 in 'FoundIn(palstave, northernEurope) ∨ FoundIn(palstave, westernEurope) ∨ FoundIn(palstave, southWesternEurope)) ∧ CastIn(palstave, molds)'"
+  },
+  {
+    "split": "train",
+    "example_id": 314,
+    "story_id": 103,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 108 in 'FoundIn(palstave, northernEurope) ∨ FoundIn(palstave, westernEurope) ∨ FoundIn(palstave, southWesternEurope)) ∧ CastIn(palstave, molds)'"
+  },
+  {
+    "split": "train",
+    "example_id": 315,
+    "story_id": 103,
+    "label": "False",
+    "reason": "trailing token ')' at 108 in 'FoundIn(palstave, northernEurope) ∨ FoundIn(palstave, westernEurope) ∨ FoundIn(palstave, southWesternEurope)) ∧ CastIn(palstave, molds)'"
+  },
+  {
+    "split": "train",
+    "example_id": 273,
+    "story_id": 90,
+    "label": "True",
+    "reason": "free variable 'x' in 'Japanese(koeitecmo) ∧ VideoGameHoldingCompany(koeitecmo) ∧ AnimeHoldingCompany(koeitecmo) ∧ HoldingCompany(x)'"
+  },
+  {
+    "split": "train",
+    "example_id": 274,
+    "story_id": 90,
+    "label": "Uncertain",
+    "reason": "free variable 'x' in 'Japanese(koeitecmo) ∧ VideoGameHoldingCompany(koeitecmo) ∧ AnimeHoldingCompany(koeitecmo) ∧ HoldingCompany(x)'"
+  },
+  {
+    "split": "train",
+    "example_id": 275,
+    "story_id": 90,
+    "label": "Uncertain",
+    "reason": "free variable 'x' in 'Japanese(koeitecmo) ∧ VideoGameHoldingCompany(koeitecmo) ∧ AnimeHoldingCompany(koeitecmo) ∧ HoldingCompany(x)'"
+  },
+  {
+    "split": "train",
+    "example_id": 566,
+    "story_id": 199,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "split": "train",
+    "example_id": 567,
+    "story_id": 199,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "split": "train",
+    "example_id": 568,
+    "story_id": 199,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 14"
+  },
+  {
+    "split": "train",
+    "example_id": 1152,
+    "story_id": 411,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1154,
+    "story_id": 411,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 58"
+  },
+  {
+    "split": "train",
+    "example_id": 589,
+    "story_id": 206,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 17"
+  },
+  {
+    "split": "train",
+    "example_id": 590,
+    "story_id": 206,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 17"
+  },
+  {
+    "split": "train",
+    "example_id": 591,
+    "story_id": 206,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 17"
+  },
+  {
+    "split": "train",
+    "example_id": 264,
+    "story_id": 87,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 46"
+  },
+  {
+    "split": "train",
+    "example_id": 265,
+    "story_id": 87,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 46"
+  },
+  {
+    "split": "train",
+    "example_id": 266,
+    "story_id": 87,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 46"
+  },
+  {
+    "split": "train",
+    "example_id": 626,
+    "story_id": 221,
+    "label": "False",
+    "reason": "trailing token ')' at 28 in 'From(ernestPohl, rudaŚląska))'"
+  },
+  {
+    "split": "train",
+    "example_id": 627,
+    "story_id": 221,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 28 in 'From(ernestPohl, rudaŚląska))'"
+  },
+  {
+    "split": "train",
+    "example_id": 417,
+    "story_id": 142,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 336,
+    "story_id": 111,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 10"
+  },
+  {
+    "split": "train",
+    "example_id": 337,
+    "story_id": 111,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 10"
+  },
+  {
+    "split": "train",
+    "example_id": 338,
+    "story_id": 111,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 10"
+  },
+  {
+    "split": "train",
+    "example_id": 843,
+    "story_id": 329,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 32"
+  },
+  {
+    "split": "train",
+    "example_id": 844,
+    "story_id": 329,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 32"
+  },
+  {
+    "split": "train",
+    "example_id": 845,
+    "story_id": 329,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 32"
+  },
+  {
+    "split": "train",
+    "example_id": 1080,
+    "story_id": 397,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 1081,
+    "story_id": 397,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 1082,
+    "story_id": 397,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 1083,
+    "story_id": 397,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 36"
+  },
+  {
+    "split": "train",
+    "example_id": 721,
+    "story_id": 277,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 924,
+    "story_id": 349,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 41"
+  },
+  {
+    "split": "train",
+    "example_id": 925,
+    "story_id": 349,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 41"
+  },
+  {
+    "split": "train",
+    "example_id": 926,
+    "story_id": 349,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 41"
+  },
+  {
+    "split": "train",
+    "example_id": 1280,
+    "story_id": 445,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 29 in '¬Energetic(sid) ∧ ¬Sloth(sid))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1281,
+    "story_id": 445,
+    "label": "False",
+    "reason": "trailing token ')' at 29 in '¬Energetic(sid) ∧ ¬Sloth(sid))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1282,
+    "story_id": 445,
+    "label": "True",
+    "reason": "trailing token ')' at 29 in '¬Energetic(sid) ∧ ¬Sloth(sid))'"
+  },
+  {
+    "split": "train",
+    "example_id": 194,
+    "story_id": 65,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1333,
+    "story_id": 462,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 65"
+  },
+  {
+    "split": "train",
+    "example_id": 1334,
+    "story_id": 462,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 65"
+  },
+  {
+    "split": "train",
+    "example_id": 1335,
+    "story_id": 462,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 65"
+  },
+  {
+    "split": "train",
+    "example_id": 298,
+    "story_id": 99,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 213,
+    "story_id": 71,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 214,
+    "story_id": 71,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 215,
+    "story_id": 71,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 216,
+    "story_id": 71,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 217,
+    "story_id": 71,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 78"
+  },
+  {
+    "split": "train",
+    "example_id": 1258,
+    "story_id": 438,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 207,
+    "story_id": 69,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1100,
+    "story_id": 401,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 92"
+  },
+  {
+    "split": "train",
+    "example_id": 1101,
+    "story_id": 401,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 92"
+  },
+  {
+    "split": "train",
+    "example_id": 1102,
+    "story_id": 401,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 92"
+  },
+  {
+    "split": "train",
+    "example_id": 1103,
+    "story_id": 401,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 92"
+  },
+  {
+    "split": "train",
+    "example_id": 1104,
+    "story_id": 401,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 92"
+  },
+  {
+    "split": "train",
+    "example_id": 1105,
+    "story_id": 401,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 92"
+  },
+  {
+    "split": "train",
+    "example_id": 1106,
+    "story_id": 401,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 92"
+  },
+  {
+    "split": "train",
+    "example_id": 1107,
+    "story_id": 401,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 92"
+  },
+  {
+    "split": "train",
+    "example_id": 1108,
+    "story_id": 401,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 92"
+  },
+  {
+    "split": "train",
+    "example_id": 1109,
+    "story_id": 401,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 92"
+  },
+  {
+    "split": "train",
+    "example_id": 509,
+    "story_id": 177,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 37"
+  },
+  {
+    "split": "train",
+    "example_id": 510,
+    "story_id": 177,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 37"
+  },
+  {
+    "split": "train",
+    "example_id": 511,
+    "story_id": 177,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 37"
+  },
+  {
+    "split": "train",
+    "example_id": 632,
+    "story_id": 224,
+    "label": "True",
+    "reason": "unsupported connective '↔' (iff) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 633,
+    "story_id": 224,
+    "label": "True",
+    "reason": "unsupported connective '↔' (iff) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 1357,
+    "story_id": 470,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1358,
+    "story_id": 470,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1359,
+    "story_id": 470,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1360,
+    "story_id": 470,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 352,
+    "story_id": 117,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 353,
+    "story_id": 117,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 354,
+    "story_id": 117,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 227,
+    "story_id": 74,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 990,
+    "story_id": 372,
+    "label": "Uncertain",
+    "reason": "unexpected end of formula in '¬(HighlyAcclaimedIn(taylor, theirProfession) ∧ (∃y (HoldAt(taylor, y, workPlace) ∧ Tenured(y) ∧ HighRanking(y) ∧ Position(y)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 991,
+    "story_id": 372,
+    "label": "False",
+    "reason": "unexpected end of formula in '¬(HighlyAcclaimedIn(taylor, theirProfession) ∧ (∃y (HoldAt(taylor, y, workPlace) ∧ Tenured(y) ∧ HighRanking(y) ∧ Position(y)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 992,
+    "story_id": 372,
+    "label": "True",
+    "reason": "unexpected end of formula in '¬(HighlyAcclaimedIn(taylor, theirProfession) ∧ (∃y (HoldAt(taylor, y, workPlace) ∧ Tenured(y) ∧ HighRanking(y) ∧ Position(y)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 25,
+    "story_id": 10,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 82"
+  },
+  {
+    "split": "train",
+    "example_id": 26,
+    "story_id": 10,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 82"
+  },
+  {
+    "split": "train",
+    "example_id": 27,
+    "story_id": 10,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 82"
+  },
+  {
+    "split": "train",
+    "example_id": 28,
+    "story_id": 10,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 82"
+  },
+  {
+    "split": "train",
+    "example_id": 350,
+    "story_id": 116,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 34"
+  },
+  {
+    "split": "train",
+    "example_id": 351,
+    "story_id": 116,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 34"
+  },
+  {
+    "split": "train",
+    "example_id": 1181,
+    "story_id": 419,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 87"
+  },
+  {
+    "split": "train",
+    "example_id": 1182,
+    "story_id": 419,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 87"
+  },
+  {
+    "split": "train",
+    "example_id": 1183,
+    "story_id": 419,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 87"
+  },
+  {
+    "split": "train",
+    "example_id": 450,
+    "story_id": 157,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 451,
+    "story_id": 157,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 186,
+    "story_id": 63,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 187,
+    "story_id": 63,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 188,
+    "story_id": 63,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 35"
+  },
+  {
+    "split": "train",
+    "example_id": 630,
+    "story_id": 223,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 631,
+    "story_id": 223,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 3,
+    "story_id": 1,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 21"
+  },
+  {
+    "split": "train",
+    "example_id": 120,
+    "story_id": 42,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 121,
+    "story_id": 42,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 122,
+    "story_id": 42,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 39"
+  },
+  {
+    "split": "train",
+    "example_id": 366,
+    "story_id": 122,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 22"
+  },
+  {
+    "split": "train",
+    "example_id": 47,
+    "story_id": 17,
+    "label": "True",
+    "reason": "unexpected character \"'\" at 24 in \"MistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell))\""
+  },
+  {
+    "split": "train",
+    "example_id": 48,
+    "story_id": 17,
+    "label": "True",
+    "reason": "unexpected character \"'\" at 24 in \"MistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell))\""
+  },
+  {
+    "split": "train",
+    "example_id": 49,
+    "story_id": 17,
+    "label": "Uncertain",
+    "reason": "unexpected character \"'\" at 24 in \"MistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell))\""
+  },
+  {
+    "split": "train",
+    "example_id": 50,
+    "story_id": 17,
+    "label": "Uncertain",
+    "reason": "unexpected character \"'\" at 24 in \"MistakenSpellingOf(nameO'Dell, nameODell) ∧ (∃x∃y(Family(x) ∧ Named(x, nameO'Dell) ∧ (¬(x=y)) ∧ Family(y) ∧ Named(y, nameO'Dell))\""
+  },
+  {
+    "split": "train",
+    "example_id": 479,
+    "story_id": 167,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 48"
+  },
+  {
+    "split": "train",
+    "example_id": 480,
+    "story_id": 167,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 48"
+  },
+  {
+    "split": "train",
+    "example_id": 481,
+    "story_id": 167,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 48"
+  },
+  {
+    "split": "train",
+    "example_id": 741,
+    "story_id": 297,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 764,
+    "story_id": 309,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 765,
+    "story_id": 309,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 766,
+    "story_id": 309,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 767,
+    "story_id": 309,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 768,
+    "story_id": 309,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 769,
+    "story_id": 309,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 15"
+  },
+  {
+    "split": "train",
+    "example_id": 231,
+    "story_id": 76,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 45"
+  },
+  {
+    "split": "train",
+    "example_id": 232,
+    "story_id": 76,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 45"
+  },
+  {
+    "split": "train",
+    "example_id": 233,
+    "story_id": 76,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 45"
+  },
+  {
+    "split": "train",
+    "example_id": 779,
+    "story_id": 313,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 781,
+    "story_id": 313,
+    "label": "True",
+    "reason": "free variable 'x' in '(¬Request(philip, documentsFromBank) ∧ ¬Get(x, schengenVisa)) → Apply(x, schengenVisa)'"
+  },
+  {
+    "split": "train",
+    "example_id": 740,
+    "story_id": 296,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 48"
+  },
+  {
+    "split": "train",
+    "example_id": 594,
+    "story_id": 208,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 31"
+  },
+  {
+    "split": "train",
+    "example_id": 595,
+    "story_id": 208,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 31"
+  },
+  {
+    "split": "train",
+    "example_id": 831,
+    "story_id": 325,
+    "label": "Uncertain",
+    "reason": "unexpected end of formula in '∀x ((Professional(x) ∧ CenterBack(x)) → (Professional(x) ∧ Defender(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 832,
+    "story_id": 325,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x ((Professional(x) ∧ CenterBack(x)) → (Professional(x) ∧ Defender(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 833,
+    "story_id": 325,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x ((Professional(x) ∧ CenterBack(x)) → (Professional(x) ∧ Defender(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 89,
+    "story_id": 31,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 91,
+    "story_id": 31,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 382,
+    "story_id": 129,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 10"
+  },
+  {
+    "split": "train",
+    "example_id": 383,
+    "story_id": 129,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 10"
+  },
+  {
+    "split": "train",
+    "example_id": 384,
+    "story_id": 129,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 98"
+  },
+  {
+    "split": "train",
+    "example_id": 1219,
+    "story_id": 429,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 62"
+  },
+  {
+    "split": "train",
+    "example_id": 1220,
+    "story_id": 429,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 62"
+  },
+  {
+    "split": "train",
+    "example_id": 1221,
+    "story_id": 429,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 62"
+  },
+  {
+    "split": "train",
+    "example_id": 1222,
+    "story_id": 429,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 62"
+  },
+  {
+    "split": "train",
+    "example_id": 320,
+    "story_id": 105,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 734,
+    "story_id": 290,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 62"
+  },
+  {
+    "split": "train",
+    "example_id": 711,
+    "story_id": 267,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 112"
+  },
+  {
+    "split": "train",
+    "example_id": 1084,
+    "story_id": 398,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1085,
+    "story_id": 398,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1086,
+    "story_id": 398,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1087,
+    "story_id": 398,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1088,
+    "story_id": 398,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 1089,
+    "story_id": 398,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 607,
+    "story_id": 212,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 123,
+    "story_id": 43,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 67"
+  },
+  {
+    "split": "train",
+    "example_id": 124,
+    "story_id": 43,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 67"
+  },
+  {
+    "split": "train",
+    "example_id": 125,
+    "story_id": 43,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 67"
+  },
+  {
+    "split": "train",
+    "example_id": 1310,
+    "story_id": 455,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 458,
+    "story_id": 160,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 799,
+    "story_id": 317,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 168,
+    "story_id": 57,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 21"
+  },
+  {
+    "split": "train",
+    "example_id": 169,
+    "story_id": 57,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 21"
+  },
+  {
+    "split": "train",
+    "example_id": 170,
+    "story_id": 57,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 21"
+  },
+  {
+    "split": "train",
+    "example_id": 723,
+    "story_id": 279,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 66,
+    "story_id": 23,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 68,
+    "story_id": 23,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1184,
+    "story_id": 420,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 716,
+    "story_id": 272,
+    "label": "Uncertain",
+    "reason": "trailing token ')' at 24 in '∀x (Dog(x) → ¬OnRoof(x)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 41,
+    "story_id": 15,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 46"
+  },
+  {
+    "split": "train",
+    "example_id": 42,
+    "story_id": 15,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 46"
+  },
+  {
+    "split": "train",
+    "example_id": 43,
+    "story_id": 15,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 46"
+  },
+  {
+    "split": "train",
+    "example_id": 1231,
+    "story_id": 432,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 51"
+  },
+  {
+    "split": "train",
+    "example_id": 1232,
+    "story_id": 432,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 51"
+  },
+  {
+    "split": "train",
+    "example_id": 1233,
+    "story_id": 432,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 51"
+  },
+  {
+    "split": "train",
+    "example_id": 1234,
+    "story_id": 432,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 51"
+  },
+  {
+    "split": "train",
+    "example_id": 791,
+    "story_id": 316,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 792,
+    "story_id": 316,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 793,
+    "story_id": 316,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 794,
+    "story_id": 316,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 795,
+    "story_id": 316,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 89"
+  },
+  {
+    "split": "train",
+    "example_id": 796,
+    "story_id": 316,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 797,
+    "story_id": 316,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 798,
+    "story_id": 316,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 26"
+  },
+  {
+    "split": "train",
+    "example_id": 330,
+    "story_id": 109,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 84"
+  },
+  {
+    "split": "train",
+    "example_id": 331,
+    "story_id": 109,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 84"
+  },
+  {
+    "split": "train",
+    "example_id": 332,
+    "story_id": 109,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 84"
+  },
+  {
+    "split": "train",
+    "example_id": 544,
+    "story_id": 190,
+    "label": "True",
+    "reason": "trailing token ')' at 70 in '∀x (SoccerPlayer(x) ∧ Receive(x, oneRedCard)) → EjectFromRestOfGame(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 545,
+    "story_id": 190,
+    "label": "False",
+    "reason": "trailing token ')' at 70 in '∀x (SoccerPlayer(x) ∧ Receive(x, oneRedCard)) → EjectFromRestOfGame(x))'"
+  },
+  {
+    "split": "train",
+    "example_id": 731,
+    "story_id": 287,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 54"
+  },
+  {
+    "split": "train",
+    "example_id": 46,
+    "story_id": 16,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 744,
+    "story_id": 300,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 106"
+  },
+  {
+    "split": "train",
+    "example_id": 682,
+    "story_id": 240,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 53"
+  },
+  {
+    "split": "train",
+    "example_id": 333,
+    "story_id": 110,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 7"
+  },
+  {
+    "split": "train",
+    "example_id": 334,
+    "story_id": 110,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 7"
+  },
+  {
+    "split": "train",
+    "example_id": 335,
+    "story_id": 110,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 7"
+  },
+  {
+    "split": "train",
+    "example_id": 1227,
+    "story_id": 431,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (Plane(x) ∧ Boeing737(x) → (¬∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1228,
+    "story_id": 431,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x (Plane(x) ∧ Boeing737(x) → (¬∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1229,
+    "story_id": 431,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (Plane(x) ∧ Boeing737(x) → (¬∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 1230,
+    "story_id": 431,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x (Plane(x) ∧ Boeing737(x) → (¬∃y(GreaterThan(y, num300) ∧ EquippedWithSeats(x,y)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 555,
+    "story_id": 195,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 71"
+  },
+  {
+    "split": "train",
+    "example_id": 556,
+    "story_id": 195,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 71"
+  },
+  {
+    "split": "train",
+    "example_id": 100,
+    "story_id": 34,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 730,
+    "story_id": 286,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 782,
+    "story_id": 314,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 783,
+    "story_id": 314,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 784,
+    "story_id": 314,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 785,
+    "story_id": 314,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 16"
+  },
+  {
+    "split": "train",
+    "example_id": 1321,
+    "story_id": 458,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 1322,
+    "story_id": 458,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 1323,
+    "story_id": 458,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 103,
+    "story_id": 35,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 865,
+    "story_id": 333,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 526,
+    "story_id": 182,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 141,
+    "story_id": 49,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 56"
+  },
+  {
+    "split": "train",
+    "example_id": 142,
+    "story_id": 49,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 56"
+  },
+  {
+    "split": "train",
+    "example_id": 143,
+    "story_id": 49,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 56"
+  },
+  {
+    "split": "train",
+    "example_id": 14,
+    "story_id": 6,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x ∀y ∀z ((SituatedOn(x, z) ∧ (Precede(x, y) ∨ Precede(y, x)) → SituatedOn(y, z))'"
+  },
+  {
+    "split": "train",
+    "example_id": 15,
+    "story_id": 6,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x ∀y ∀z ((SituatedOn(x, z) ∧ (Precede(x, y) ∨ Precede(y, x)) → SituatedOn(y, z))'"
+  },
+  {
+    "split": "train",
+    "example_id": 16,
+    "story_id": 6,
+    "label": "Uncertain",
+    "reason": "unexpected end of formula in '∀x ∀y ∀z ((SituatedOn(x, z) ∧ (Precede(x, y) ∨ Precede(y, x)) → SituatedOn(y, z))'"
+  },
+  {
+    "split": "train",
+    "example_id": 309,
+    "story_id": 102,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 10"
+  },
+  {
+    "split": "train",
+    "example_id": 310,
+    "story_id": 102,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 10"
+  },
+  {
+    "split": "train",
+    "example_id": 311,
+    "story_id": 102,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 10"
+  },
+  {
+    "split": "train",
+    "example_id": 312,
+    "story_id": 102,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 10"
+  },
+  {
+    "split": "train",
+    "example_id": 503,
+    "story_id": 175,
+    "label": "Uncertain",
+    "reason": "free variable 'x' in '∀x ∃y (BittenBy(x, y) ∨ ScratchedBy(x, y)) → AttackedBy(x,y)'"
+  },
+  {
+    "split": "train",
+    "example_id": 504,
+    "story_id": 175,
+    "label": "Uncertain",
+    "reason": "free variable 'x' in '∀x ∃y (BittenBy(x, y) ∨ ScratchedBy(x, y)) → AttackedBy(x,y)'"
+  },
+  {
+    "split": "train",
+    "example_id": 505,
+    "story_id": 175,
+    "label": "Uncertain",
+    "reason": "free variable 'x' in '∀x ∃y (BittenBy(x, y) ∨ ScratchedBy(x, y)) → AttackedBy(x,y)'"
+  },
+  {
+    "split": "train",
+    "example_id": 407,
+    "story_id": 139,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 409,
+    "story_id": 139,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 410,
+    "story_id": 139,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1351,
+    "story_id": 468,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 34"
+  },
+  {
+    "split": "train",
+    "example_id": 1352,
+    "story_id": 468,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 34"
+  },
+  {
+    "split": "train",
+    "example_id": 1353,
+    "story_id": 468,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 34"
+  },
+  {
+    "split": "train",
+    "example_id": 118,
+    "story_id": 41,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 973,
+    "story_id": 366,
+    "label": "Uncertain",
+    "reason": "unsupported connective '=' (equality) at 100"
+  },
+  {
+    "split": "train",
+    "example_id": 974,
+    "story_id": 366,
+    "label": "True",
+    "reason": "unsupported connective '=' (equality) at 100"
+  },
+  {
+    "split": "train",
+    "example_id": 975,
+    "story_id": 366,
+    "label": "False",
+    "reason": "unsupported connective '=' (equality) at 100"
+  },
+  {
+    "split": "train",
+    "example_id": 64,
+    "story_id": 22,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 469,
+    "story_id": 163,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 810,
+    "story_id": 320,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 811,
+    "story_id": 320,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 812,
+    "story_id": 320,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 813,
+    "story_id": 320,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 814,
+    "story_id": 320,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 815,
+    "story_id": 320,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 18"
+  },
+  {
+    "split": "train",
+    "example_id": 341,
+    "story_id": 113,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 342,
+    "story_id": 113,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 343,
+    "story_id": 113,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 38"
+  },
+  {
+    "split": "train",
+    "example_id": 673,
+    "story_id": 237,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 674,
+    "story_id": 237,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 675,
+    "story_id": 237,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1076,
+    "story_id": 396,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 1077,
+    "story_id": 396,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 1078,
+    "story_id": 396,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 1079,
+    "story_id": 396,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 44"
+  },
+  {
+    "split": "train",
+    "example_id": 1253,
+    "story_id": 437,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 33"
+  },
+  {
+    "split": "train",
+    "example_id": 1254,
+    "story_id": 437,
+    "label": "Uncertain",
+    "reason": "unsupported connective '⊕' (xor) at 33"
+  },
+  {
+    "split": "train",
+    "example_id": 1255,
+    "story_id": 437,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 33"
+  },
+  {
+    "split": "train",
+    "example_id": 1256,
+    "story_id": 437,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 33"
+  },
+  {
+    "split": "train",
+    "example_id": 1257,
+    "story_id": 437,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 33"
+  },
+  {
+    "split": "train",
+    "example_id": 413,
+    "story_id": 141,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (TSLeda(x) → ((Passenger(x) ∧ Vessel(x)) ∧ (Cargo(x) ∧ Vessel(x)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 414,
+    "story_id": 141,
+    "label": "True",
+    "reason": "unexpected end of formula in '∀x (TSLeda(x) → ((Passenger(x) ∧ Vessel(x)) ∧ (Cargo(x) ∧ Vessel(x)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 415,
+    "story_id": 141,
+    "label": "False",
+    "reason": "unexpected end of formula in '∀x (TSLeda(x) → ((Passenger(x) ∧ Vessel(x)) ∧ (Cargo(x) ∧ Vessel(x)))'"
+  },
+  {
+    "split": "train",
+    "example_id": 106,
+    "story_id": 36,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 294,
+    "story_id": 97,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1292,
+    "story_id": 449,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 1294,
+    "story_id": 449,
+    "label": "True",
+    "reason": "unsupported connective '⊕' (xor) at 17"
+  },
+  {
+    "split": "train",
+    "example_id": 1330,
+    "story_id": 461,
+    "label": "Uncertain",
+    "reason": "label Uncertain not selected"
+  },
+  {
+    "split": "train",
+    "example_id": 400,
+    "story_id": 136,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 71"
+  },
+  {
+    "split": "train",
+    "example_id": 401,
+    "story_id": 136,
+    "label": "False",
+    "reason": "unsupported connective '⊕' (xor) at 71"
   }
 ]

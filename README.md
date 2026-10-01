@@ -1,10 +1,10 @@
 # FOLIO argument base
 
 60 first-order-logic arguments selected from the [FOLIO](https://huggingface.co/datasets/yale-nlp/FOLIO)
-dataset (Han et al., 2024, MIT licence) for a research study in the course
-*Intelektualiosios sistemos* (VU MIF, 2026). 20 arguments where the conclusion
-follows, 20 where its negation follows, 20 where neither does; 50 of them have
-5 or more premises.
+dataset (Han et al., 2024, MIT licence; validation and train splits of v2) for a
+research study in the course *Intelektualiosios sistemos* (VU MIF, 2026).
+30 arguments where the conclusion follows and 30 where its negation follows;
+all of them have 5 or more premises.
 
 - `arguments.md` – the arguments: English text, FOLIO's FOL formulas, Seqprover sequents
 - `sequents/` – Seqprover input files (`*.goal.pl` = conclusion, `*.neg.pl` = negated conclusion)

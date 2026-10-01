@@ -1,2 +1,2 @@
 pretty.
-X#((occurIn(monkeypoxVirus,X) /\ get(X,monkeypoxVirus))), X#((animal(X) /\ occurIn(monkeypoxVirus,X))), X@((human(X) -> mammal(X))), X@((mammal(X) -> animal(X))), X#((symptonOf(X,monkeypoxVirus) /\ (fever(X) \/ (headache(X) \/ (musclePain(X) \/ tired(X)))))), X@(((human(X) /\ get(X,flu)) -> feel(X,tired))) --> X@((human(X) -> ~get(X,flu))).
+X#((professional(X) /\ (basketballPlayer(X) /\ ~americanNational(X)))), X@(((professional(X) /\ basketballPlayer(X)) -> canDo(X,jumpShot))), X@((canDo(X,jumpShot) -> leapStraightIntoAir(X))), X@((leapStraightIntoAir(X) -> activate(X,legMuscle))), ~activate(yuri,legMuscle) --> (americanNational(yuri) /\ (professional(yuri) /\ basketballPlayer(yuri))).

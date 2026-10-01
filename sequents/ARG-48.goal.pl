@@ -1,2 +1,2 @@
 pretty.
-X@((romanceLanguage(X) -> indoEuropeanLanguage(X))), X@((romanceLanguage(X) -> memberOf(X,languageFamily))), X@(Y@(Z@(((memberOf(X,Z) /\ memberOf(Y,Z)) -> (related(X,Y) /\ related(Y,X)))))), (romanceLanguage(french) /\ romanceLanguage(spanish)), related(german,spanish), X@((language(X) -> ~related(basque,X))) --> romanceLanguage(german).
+(basedIn(system7,uk) /\ electronicDanceMusicBand(system7)), (form(stevehillage,system7) /\ form(miquettegiraudy,system7)), (formerMemberOf(stevehillage,gong) /\ formerMemberOf(miquettegiraudy,gong)), X@((electronicDanceMusicBand(X) -> band(X))), X#((clubSingle(X) /\ release(system7,X))), X@((clubSingle(X) -> ~single(X))) --> ~band(system7).

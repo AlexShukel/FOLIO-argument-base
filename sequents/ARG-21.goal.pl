@@ -1,2 +1,2 @@
 pretty.
-X@((wildTurkey(X) -> (easternWildTurkey(X) \/ (osceolaWildTurkey(X) \/ (gouldsWildTurkey(X) \/ (merriamsWildTurkey(X) \/ (riograndeWildTurkey(X) \/ ocellatedWildTurkey(X)))))))), ~easternWildTurkey(tom), ~osceolaWildTurkey(tom), ~gouldsWildTurkey(tom), ~(merriamsWildTurkey(tom) \/ riograndeWildTurkey(tom)), wildTurkey(tom) --> easternWildTurkey(tom).
+(heavyCruiser(usssalem) /\ builtFor(usssalem,unitedstatesnavy)), lastHeavyCruiserToEnterService(usssalem), museumShip(usssalem), X@((museumShip(X) -> openToPublic(X))), (servedIn(usssalem,atlantic) /\ servedIn(usssalem,mediterranean)) --> openToPublic(usssalem).

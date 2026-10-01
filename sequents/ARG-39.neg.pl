@@ -1,2 +1,2 @@
 pretty.
-(professionalWrestlingStable(diamondMine) /\ in(diamondMine,wWE)), leads(roderickStrong,diamondMine), (includes(diamondMine,creedBrothers) /\ includes(diamondMine,ivyNile)), feuds(imperium,diamondMine) --> ~X@(((professionalWrestlingStable(X) /\ includes(X,ivynile)) -> ~feuds(imperium,X))).
+X@((plunger(X) -> suck(X))), X@((vacuum(X) -> suck(X))), X@((vampire(X) -> suck(X))), vacuum(space), (householdAppliance(duster) /\ ~suck(duster)) --> ~X@((houseHoldApp(X) -> suck(X))).

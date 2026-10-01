@@ -1,2 +1,2 @@
 pretty.
-X@((book(X) -> contains(X,knowledge))), X@(Y@((readBook(X,Y) -> gains(X,knowledge)))), X@((gains(X,knowledge) -> smarter(X))), (readBook(harry,walden) /\ book(walden)) --> ~gains(harry,knowledge).
+(realNum(num6) /\ (realNum(num7) /\ realNum(num8))), X@(Y@(((realNum(X) /\ (realNum(Y) /\ isSuccessorOf(X,Y))) -> larger(X,Y)))), X@(Y@((larger(X,Y) -> ~larger(Y,X)))), Y#((isSuccessorOf(Y,num6) /\ equals(num7,Y))), Y#((isSuccessorOf(Y,num7) /\ equals(num8,Y))), positive(num2), X@(Y@(((positive(X) /\ isDouble(Y,X)) -> positive(Y)))), isDouble(num8,num4), isDouble(num4,num2) --> ~positive(eight).

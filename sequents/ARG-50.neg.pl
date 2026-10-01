@@ -1,2 +1,2 @@
 pretty.
-capitalOf(beijing,peoplesRepublicOfChina), X#((capitalOf(beijing,X) -> worldsMostPopulousNation(X))), locatedIn(beijing,northernChina), (hosted(beijing,'2008SummerOlympics') /\ hosted(beijing,'2008SummerParalympicGames')), (hosted(beijing,summerOlympics) /\ (hosted(beijing,winterOlympics) /\ (hosted(beijing,summerParalympicGames) /\ hosted(beijing,winterParalympicGames)))), X#((university(X) /\ (inBeijing(X) /\ consistentlyRankAmongTheBestIn(X,theWorld)))) --> ~secondLargestChineseCity(beijing).
+X@((subscribedTo(X,aMCAList) -> eligibleForThreeFreeMovies(X))), X#(cinemaEveryWeek(X)), X@((prefer(X,tVSeries) -> ~watchTVIn(X,cinemas))), watchTVIn(james,cinemas), subscribedTo(james,aMCAList), prefer(peter,tVSeries) --> ~ ~eligibleForThreeFreeMovies(james).

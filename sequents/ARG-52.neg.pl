@@ -1,2 +1,2 @@
 pretty.
-X@((businessOrganization(X) -> legalEntity(X))), X@((company(X) -> businessOrganization(X))), X@((privateCompany(X) -> company(X))), X@((legalEntity(X) -> createdUnderLaw(X))), X@((legalEntity(X) -> legalObligation(X))), (createdUnderLaw(harvardWeeklyBookClub) -> ~privateCompany(harvardWeeklyBookClub)) --> ~legalObligation(harvardWeeklyBookClub).
+X@((in(X,newHaven) -> ~high(X))), X@((yaleHousing(X) -> in(X,newHaven))), X@((in(X,manhattan) -> high(X))), X@((bloomberg(X) -> in(X,manhattan))), X@((bloombergLogo(X) -> bloomberg(X))), yaleHousing('tower-a'), bloombergLogo('tower-b') --> ~ ~in('tower-b',manhattan).

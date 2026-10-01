@@ -7,9 +7,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 import pytest
 
 from folio2seq import (
+    Candidate,
     ConvertError,
     fol_to_seqprover,
     parse_fol,
+    select,
     seqprover_term,
     sequent_for,
 )
@@ -186,3 +188,30 @@ def test_real_folio_formula():
                    "(attend(X,schoolEvent) /\\ veryEngagedWith(X,schoolEvent))))")
     # the tree is well formed
     assert parse_fol(fol) is not None
+
+
+# ---- selection -------------------------------------------------------------
+
+def _cand(eid, story, label, n, split="validation"):
+    return Candidate(example_id=eid, story_id=story, label=label, premises=["p"] * n,
+                     premises_fol=["P"] * n, conclusion="c", conclusion_fol="C", split=split)
+
+
+def test_select_filters_labels_and_prefers_long_arguments():
+    cands = [_cand(1, 1, "True", 5), _cand(2, 2, "True", 3), _cand(3, 3, "Uncertain", 6),
+             _cand(4, 4, "False", 5), _cand(5, 5, "True", 6)]
+    out = select(cands, per_label=2, min_premises=5, max_per_story=3, labels=("True", "False"))
+    assert [c.example_id for c in out] == [1, 5, 4]
+
+
+def test_select_orders_by_split_priority_then_id():
+    cands = [_cand(1, 1, "True", 5, split="train"), _cand(9, 9, "True", 5, split="validation")]
+    out = select(cands, per_label=2, min_premises=5, max_per_story=3, labels=("True",),
+                 split_order=("validation", "train"))
+    assert [c.example_id for c in out] == [9, 1]
+
+
+def test_select_caps_per_story_within_split():
+    cands = [_cand(i, 7, "True", 5) for i in range(1, 6)]
+    out = select(cands, per_label=5, min_premises=5, max_per_story=3, labels=("True",))
+    assert len(out) == 3

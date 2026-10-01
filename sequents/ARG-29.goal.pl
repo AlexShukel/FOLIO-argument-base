@@ -1,2 +1,2 @@
 pretty.
-X@((plunger(X) -> suck(X))), X@((vacuum(X) -> suck(X))), X@((vampire(X) -> suck(X))), vacuum(space), (householdAppliance(duster) /\ ~suck(duster)) --> X@((houseHoldApp(X) -> suck(X))).
+(museum(metropolitanMuseumOfArt) /\ in(metropolitanMuseumOfArt,nYC)), (museum(whitneyMuseumOfAmericanArt) /\ in(metropolitanMuseumOfArt,nYC)), (museum(museumOfModernArt) /\ in(museumOfModernArt,nYC)), (include(metropolitanMuseumOfArt,byzantineArt) /\ include(metropolitanMuseumOfArt,islamicArt)), include(whitneyMuseumOfAmericanArt,americanArt) --> X#((museum(X) /\ (in(X,nYC) /\ include(X,americanArt)))).

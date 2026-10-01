@@ -1,2 +1,2 @@
 pretty.
-X@((book(X) -> contains(X,knowledge))), X@(Y@((readBook(X,Y) -> gains(X,knowledge)))), X@((gains(X,knowledge) -> smarter(X))), (readBook(harry,walden) /\ book(walden)) --> ~X@((smarter(X) -> gainKnowledge(X))).
+officeIn(ableton,germany), officeIn(ableton,unitedStates), ~sameCountry(germany,unitedStates), X@(Y@(Z@(((officeIn(X,Y) /\ (officeIn(X,Z) /\ ~sameCountry(Y,Z))) -> multinationalCompany(X))))), makesMusicSoftware(ableton) --> ~ ~officeIn(ableton,germany).

@@ -1,2 +1,2 @@
 pretty.
-(bornIn(ailtonSilva,year1995) /\ commonlyKnownAs(ailtonSilva,ailton)), (footballPlayer(ailton) /\ loanedTo(ailton,braga)), (brazilian(ailtonSilva) /\ (footballplayer(ailtonSilva) /\ playFor(ailtonSilva,nautico))), (footballClub(nautico) /\ footballClub(braga)), footballClub(fluminense) --> ~X@((footballClub(X) -> ~loanedTo(ailton,X))).
+X@((subscribedTo(X,aMCAList) -> eligibleForThreeFreeMovies(X))), X#(cinemaEveryWeek(X)), X@((prefer(X,tVSeries) -> ~watchTVIn(X,cinemas))), watchTVIn(james,cinemas), subscribedTo(james,aMCAList), prefer(peter,tVSeries) --> ~ ~watchTVIn(peter,cinemas).

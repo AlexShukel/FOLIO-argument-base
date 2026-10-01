@@ -1,2 +1,2 @@
 pretty.
-(cove(barutinCove) /\ (namedAfter(barutinCove,barutinSettlement) /\ locatedIn(barutinSettlement,bulgaria))), locatedIn(barutinCove,snowIsland), (locatedIn(snowIsland,southShetlandIslands) /\ (locatedIn(greenwichIsland,southShetlandIslands) /\ locatedIn(deceptionIsland,southShetlandIslands))), locatedIn(southShetlandIslands,antarctica), X@(Y@(Z@(((locatedIn(X,Y) /\ locatedIn(Y,Z)) -> locatedIn(X,Z))))) --> ~X@((locatedIn(X,antarctica) -> namedAfter(barutinCove,X))).
+X@((brownSwissCattle(X) -> cow(X))), X#((pet(X) /\ brownSwissCattle(X))), X@((cow(X) -> domesticatedAnimal(X))), X@((aligator(X) -> ~domesticatedAnimal(X))), aligator(ted) --> ~(pet(ted) /\ brownSwissCattle(ted)).

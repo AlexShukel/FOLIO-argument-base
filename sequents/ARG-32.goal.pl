@@ -1,2 +1,2 @@
 pretty.
-X@((businessOrganization(X) -> legalEntity(X))), X@((company(X) -> businessOrganization(X))), X@((privateCompany(X) -> company(X))), X@((legalEntity(X) -> createdUnderLaw(X))), X@((legalEntity(X) -> legalObligation(X))), (createdUnderLaw(harvardWeeklyBookClub) -> ~privateCompany(harvardWeeklyBookClub)) --> (legalObligation(harvardWeeklyBookClub) /\ privateCompany(harvardWeeklyBookClub)).
+X@((vehicleRegistrationPlateIn(X,istanbul) -> beginWith(X,num34))), X@((~beginWith(X,num34) -> ~fromIstanbul(X))), X#((owns(joe,X) /\ vehicleRegistrationPlateIn(X,istanbul))), X#((owns(tom,X) /\ beginWith(X,num35))), X@((beginWith(X,num35) -> ~beginWith(X,num34))) --> X#((owns(tom,X) /\ vehicleRegistrationPlateIn(X,istanbul))).
