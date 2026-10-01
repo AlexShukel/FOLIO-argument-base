@@ -1,0 +1,5 @@
+
+# Start
+# Proving [cove(barutinCove)/\namedAfter(barutinCove,barutinSettlement)/\locatedIn(barutinSettlement,bulgaria),locatedIn(barutinCove,snowIsland),locatedIn(snowIsland,southShetlandIslands)/\locatedIn(greenwichIsland,southShetlandIslands)/\locatedIn(deceptionIsland,southShetlandIslands),locatedIn(southShetlandIslands,antarctica),_3656@_3658@_3664@(locatedIn(_3656,_3658)/\locatedIn(_3658,_3664)->locatedIn(_3656,_3664))]-->[_3656#_3658#(cove(_3656)/\locatedIn(_3656,antarctica)/\nameAfter(_3656,_3658)/\locatedIn(_3658,bulgaria))]
+Trying to prove with threshold = 0 1 2 3 4 5
+# MEMOUT

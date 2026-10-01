@@ -1,0 +1,20 @@
+
+# Start
+# Proving [_3586@(plunger(_3586)->suck(_3586)),_3586@(vacuum(_3586)->suck(_3586)),_3586@(vampire(_3586)->suck(_3586)),vacuum(space),householdAppliance(duster)/\ ~suck(duster)]-->[suck(space)]
+Trying to prove with threshold = 0 1
+
+# BEGIN Proof
+---------------------------------------------------------------------------------------------------------------------------------------------------------- Ax  -------------------------------------------------------------------------------------------------------------------------------------------------------- Ax
+X@(plunger(X)->suck(X)),X@(vacuum(X)->suck(X)),X@(vampire(X)->suck(X)),vacuum(space),householdAppliance(duster) --> vacuum(space),suck(duster),suck(space)     X@(plunger(X)->suck(X)),suck(space),X@(vacuum(X)->suck(X)),X@(vampire(X)->suck(X)),vacuum(space),householdAppliance(duster) --> suck(duster),suck(space)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- L->
+                                                                        X@(plunger(X)->suck(X)),vacuum(space)->suck(space),X@(vacuum(X)->suck(X)),X@(vampire(X)->suck(X)),vacuum(space),householdAppliance(duster) --> suck(duster),suck(space)
+                                                                        ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- L@
+                                                                                     X@(plunger(X)->suck(X)),X@(vacuum(X)->suck(X)),X@(vampire(X)->suck(X)),vacuum(space),householdAppliance(duster) --> suck(duster),suck(space)
+                                                                                     --------------------------------------------------------------------------------------------------------------------------------------------- L~
+                                                                                     X@(plunger(X)->suck(X)),X@(vacuum(X)->suck(X)),X@(vampire(X)->suck(X)),vacuum(space),householdAppliance(duster),~suck(duster) --> suck(space)
+                                                                                     ----------------------------------------------------------------------------------------------------------------------------------------------- L/\
+                                                                                     X@(plunger(X)->suck(X)),X@(vacuum(X)->suck(X)),X@(vampire(X)->suck(X)),vacuum(space),householdAppliance(duster)/\ ~suck(duster) --> suck(space)
+
+# END Proof
+
+# Proved in 4 msec.

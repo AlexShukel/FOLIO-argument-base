@@ -1,0 +1,5 @@
+
+# Start
+# Proving [publishingHouse(newVesselPress)/\specializesInTranslatingIntoEnglish(newVesselPress,foreignLiterature),_3602@(book(_3602)/\publishedBy(_3602,newVesselPress)->in(_3602,english)),book(neapolitanChronicles)/\publishedBy(neapolitanChronicles,newVesselPress),translatedFrom(neapolitanChronicles,italian),book(palaceOfFlies)/\publishedBy(palaceOfFlies,newVesselPress)]-->[~ (book(neapolitanChronicles)/\in(neapolitanChronicles,english))]
+Trying to prove with threshold = 0 1 2 3
+# MEMOUT

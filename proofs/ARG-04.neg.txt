@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@(machineLearningAlgorithm(_3586)->supervisedLearningAlgorithm(_3586)\/unsupervisedLearningAlgorithm(_3586)\/reinforcementLearningAlgorithm(_3586)),_3586@(unsupervisedLearningAlgorithm(_3586)-> ~require(_3586,labeledData)),_3586@(trainedWith(stateOfTheArtTextSummarizationModel,_3586)->machineLearningAlgorithm(_3586)),_3586@(reinforcementLearningAlgorithm(_3586)-> ~trainedWith(stateOfTheArtTextSummarizationModel,_3586)),_3586@(machineLearningAlgorithm(_3586)/\trainedWith(stateOfTheArtTextSummarizationModel,_3586)->require(_3586,labeledData))]-->[~_3586#(supervisedLearningAlgorithm(_3586)/\trainedWith(stateOfTheArtTextSummarizationModel,_3586))]
+Trying to prove with threshold = 0 1 2 3
+# MEMOUT

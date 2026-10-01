@@ -1,6 +1,6 @@
 
 # Start
-# Proving [_3508@(vehicleRegistrationPlateIn(_3508,istanbul)->beginWith(_3508,num34)),_3508@(~beginWith(_3508,num34)-> ~fromIstanbul(_3508)),_3508#(owns(joe,_3508)/\vehicleRegistrationPlateIn(_3508,istanbul)),_3508#(owns(tom,_3508)/\beginWith(_3508,num35)),_3508@(beginWith(_3508,num35)-> ~beginWith(_3508,num34))]-->[_3508#(owns(joe,_3508)/\beginWith(_3508,num34))]
+# Proving [_3586@(vehicleRegistrationPlateIn(_3586,istanbul)->beginWith(_3586,num34)),_3586@(~beginWith(_3586,num34)-> ~fromIstanbul(_3586)),_3586#(owns(joe,_3586)/\vehicleRegistrationPlateIn(_3586,istanbul)),_3586#(owns(tom,_3586)/\beginWith(_3586,num35)),_3586@(beginWith(_3586,num35)-> ~beginWith(_3586,num34))]-->[_3586#(owns(joe,_3586)/\beginWith(_3586,num34))]
 Trying to prove with threshold = 0 1 2
 
 # BEGIN Proof
@@ -25,4 +25,4 @@ X@(vehicleRegistrationPlateIn(X,istanbul)->beginWith(X,num34)),X@(~beginWith(X,n
 
 # END Proof
 
-# Proved in 26 msec.
+# Proved in 22 msec.

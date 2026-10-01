@@ -1,0 +1,6 @@
+
+# Start
+# Proving [_3586@(bakedSweet(_3586)-> ~spicy(_3586)),_3586@(cupcake(_3586)->bakedSweet(_3586)),_3586@(malaHotpot(_3586)->spicy(_3586)),_3586@(product(_3586)/\from(_3586,bakedByMelissa)->cupcake(_3586)),spicy(driedThaiChili)\/malaHotpot(driedThaiChili)\/ ~bakedSweet(driedThaiChili)]-->[~ (~ (product(driedThaiChili)/\from(driedThaiChili,bakedByMelissa))/\ ~bakedSweet(driedThaiChili))]
+Trying to prove with threshold = 0 1 2 3 4 5
+
+# Fail to prove

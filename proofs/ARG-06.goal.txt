@@ -1,0 +1,5 @@
+
+# Start
+# Proving [cost(gRE,205)/\cheaper(205,300),_3604@(applicantOf(_3604,gre)/\prove(_3604,economicHardship)->provideTo(ets,financialAid,_3604)),_3604@(livingIn(_3604,singleParentFamily)\/availableTo(fewResources,_3604)->prove(_3604,economicHardship)),livingIn(tom,singleParentFamily),outOfWork(tomsDad)/\availableTo(fewResources,tom),applicantOf(tom,gre)]-->[providesFinancialAidTo(eTS,tom)]
+Trying to prove with threshold = 0 1 2 3
+# MEMOUT

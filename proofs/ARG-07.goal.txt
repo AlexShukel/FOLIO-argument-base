@@ -1,6 +1,6 @@
 
 # Start
-# Proving [_3510#(occurIn(monkeypoxVirus,_3510)/\get(_3510,monkeypoxVirus)),_3510#(animal(_3510)/\occurIn(monkeypoxVirus,_3510)),_3510@(human(_3510)->mammal(_3510)),_3510@(mammal(_3510)->animal(_3510)),_3510#(symptonOf(_3510,monkeypoxVirus)/\fever(_3510)\/headache(_3510)\/musclePain(_3510)\/tired(_3510)),_3510@(human(_3510)/\get(_3510,flu)->feel(_3510,tired))]-->[_3510#animal(_3510)]
+# Proving [_3588#(occurIn(monkeypoxVirus,_3588)/\get(_3588,monkeypoxVirus)),_3588#(animal(_3588)/\occurIn(monkeypoxVirus,_3588)),_3588@(human(_3588)->mammal(_3588)),_3588@(mammal(_3588)->animal(_3588)),_3588#(symptonOf(_3588,monkeypoxVirus)/\fever(_3588)\/headache(_3588)\/musclePain(_3588)\/tired(_3588)),_3588@(human(_3588)/\get(_3588,flu)->feel(_3588,tired))]-->[_3588#animal(_3588)]
 Trying to prove with threshold = 0 1
 
 # BEGIN Proof
@@ -29,4 +29,4 @@ occurIn(monkeypoxVirus,Y),get(Y,monkeypoxVirus),animal(Z),occurIn(monkeypoxVirus
 
 # END Proof
 
-# Proved in 18 msec.
+# Proved in 10 msec.

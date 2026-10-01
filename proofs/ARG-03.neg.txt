@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@(vehicleRegistrationPlateIn(_3586,istanbul)->beginWith(_3586,num34)),_3586@(~beginWith(_3586,num34)-> ~fromIstanbul(_3586)),_3586#(owns(joe,_3586)/\vehicleRegistrationPlateIn(_3586,istanbul)),_3586#(owns(tom,_3586)/\beginWith(_3586,num35)),_3586@(beginWith(_3586,num35)-> ~beginWith(_3586,num34))]-->[~_3586#(owns(joe,_3586)/\beginWith(_3586,num34))]
+Trying to prove with threshold = 0 1 2 3
+# MEMOUT

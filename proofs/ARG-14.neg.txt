@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@(niceTo(_3586,animal)-> ~meanTo(_3586,animal)),_3586#(grumpy(_3586)/\meanTo(_3586,animal)),_3586@(animalLover(_3586)->niceTo(_3586,animal)),_3586@(petOwner(_3586)->animalLover(_3586)),petOwner(tom)]-->[~ ~ (grumpy(tom)/\meanTo(tom,animal))]
+Trying to prove with threshold = 0 1 2 3
+# MEMOUT

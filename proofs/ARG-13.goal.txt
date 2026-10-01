@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@(deadlyDiseases(_3586)->comeWith(_3586,lowSurvivalRate)),_3586@(severeCancer(_3586)->deadlyDiseases(_3586)),_3586@(bileDuctCancer(_3586)->severeCancer(_3586)),_3586@(cholangiocarcinoma(_3586)->bileDuctCancer(_3586)),_3586@(mildFlu(_3586)-> ~comeWith(_3586,lowSurvivalRate)),~ (bileDuctCancer(colorectalCancer)/\comeWith(colorectalCancer,lowSurvivalRate))]-->[~ (bileDuctCancer(colorectalCancer)\/cholangiocarcinoma(colorectalCancer))\/bileDuctCancer(colorectalCancer)/\mildFlu(colorectalCancer)]
+Trying to prove with threshold = 0 1 2
+# MEMOUT

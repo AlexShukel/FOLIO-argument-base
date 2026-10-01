@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@(plunger(_3586)->suck(_3586)),_3586@(vacuum(_3586)->suck(_3586)),_3586@(vampire(_3586)->suck(_3586)),vacuum(space),householdAppliance(duster)/\ ~suck(duster)]-->[~suck(space)]
+Trying to prove with threshold = 0 1 2 3 4
+# MEMOUT

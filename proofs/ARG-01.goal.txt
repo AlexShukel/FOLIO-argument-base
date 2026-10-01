@@ -1,6 +1,6 @@
 
 # Start
-# Proving [_3508@(wildTurkey(_3508)->easternWildTurkey(_3508)\/osceolaWildTurkey(_3508)\/gouldsWildTurkey(_3508)\/merriamsWildTurkey(_3508)\/riograndeWildTurkey(_3508)\/ocellatedWildTurkey(_3508)),~easternWildTurkey(tom),~osceolaWildTurkey(tom),~gouldsWildTurkey(tom),~ (merriamsWildTurkey(tom)\/riograndeWildTurkey(tom)),wildTurkey(tom)]-->[ocellatedWildTurkey(tom)]
+# Proving [_3586@(wildTurkey(_3586)->easternWildTurkey(_3586)\/osceolaWildTurkey(_3586)\/gouldsWildTurkey(_3586)\/merriamsWildTurkey(_3586)\/riograndeWildTurkey(_3586)\/ocellatedWildTurkey(_3586)),~easternWildTurkey(tom),~osceolaWildTurkey(tom),~gouldsWildTurkey(tom),~ (merriamsWildTurkey(tom)\/riograndeWildTurkey(tom)),wildTurkey(tom)]-->[ocellatedWildTurkey(tom)]
 Trying to prove with threshold = 0 1
 
 # BEGIN Proof
