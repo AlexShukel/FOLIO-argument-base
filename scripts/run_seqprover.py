@@ -59,6 +59,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--arguments", default=str(ROOT / "arguments.json"))
     ap.add_argument("--jobs", type=int, default=max(1, (os.cpu_count() or 2) - 1),
                     help="parallel swipl processes")
+    ap.add_argument("--resume", action="store_true",
+                    help="reuse proofs/*.txt that already ended in proved / not_proved; rerun the rest")
     args = ap.parse_args(argv)
 
     if not shutil.which("swipl"):
@@ -73,6 +75,15 @@ def main(argv: list[str] | None = None) -> int:
 
     def work(job):
         arg_id, kind, suffix = job
+        done = proofs / f"{arg_id}.{suffix}.txt"
+        if args.resume and done.exists():
+            prev = done.read_text("utf-8", "replace")
+            if "# END Proof" in prev or "# Fail to prove" in prev:
+                m = re.search(r"# Proved in (\d+) msec", prev)
+                r = {"status": "proved" if "# END Proof" in prev else "not_proved", "seconds": 0.0,
+                     "prover_msec": int(m.group(1)) if m else None}
+                print(f"  {arg_id}.{suffix}: {r['status']} (reused)", flush=True)
+                return job, r
         r = run_one(ROOT / "sequents" / f"{arg_id}.{suffix}.pl", args.threshold, args.timeout)
         (proofs / f"{arg_id}.{suffix}.txt").write_text(r.pop("output"), "utf-8")
         print(f"  {arg_id}.{suffix}: {r['status']} ({r['seconds']}s)", flush=True)
