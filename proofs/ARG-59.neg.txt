@@ -1,0 +1,18 @@
+
+# Start
+# Proving [officeIn(ableton,germany),officeIn(ableton,unitedStates),~sameCountry(germany,unitedStates),_3608@_3610@_3616@(officeIn(_3608,_3610)/\officeIn(_3608,_3616)/\ ~sameCountry(_3610,_3616)->multinationalCompany(_3608)),makesMusicSoftware(ableton)]-->[~ ~officeIn(ableton,germany)]
+Trying to prove with threshold = 0
+
+# BEGIN Proof
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Ax
+officeIn(ableton,germany),officeIn(ableton,unitedStates),X@Y@Z@(officeIn(X,Y)/\officeIn(X,Z)/\ ~sameCountry(Y,Z)->multinationalCompany(X)),makesMusicSoftware(ableton) --> officeIn(ableton,germany),sameCountry(germany,unitedStates)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- L~
+~officeIn(ableton,germany),officeIn(ableton,germany),officeIn(ableton,unitedStates),X@Y@Z@(officeIn(X,Y)/\officeIn(X,Z)/\ ~sameCountry(Y,Z)->multinationalCompany(X)),makesMusicSoftware(ableton) --> sameCountry(germany,unitedStates)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- R~
+officeIn(ableton,germany),officeIn(ableton,unitedStates),X@Y@Z@(officeIn(X,Y)/\officeIn(X,Z)/\ ~sameCountry(Y,Z)->multinationalCompany(X)),makesMusicSoftware(ableton) --> sameCountry(germany,unitedStates),~ ~officeIn(ableton,germany)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ L~
+officeIn(ableton,germany),officeIn(ableton,unitedStates),~sameCountry(germany,unitedStates),X@Y@Z@(officeIn(X,Y)/\officeIn(X,Z)/\ ~sameCountry(Y,Z)->multinationalCompany(X)),makesMusicSoftware(ableton) --> ~ ~officeIn(ableton,germany)
+
+# END Proof
+
+# Proved in 0 msec.

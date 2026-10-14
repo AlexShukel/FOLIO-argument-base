@@ -1,0 +1,5 @@
+
+# Start
+# Proving [talentedPoet(lorca)/\support(lorca,populists),_3602@(support(_3602,populists)->opposed(nationalists,_3602)),_3602@(talentedPoet(_3602)->popular(_3602)),_3602@(opposed(nationalists,_3602)/\popular(_3602)->killed(nationalists,_3602)),support(daniel,populists)/\ ~popular(daniel)]-->[~killed(nationalists,lorca)]
+Trying to prove with threshold = 0 1 2 3
+# TIMEOUT

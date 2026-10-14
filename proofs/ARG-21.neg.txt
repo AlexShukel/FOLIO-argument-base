@@ -1,0 +1,5 @@
+
+# Start
+# Proving [heavyCruiser(usssalem)/\builtFor(usssalem,unitedstatesnavy),lastHeavyCruiserToEnterService(usssalem),museumShip(usssalem),_3610@(museumShip(_3610)->openToPublic(_3610)),servedIn(usssalem,atlantic)/\servedIn(usssalem,mediterranean)]-->[~openToPublic(usssalem)]
+Trying to prove with threshold = 0 1 2 3 4 5
+# TIMEOUT

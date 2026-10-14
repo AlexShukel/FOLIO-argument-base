@@ -1,0 +1,6 @@
+
+# Start
+# Proving [scottish(brianWinter)/\footballReferee(brianWinter),retired(brianWinter)/\retiredIn(brianWinter,yr2012),refereeObserver(brianWinter),_3620#(footballReferee(_3620)/\refereeObserver(_3620)),sonOf(andyWinter,brianWinter)/\footballPlayer(andyWinter)/\playsFor(andyWinter,hamiltonAcademical)]-->[~refereeObserver(brianwinter)]
+Trying to prove with threshold = 0 1 2 3 4 5
+
+# Fail to prove

@@ -1,0 +1,6 @@
+
+# Start
+# Proving [song(showYourLove)/\recordedBy(showYourLove,bToB4u)/\southKorean(bToB4u)/\boyBand(bToB4u),extendedPlay(inside)/\leadSingleOf(showYourLove,inside),contains(showYourLove,hopefulMessage),member(hyunsik,btob4u)/\wrote(hyunsik,showYourLove),have(showYourLove,musicVideo)]-->[~_3692@_3698@(wrote(_3692,showYourLove)-> ~ (boyBand(_3698)/\memberOf(_3692,_3698)))]
+Trying to prove with threshold = 0 1 2 3 4 5
+
+# Fail to prove

@@ -1,0 +1,6 @@
+
+# Start
+# Proving [_3586@_3588@(summerOlympicsIn(_3586,_3588)/\in(_3586,unitedStates)->summerOlympicsIn(_3586,unitedStates)),_3586@_3588@(in(_3586,_3588)/\in(_3588,unitedStates)->in(_3586,unitedStates)),_3586@_3588@_3672@(in(_3586,_3672)/\state(_3672)/\summerOlympicsIn(_3586,_3588)->summerOlympicsIn(_3672,_3588)),summerOlympicsIn(losAngeles,yr2028),in(losAngeles,california),in(atlanta,unitedStates),in(california,unitedStates),in(atlanta,georgia),~inSummerOlympicsIn(boxing,yr2028)/\ ~inSummerOlympicsIn(modern_pentathlon,yr2028)/\ ~inSummerOlympicsIn(weightlifting,yr2028),summerOlympicsIn(atlanta,yr1996)]-->[~summerOlympicsIn(georgia,yr1996)]
+Trying to prove with threshold = 0 1 2 3 4 5
+
+# Fail to prove
