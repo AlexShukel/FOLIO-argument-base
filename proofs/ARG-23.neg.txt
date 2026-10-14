@@ -1,0 +1,5 @@
+
+# Start
+# Proving [team(goldenStateWarriors)/\from(goldenStateWarriors,sanFrancisco),won(goldenStateWarriors,nbaFinals),_3608@(team(_3608)/\attending(_3608,nbaFinals)->wonManyGames(_3608)),team(bostonCeltics)/\lost(bostonCeltics,nbaFinals),_3608@(team(_3608)/\won(_3608,nbaFinals)->moreIncome(_3608)),_3608@(won(_3608,nbaFinals)\/lost(_3608,nbaFinals)->attending(_3608,nbaFinals))]-->[~hasMoreThanThirtyYearsOfHistory(bostonCeltics)]
+Trying to prove with threshold = 0 1 2 3
+# TIMEOUT

@@ -1,0 +1,6 @@
+
+# Start
+# Proving [_3586@_3588@(coach(_3586,_3588)/\footballClub(_3588)->footballCoach(_3586)),_3626@_3586@_3588@_3630@(playPositionFor(_3586,_3626,_3588,_3630)/\inNFL(_3588,_3630)->playInNFL(_3586)),footballClub(minnesotaVikings),coach(dennisGreen,minnesotaVikings),receiveTD(crisCarter,num13),inNFL(minnesotaVikings,yr1997),playPositionFor(johnRandle,defensiveTackle,minnesotaVikings,yr1997)]-->[~playInNFL(johnRandle)]
+Trying to prove with threshold = 0 1 2 3 4 5
+
+# Fail to prove

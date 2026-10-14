@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@(in(_3586,newHaven)-> ~high(_3586)),_3586@(yaleHousing(_3586)->in(_3586,newHaven)),_3586@(in(_3586,manhattan)->high(_3586)),_3586@(bloomberg(_3586)->in(_3586,manhattan)),_3586@(bloombergLogo(_3586)->bloomberg(_3586)),yaleHousing(tower-a),bloombergLogo(tower-b)]-->[~in(tower-b,manhattan)]
+Trying to prove with threshold = 0 1 2 3
+# TIMEOUT

@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@_3588@_3594@(albumByBand(_3586,_3588)/\rockBand(_3588,_3594)->genre(_3586,rock)),_3586@_3588@_3594@(albumByBand(_3586,_3588)/\albumAward(_3586,_3594)->rockBandAward(_3588,_3594)),albumByBand(trouble_at_the_Henhouse,the_Tragically_Hip),rockBand(the_Tragically_Hip,canada),songInAlbum(butts_Wigglin,trouble_at_the_Henhouse),albumAward(trouble_at_the_Henhouse,the_Album_of_the_Year),_3586#(songInFilm(_3586)/\songInAlbum(_3586,trouble_at_the_Henhouse))]-->[~_3586#(rockBand(_3586,canada)/\award(_3586,theAlbumOfTheYear))]
+Trying to prove with threshold = 0 1 2 3 4 5
+# TIMEOUT

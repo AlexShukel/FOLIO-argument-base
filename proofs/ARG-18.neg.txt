@@ -1,0 +1,5 @@
+
+# Start
+# Proving [realNum(num6)/\realNum(num7)/\realNum(num8),_3610@_3614@(realNum(_3610)/\realNum(_3614)/\isSuccessorOf(_3610,_3614)->larger(_3610,_3614)),_3610@_3614@(larger(_3610,_3614)-> ~larger(_3614,_3610)),_3614#(isSuccessorOf(_3614,num6)/\equals(num7,_3614)),_3614#(isSuccessorOf(_3614,num7)/\equals(num8,_3614)),positive(num2),_3610@_3614@(positive(_3610)/\isDouble(_3614,_3610)->positive(_3614)),isDouble(num8,num4),isDouble(num4,num2)]-->[~larger(eight,seven)]
+Trying to prove with threshold = 0 1 2 3
+# TIMEOUT

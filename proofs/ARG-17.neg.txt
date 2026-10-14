@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@(canRegisterToVoteIn(_3586,unitedStates)->canParticipateIn(_3586,2024UnitedStatesElection)),_3586@(have(_3586,unitedStatesCitizenship)->canRegisterToVoteIn(_3586,unitedStates)),_3586@(have(_3586,unitedStatesCitizenship)\/have(_3586,taiwaneseCitizenship)),_3586@(russian(_3586)/\federationOfficial(_3586)-> ~have(_3586,taiwaneseCitizenship)),~have(vladimir,taiwaneseCitizenship)/\ ~managerAt(vladimir,gazprom),(russian(ekaterina)/\federationOfficial(ekaterina))\/canRegisterToVoteIn(ekaterina,unitedStates)]-->[~ (canParticipateIn(ekaterina,2024UnitedStatesElection)\/managerAt(ekaterina,gazprom))]
+Trying to prove with threshold = 0 1 2 3
+# TIMEOUT

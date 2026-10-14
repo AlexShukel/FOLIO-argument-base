@@ -1,0 +1,5 @@
+
+# Start
+# Proving [directedBy(afterTiller,lanaWilson)/\directedBy(theDeparture,lanaWilson)/\directedBy(missAmericana,lanaWilson),_3616@_3618@(directedBy(_3616,_3618)->filmmaker(_3618)),documentary(afterTiller),_3616@(documentary(_3616)->film(_3616)),from(lanaWilson,kirkland),in(kirkland,unitedStates),_3616@_3618@_3688@(from(_3616,_3618)/\in(_3618,_3688)->from(_3616,_3688)),nomination(afterTiller,theIndependentSpiritAwardForBestDocumentary)]-->[~_3616#(filmmaker(_3616)/\from(_3616,kirkland)/\directedBy(missAmericana,_3616))]
+Trying to prove with threshold = 0 1 2 3 4
+# TIMEOUT

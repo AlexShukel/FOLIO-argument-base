@@ -1,0 +1,24 @@
+
+# Start
+# Proving [_3586@(wildTurkey(_3586)->easternWildTurkey(_3586)\/osceolaWildTurkey(_3586)\/gouldsWildTurkey(_3586)\/merriamsWildTurkey(_3586)\/riograndeWildTurkey(_3586)\/ocellatedWildTurkey(_3586)),~easternWildTurkey(tom),~osceolaWildTurkey(tom),~gouldsWildTurkey(tom),~ (merriamsWildTurkey(tom)\/riograndeWildTurkey(tom)),wildTurkey(tom)]-->[~easternWildTurkey(tom)]
+Trying to prove with threshold = 0
+
+# BEGIN Proof
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Ax
+easternWildTurkey(tom),X@(wildTurkey(X)->easternWildTurkey(X)\/osceolaWildTurkey(X)\/gouldsWildTurkey(X)\/merriamsWildTurkey(X)\/riograndeWildTurkey(X)\/ocellatedWildTurkey(X)),wildTurkey(tom) --> merriamsWildTurkey(tom),riograndeWildTurkey(tom),gouldsWildTurkey(tom),osceolaWildTurkey(tom),easternWildTurkey(tom)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- R\/
+easternWildTurkey(tom),X@(wildTurkey(X)->easternWildTurkey(X)\/osceolaWildTurkey(X)\/gouldsWildTurkey(X)\/merriamsWildTurkey(X)\/riograndeWildTurkey(X)\/ocellatedWildTurkey(X)),wildTurkey(tom) --> merriamsWildTurkey(tom)\/riograndeWildTurkey(tom),gouldsWildTurkey(tom),osceolaWildTurkey(tom),easternWildTurkey(tom)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- R~
+X@(wildTurkey(X)->easternWildTurkey(X)\/osceolaWildTurkey(X)\/gouldsWildTurkey(X)\/merriamsWildTurkey(X)\/riograndeWildTurkey(X)\/ocellatedWildTurkey(X)),wildTurkey(tom) --> merriamsWildTurkey(tom)\/riograndeWildTurkey(tom),gouldsWildTurkey(tom),osceolaWildTurkey(tom),easternWildTurkey(tom),~easternWildTurkey(tom)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- L~
+X@(wildTurkey(X)->easternWildTurkey(X)\/osceolaWildTurkey(X)\/gouldsWildTurkey(X)\/merriamsWildTurkey(X)\/riograndeWildTurkey(X)\/ocellatedWildTurkey(X)),~ (merriamsWildTurkey(tom)\/riograndeWildTurkey(tom)),wildTurkey(tom) --> gouldsWildTurkey(tom),osceolaWildTurkey(tom),easternWildTurkey(tom),~easternWildTurkey(tom)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- L~
+X@(wildTurkey(X)->easternWildTurkey(X)\/osceolaWildTurkey(X)\/gouldsWildTurkey(X)\/merriamsWildTurkey(X)\/riograndeWildTurkey(X)\/ocellatedWildTurkey(X)),~gouldsWildTurkey(tom),~ (merriamsWildTurkey(tom)\/riograndeWildTurkey(tom)),wildTurkey(tom) --> osceolaWildTurkey(tom),easternWildTurkey(tom),~easternWildTurkey(tom)
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- L~
+X@(wildTurkey(X)->easternWildTurkey(X)\/osceolaWildTurkey(X)\/gouldsWildTurkey(X)\/merriamsWildTurkey(X)\/riograndeWildTurkey(X)\/ocellatedWildTurkey(X)),~osceolaWildTurkey(tom),~gouldsWildTurkey(tom),~ (merriamsWildTurkey(tom)\/riograndeWildTurkey(tom)),wildTurkey(tom) --> easternWildTurkey(tom),~easternWildTurkey(tom)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- L~
+X@(wildTurkey(X)->easternWildTurkey(X)\/osceolaWildTurkey(X)\/gouldsWildTurkey(X)\/merriamsWildTurkey(X)\/riograndeWildTurkey(X)\/ocellatedWildTurkey(X)),~easternWildTurkey(tom),~osceolaWildTurkey(tom),~gouldsWildTurkey(tom),~ (merriamsWildTurkey(tom)\/riograndeWildTurkey(tom)),wildTurkey(tom) --> ~easternWildTurkey(tom)
+
+# END Proof
+
+# Proved in 0 msec.

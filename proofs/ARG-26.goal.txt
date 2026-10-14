@@ -1,0 +1,14 @@
+
+# Start
+# Proving [_3586@(book(_3586)/\writtenBy(_3586,cixinLiu)->_3602#(moreThan(_3602,oneMillion)/\sold(_3586,_3602))),_3586#(won(_3586,hugoAward)/\book(_3586)/\writtenBy(_3586,cixinLiu)),_3586@(book(_3586)/\aboutFuture(_3586)->fowardLooking(_3586)),book(threeBodyProblem)/\_3602#(moreThan(_3602,oneMillion)/\sold(threeBodyProblem,_3602)),aboutFuture(threeBodyProblem)]-->[aboutFuture(threeBodyProblem)]
+Trying to prove with threshold = 0
+
+# BEGIN Proof
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ Ax
+X@(book(X)/\writtenBy(X,cixinLiu)->Y#(moreThan(Y,oneMillion)/\sold(X,Y))),X#(won(X,hugoAward)/\book(X)/\writtenBy(X,cixinLiu)),X@(book(X)/\aboutFuture(X)->fowardLooking(X)),book(threeBodyProblem),Y#(moreThan(Y,oneMillion)/\sold(threeBodyProblem,Y)),aboutFuture(threeBodyProblem) --> aboutFuture(threeBodyProblem)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- L/\
+X@(book(X)/\writtenBy(X,cixinLiu)->Y#(moreThan(Y,oneMillion)/\sold(X,Y))),X#(won(X,hugoAward)/\book(X)/\writtenBy(X,cixinLiu)),X@(book(X)/\aboutFuture(X)->fowardLooking(X)),book(threeBodyProblem)/\Y#(moreThan(Y,oneMillion)/\sold(threeBodyProblem,Y)),aboutFuture(threeBodyProblem) --> aboutFuture(threeBodyProblem)
+
+# END Proof
+
+# Proved in 0 msec.
