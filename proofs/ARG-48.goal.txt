@@ -1,0 +1,5 @@
+
+# Start
+# Proving [basedIn(system7,uk)/\electronicDanceMusicBand(system7),form(stevehillage,system7)/\form(miquettegiraudy,system7),formerMemberOf(stevehillage,gong)/\formerMemberOf(miquettegiraudy,gong),_3638@(electronicDanceMusicBand(_3638)->band(_3638)),_3638#(clubSingle(_3638)/\release(system7,_3638)),_3638@(clubSingle(_3638)-> ~single(_3638))]-->[~band(system7)]
+Trying to prove with threshold = 0 1 2 3 4
+# TIMEOUT

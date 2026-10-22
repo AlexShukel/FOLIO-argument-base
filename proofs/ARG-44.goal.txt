@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@(brownSwissCattle(_3586)->cow(_3586)),_3586#(pet(_3586)/\brownSwissCattle(_3586)),_3586@(cow(_3586)->domesticatedAnimal(_3586)),_3586@(aligator(_3586)-> ~domesticatedAnimal(_3586)),aligator(ted)]-->[pet(ted)/\brownSwissCattle(ted)]
+Trying to prove with threshold = 0 1 2 3
+# TIMEOUT

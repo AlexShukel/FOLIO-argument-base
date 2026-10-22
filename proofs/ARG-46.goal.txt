@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586#(professional(_3586)/\basketballPlayer(_3586)/\ ~americanNational(_3586)),_3586@(professional(_3586)/\basketballPlayer(_3586)->canDo(_3586,jumpShot)),_3586@(canDo(_3586,jumpShot)->leapStraightIntoAir(_3586)),_3586@(leapStraightIntoAir(_3586)->activate(_3586,legMuscle)),~activate(yuri,legMuscle)]-->[~leapStraightIntoAir(yuri)->americanNational(yuri)/\professional(yuri)/\basketballPlayer(yuri)]
+Trying to prove with threshold = 0 1 2 3
+# TIMEOUT

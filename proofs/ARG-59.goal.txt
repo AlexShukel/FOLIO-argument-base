@@ -1,0 +1,6 @@
+
+# Start
+# Proving [officeIn(ableton,germany),officeIn(ableton,unitedStates),~sameCountry(germany,unitedStates),_3608@_3610@_3616@(officeIn(_3608,_3610)/\officeIn(_3608,_3616)/\ ~sameCountry(_3610,_3616)->multinationalCompany(_3608)),makesMusicSoftware(ableton)]-->[~officeIn(ableton,germany)]
+Trying to prove with threshold = 0 1 2 3 4 5
+
+# Fail to prove

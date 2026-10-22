@@ -1,0 +1,6 @@
+
+# Start
+# Proving [museum(metropolitanMuseumOfArt)/\in(metropolitanMuseumOfArt,nYC),museum(whitneyMuseumOfAmericanArt)/\in(metropolitanMuseumOfArt,nYC),museum(museumOfModernArt)/\in(museumOfModernArt,nYC),include(metropolitanMuseumOfArt,byzantineArt)/\include(metropolitanMuseumOfArt,islamicArt),include(whitneyMuseumOfAmericanArt,americanArt)]-->[~_3682#(museum(_3682)/\in(_3682,nYC)/\include(_3682,byzantineArt)/\include(_3682,islamicArt))]
+Trying to prove with threshold = 0 1 2 3 4 5
+
+# Fail to prove

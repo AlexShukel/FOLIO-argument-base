@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@(subscribedTo(_3586,aMCAList)->eligibleForThreeFreeMovies(_3586)),_3586#cinemaEveryWeek(_3586),_3586@(prefer(_3586,tVSeries)-> ~watchTVIn(_3586,cinemas)),watchTVIn(james,cinemas),subscribedTo(james,aMCAList),prefer(peter,tVSeries)]-->[~ ~watchTVIn(peter,cinemas)]
+Trying to prove with threshold = 0 1 2 3
+# TIMEOUT

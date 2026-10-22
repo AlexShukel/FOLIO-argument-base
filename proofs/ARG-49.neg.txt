@@ -1,0 +1,20 @@
+
+# Start
+# Proving [heavyCruiser(usssalem)/\builtFor(usssalem,unitedstatesnavy),lastHeavyCruiserToEnterService(usssalem),museumShip(usssalem),_3610@(museumShip(_3610)->openToPublic(_3610)),servedIn(usssalem,atlantic)/\servedIn(usssalem,mediterranean)]-->[~ ~lastHeavyCruiserToEnterService(usssalem)]
+Trying to prove with threshold = 0
+
+# BEGIN Proof
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- Ax
+heavyCruiser(usssalem),builtFor(usssalem,unitedstatesnavy),lastHeavyCruiserToEnterService(usssalem),museumShip(usssalem),X@(museumShip(X)->openToPublic(X)),servedIn(usssalem,atlantic),servedIn(usssalem,mediterranean) --> lastHeavyCruiserToEnterService(usssalem)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- L/\
+heavyCruiser(usssalem),builtFor(usssalem,unitedstatesnavy),lastHeavyCruiserToEnterService(usssalem),museumShip(usssalem),X@(museumShip(X)->openToPublic(X)),servedIn(usssalem,atlantic)/\servedIn(usssalem,mediterranean) --> lastHeavyCruiserToEnterService(usssalem)
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- L/\
+heavyCruiser(usssalem)/\builtFor(usssalem,unitedstatesnavy),lastHeavyCruiserToEnterService(usssalem),museumShip(usssalem),X@(museumShip(X)->openToPublic(X)),servedIn(usssalem,atlantic)/\servedIn(usssalem,mediterranean) --> lastHeavyCruiserToEnterService(usssalem)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- L~
+~lastHeavyCruiserToEnterService(usssalem),heavyCruiser(usssalem)/\builtFor(usssalem,unitedstatesnavy),lastHeavyCruiserToEnterService(usssalem),museumShip(usssalem),X@(museumShip(X)->openToPublic(X)),servedIn(usssalem,atlantic)/\servedIn(usssalem,mediterranean) --> 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- R~
+heavyCruiser(usssalem)/\builtFor(usssalem,unitedstatesnavy),lastHeavyCruiserToEnterService(usssalem),museumShip(usssalem),X@(museumShip(X)->openToPublic(X)),servedIn(usssalem,atlantic)/\servedIn(usssalem,mediterranean) --> ~ ~lastHeavyCruiserToEnterService(usssalem)
+
+# END Proof
+
+# Proved in 1 msec.

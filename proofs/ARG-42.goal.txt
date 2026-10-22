@@ -1,0 +1,6 @@
+
+# Start
+# Proving [_3586@(businessOrganization(_3586)->legalEntity(_3586)),_3586@(company(_3586)->businessOrganization(_3586)),_3586@(privateCompany(_3586)->company(_3586)),_3586@(legalEntity(_3586)->createdUnderLaw(_3586)),_3586@(legalEntity(_3586)->legalObligation(_3586)),createdUnderLaw(harvardWeeklyBookClub)-> ~privateCompany(harvardWeeklyBookClub)]-->[legalObligation(harvardWeeklyBookClub)/\privateCompany(harvardWeeklyBookClub)]
+Trying to prove with threshold = 0 1 2 3 4 5
+
+# Fail to prove

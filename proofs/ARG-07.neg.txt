@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3588#(occurIn(monkeypoxVirus,_3588)/\get(_3588,monkeypoxVirus)),_3588#(animal(_3588)/\occurIn(monkeypoxVirus,_3588)),_3588@(human(_3588)->mammal(_3588)),_3588@(mammal(_3588)->animal(_3588)),_3588#(symptonOf(_3588,monkeypoxVirus)/\fever(_3588)\/headache(_3588)\/musclePain(_3588)\/tired(_3588)),_3588@(human(_3588)/\get(_3588,flu)->feel(_3588,tired))]-->[~_3588#animal(_3588)]
+Trying to prove with threshold = 0 1 2 3 4 5
+# TIMEOUT

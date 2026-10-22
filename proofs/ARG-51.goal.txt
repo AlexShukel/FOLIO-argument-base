@@ -1,0 +1,5 @@
+
+# Start
+# Proving [_3586@(doesOlympicSport(_3586)/\goesToOlympicGames(_3586)->olympian(_3586)),doesOlympicSport(carlosReyes),goesToOlympicGames(carlosReyes),welterWeight(carlosReyes),_3586@(welterWeight(_3586)-> ~heavyWeight(_3586))]-->[heavyWeight(carlosReyes)]
+Trying to prove with threshold = 0 1 2 3
+# TIMEOUT
