@@ -10,6 +10,7 @@ all of them have 5 or more premises.
 - `sequents/` – Seqprover input files (`*.goal.pl` = conclusion, `*.neg.pl` = negated conclusion)
 - `proofs/`, `results.md` – Seqprover output for every sequent
 - `scripts/` – selection + FOL→Seqprover translation (`folio2seq.py`), prover runner (`run_seqprover.py`)
+- `DEMO.md` – raw `swipl` commands for running single sequents by hand
 - `seqprover/` – [Seqprover](https://cspsat.gitlab.io/seqprover/) by N. Tamura, unmodified
 
 Rebuild: `hf download yale-nlp/FOLIO --repo-type=dataset --local-dir data`,
